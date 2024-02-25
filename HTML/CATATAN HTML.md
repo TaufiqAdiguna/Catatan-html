@@ -23,7 +23,7 @@ Pada tahun 1990-an Tim berners-lee  menciptakan html (Hyper text market language
 ---
 # deskripsi bahasa pemrograman 
 
-![bahasa pemrograman](HTML/Aset/3.1.jpg)
+![bahasa pemrograman](Aset/3.1.jpg)
 
 ## **HTML**
 Html adalah suatu kerangka yang membangun sebuah website dimana html membentuk website/rumah sesuai dengan keinginan konsumen atau yang buat
@@ -64,7 +64,7 @@ tag <`doctype html>`memberitahukan web browser bahwa dokumen HTML adalah versi 5
 ```
 
 ## Hasil Program :
-![struktur dasar](HTML/Aset/4.1.jpg)
+![struktur dasar](Aset/4.1.jpg)
 
 
 > [!info] `<tag html>`
@@ -78,7 +78,7 @@ tag <`doctype html>`memberitahukan web browser bahwa dokumen HTML adalah versi 5
 ## Penjelasan 
 **Elemen** adalah suatu kesatuan dan sebuah Tag yang dimulai dari ==Tag pembuka== hingga ke ==Tag penutup==. **ELEMEN** HTML secara garis besar terdiri atas tiga bagian yaitu **Tag pembuka**, **konten/Isi tag**, dan **tag penutup.
 
-![anatomi](4.2.jpg)
+![anatomi](Aset/4.2.jpg)
 
 ## Kode Program :
 ``` html
@@ -87,7 +87,7 @@ tag <`doctype html>`memberitahukan web browser bahwa dokumen HTML adalah versi 5
 ```
 
 ## Hasil Program :
-![Hasil program](HTML/Aset/4.3.jpg)
+![Hasil program](Aset/4.3.jpg)
 
 ## Tag Atribut 
 
@@ -145,7 +145,7 @@ Tag heading dalam HTML digunakan untuk menandai teks sebagai judul atau heading,
 ```
 
 ### Hasil Program Tag Heading :
-![Heading](HTML/Aset/4.4.jpg)
+![Heading](Aset/4.4.jpg)
 
 ---
 ## ==Paragraf==
@@ -168,7 +168,7 @@ Tag heading dalam HTML digunakan untuk menandai teks sebagai judul atau heading,
 ```
 
 ### Hasil Program Tag Paragraf :
-![paragraf](HTML/Aset/4.5.jpg)
+![paragraf](Aset/4.5.jpg)
 
 ---
 ## ==Tag Bold==
@@ -189,7 +189,7 @@ Tag heading dalam HTML digunakan untuk menandai teks sebagai judul atau heading,
 ```
 
 ### Hasil Program Tag Bold :
-![tag bold](HTML/Aset/4.6.jpg)
+![tag bold](Aset/4.6.jpg)
 
 ---
 ## ==Tag Garis Bawah==
@@ -209,7 +209,7 @@ Tag heading dalam HTML digunakan untuk menandai teks sebagai judul atau heading,
 ```
 
 ### Hasil Program Tag Garis Bawah :
-![tag underline](HTML/Aset/4.7.jpg)
+![tag underline](Aset/4.7.jpg)
 
 ---
 ## ==Tag Italic==
@@ -229,7 +229,7 @@ Tag heading dalam HTML digunakan untuk menandai teks sebagai judul atau heading,
 ```
 
 ### Hasil Program Tag Italic :
-![tag Italic](HTML/Aset/4.8.jpg)
+![tag Italic](Aset/4.8.jpg)
 
 ---
 ## ==Tag Br==
@@ -250,7 +250,7 @@ Tag heading dalam HTML digunakan untuk menandai teks sebagai judul atau heading,
 ```
 
 ### Hasil Program Tag Br :
-![tag br](HTML/Aset/4.9.jpg)
+![tag br](Aset/4.9.jpg)
 
 
 ---
@@ -279,7 +279,7 @@ Sebuah rumah yang berisikan satu keluarga yaitu,ayah,ibu,dan 3 anaknya.</n>
 ```
 
 ### Hasil Program Tag Align :
-![tag Align](HTML/Aset/4.10.jpg)
+![tag Align](Aset/4.10.jpg)
 
 
 ___
@@ -298,7 +298,7 @@ Html juga mempunyai Tag khusus untuk komentar.Untuk membuat komentar di HTML kit
 ```
 
 ### Hasil Program Komentar :
-![komentar](HTML/Aset/4.11.jpg)
+![komentar](Aset/4.11.jpg)
 
 
 ---
@@ -328,7 +328,7 @@ urdered list
 ```
 
 ### Hasil Program urdered list :
-![ul list](HTML/Aset/4.12.jpg)
+![ul list](Aset/4.12.jpg)
 
 ---
 ### ==Tag ol==
@@ -353,7 +353,7 @@ Ordered list
 ```
 
 ### Hasil Program ordered list :
-![ol list](HTML/Aset/4.13.jpg)
+![ol list](Aset/4.13.jpg)
 
 ---
 ## ==Link==
@@ -372,7 +372,7 @@ Atribut Penting Lainnya dari tag `<a>` adalah `target` . Atribut target menentuk
 ```
 
 ### Hasil Program Tag Anchor :
-![link](HTML/Aset/4.14.jpg)
+![link](Aset/4.14.jpg)
 
 
 ---
