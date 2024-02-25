@@ -43,24 +43,16 @@
             "id": "2a2d9ca254683849",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTML/Catatan/2) Pengenalan web.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "f0418831c550f5ed",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTML/Catatan/4) struktur dasar html.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -69,19 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis data/Catatan/CATATAN BASIS DATA.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f000ae53174a1a24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTML/Catatan/CATATAN HTML.md",
+                "file": "HTML/CATATAN HTML.md",
                 "mode": "source",
                 "source": false
               }
@@ -91,60 +71,40 @@
             "id": "2f2c0446e29056f9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Basis data/Catatan/1) Pengenalan basis data.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "ff772b9f75ef0238",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Basis data/Catatan/1) Pengenalan basis data.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "5f695e8d954a1ad5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Basis data/Catatan/2) instalasi & query awal database.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "4d748c39a464e82c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Basis data/Catatan/2) instalasi & query awal database.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "1b4e91ceeb7eecb7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Basis data/Catatan/2) instalasi & query awal database.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -163,16 +123,12 @@
             "id": "726df9e99f20c455",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Basis data/Catatan/2) instalasi & query awal database.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -248,7 +204,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "HTML/Catatan/CATATAN HTML.md",
+            "file": "HTML/CATATAN HTML.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -265,7 +221,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "HTML/Catatan/CATATAN HTML.md",
+            "file": "HTML/CATATAN HTML.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -277,7 +233,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "HTML/Catatan/CATATAN HTML.md"
+            "file": "HTML/CATATAN HTML.md"
           }
         }
       },
@@ -303,20 +259,22 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "f000ae53174a1a24",
+  "active": "de258462c45a502d",
   "lastOpenFiles": [
-    "HTML/Catatan/1) penjelasan obsidian.md",
+    "HTML/Aset/3.1.jpg",
+    "Basis data/Catatan/CATATAN BASIS DATA.md",
+    "HTML/CATATAN HTML.md",
     "HTML/Catatan/CATATAN HTML.md",
+    "HTML/CATATAN HTML.md",
+    "HTML/Catatan/1) penjelasan obsidian.md",
     "HTML/Catatan/4) struktur dasar html.md",
     "HTML/Catatan/3) deskripsi html,css, dan javascript dalam pembuatan website.md",
     "HTML/Catatan/2) Pengenalan web.md",
-    "Basis data/Catatan/CATATAN BASIS DATA.md",
     "Basis data/Catatan/2) instalasi & query awal database.md",
     "Basis data/Catatan/1) Pengenalan basis data.md",
     "1) Materi obsidian.md",
     "Basis data/Aset/1.1.jpg",
     "Basis data/Aset/struktur_database.jpg",
-    "HTML/Aset/3.1.jpg",
     "Basis data/Catatan/3) SELECT LANJUTKAN.md",
     "Aset.md",
     "Basis data/Aset/2.15.jpg",
@@ -348,8 +306,6 @@
     "Z)Materi YT/Materi html.md",
     "Pasted image 20240129132103.png.md",
     "Z)Materi YT/Aset",
-    "4.13 Hasil program ondered list.jpg.md",
-    "Hasil program tabel 2.jpg.md",
     "Pemrograman web dan perangkat bergerak/Untitled.canvas"
   ]
 }
