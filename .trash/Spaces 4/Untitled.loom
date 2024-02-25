@@ -1,0 +1,310 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "421b9d52-2929-4065-a505-56879e94d507",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Id",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "dd1611aa-4d17-4cad-b1db-f52b69a35075",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Nama",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "e056a5b3-52b3-4afd-99c1-5ce3a166cca0",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Posisi",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "491a9f7b-e806-4c56-9e86-eea5cb02ca34",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "number",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Usia ",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      }
+    ],
+    "rows": [
+      {
+        "id": "779e7243-c01d-4596-b264-f6e965949d8f",
+        "index": 0,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T01:24:43.761Z",
+        "lastEditedDateTime": "2024-01-23T02:25:34.554Z",
+        "cells": [
+          {
+            "id": "31d3b718-ed39-4c7c-b432-6ff5828a576c",
+            "columnId": "421b9d52-2929-4065-a505-56879e94d507",
+            "content": "10010",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "f184a39e-23b2-43e1-85dc-a4ff65ada8f9",
+            "columnId": "dd1611aa-4d17-4cad-b1db-f52b69a35075",
+            "content": "Robin",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "86131c82-0ca8-4de8-a44a-d84205d81837",
+            "columnId": "e056a5b3-52b3-4afd-99c1-5ce3a166cca0",
+            "content": "Direktur",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "d6626ceb-53a2-4284-852a-1c0c14637326",
+            "columnId": "491a9f7b-e806-4c56-9e86-eea5cb02ca34",
+            "value": 45,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "0b9f3758-3106-4c58-9b35-008e0b356b29",
+        "index": 1,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T01:27:58.988Z",
+        "lastEditedDateTime": "2024-01-23T02:25:41.290Z",
+        "cells": [
+          {
+            "id": "6b8195da-39ae-4550-af82-8987b1b4efde",
+            "columnId": "421b9d52-2929-4065-a505-56879e94d507",
+            "content": "10011",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "5b0b6e81-7b85-4118-9162-4cfda2b51db4",
+            "columnId": "dd1611aa-4d17-4cad-b1db-f52b69a35075",
+            "content": "Tari",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "199baefe-8f8c-428b-aafd-9034a25da7c1",
+            "columnId": "e056a5b3-52b3-4afd-99c1-5ce3a166cca0",
+            "content": "Bendahara ",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "c25345a1-aba0-4a06-b9eb-7862c4506627",
+            "columnId": "491a9f7b-e806-4c56-9e86-eea5cb02ca34",
+            "value": 38,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "534f8a6b-07a8-4d63-89e7-b971427c8391",
+        "index": 2,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T01:28:06.238Z",
+        "lastEditedDateTime": "2024-01-23T02:25:45.984Z",
+        "cells": [
+          {
+            "id": "c0be4e24-7539-4d98-a4a3-e830894b9078",
+            "columnId": "421b9d52-2929-4065-a505-56879e94d507",
+            "content": "10012",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "1295a67b-8876-4714-a0d1-cc7783242021",
+            "columnId": "dd1611aa-4d17-4cad-b1db-f52b69a35075",
+            "content": "Wawan",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "4a730e52-1e71-49af-bbf7-c5e1ce68f388",
+            "columnId": "e056a5b3-52b3-4afd-99c1-5ce3a166cca0",
+            "content": "Satpam",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "1a1a3654-9442-47b0-a3ae-313c74c5098b",
+            "columnId": "491a9f7b-e806-4c56-9e86-eea5cb02ca34",
+            "value": 29,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "9070f414-ee21-4ca7-80fb-ae076b546bc4",
+        "index": 3,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T01:28:14.274Z",
+        "lastEditedDateTime": "2024-01-23T02:25:48.753Z",
+        "cells": [
+          {
+            "id": "4e07dd26-0ae5-479f-85b3-c18c1ba8f5c4",
+            "columnId": "421b9d52-2929-4065-a505-56879e94d507",
+            "content": "10013",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "48360860-1080-4e6d-a900-756698bddb63",
+            "columnId": "dd1611aa-4d17-4cad-b1db-f52b69a35075",
+            "content": "Aswar",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "66838fa5-6cce-49cc-9ea5-1bb5ea5e96c3",
+            "columnId": "e056a5b3-52b3-4afd-99c1-5ce3a166cca0",
+            "content": "Cleaning service ",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "ffb6be38-eb43-4eb1-9fd4-6f21e4d9427f",
+            "columnId": "491a9f7b-e806-4c56-9e86-eea5cb02ca34",
+            "value": 25,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "5e6f2980-616d-4083-b50a-88ef8492f1a9",
+        "index": 4,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T01:28:22.377Z",
+        "lastEditedDateTime": "2024-01-23T02:25:51.554Z",
+        "cells": [
+          {
+            "id": "e346081a-615a-428a-97b4-2964ee6c9633",
+            "columnId": "421b9d52-2929-4065-a505-56879e94d507",
+            "content": "10014",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "0a8b5acb-956d-4781-a39d-1845ee34866d",
+            "columnId": "dd1611aa-4d17-4cad-b1db-f52b69a35075",
+            "content": "Ira",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "0c13c7ba-448d-4ef0-a668-aa3525b042d1",
+            "columnId": "e056a5b3-52b3-4afd-99c1-5ce3a166cca0",
+            "content": "Hrd",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "0eb608ac-7995-423d-adcb-34368fac3d54",
+            "columnId": "491a9f7b-e806-4c56-9e86-eea5cb02ca34",
+            "value": 40,
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "66f17acb-0d48-4ad1-bd1c-9aa3f0598fff",
+        "index": 5,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T02:37:07.336Z",
+        "lastEditedDateTime": "2024-01-23T02:37:07.336Z",
+        "cells": [
+          {
+            "id": "f190ba32-5085-40ed-9930-b8b75be2c717",
+            "columnId": "421b9d52-2929-4065-a505-56879e94d507",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "ff573bac-93c3-4a7e-a72d-167befe6275e",
+            "columnId": "dd1611aa-4d17-4cad-b1db-f52b69a35075",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "7011723f-5ffe-4981-bce5-746c4ded3e83",
+            "columnId": "e056a5b3-52b3-4afd-99c1-5ce3a166cca0",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "4ed87576-366d-4eee-9610-2c2bf9965fdc",
+            "columnId": "491a9f7b-e806-4c56-9e86-eea5cb02ca34",
+            "value": null,
+            "hasValidFrontmatter": null
+          }
+        ]
+      }
+    ],
+    "filters": [],
+    "sources": [],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": true
+    },
+    "externalRowOrder": []
+  },
+  "pluginVersion": "8.15.11"
+}

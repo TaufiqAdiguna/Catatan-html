@@ -1,0 +1,355 @@
+{
+  "main": {
+    "id": "d3b302264a8c66e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e96fbbb34d45c43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "435e65b855f7713b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "b95ba8e550cd2974",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "391689f12730d1cd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "74116b63b9646539",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "2a2d9ca254683849",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTML/Catatan/2) Pengenalan web.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0418831c550f5ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTML/Catatan/4) struktur dasar html.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "40765bb94261da79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basis data/Catatan/CATATAN BASIS DATA.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f000ae53174a1a24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTML/Catatan/CATATAN HTML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2f2c0446e29056f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basis data/Catatan/1) Pengenalan basis data.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff772b9f75ef0238",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basis data/Catatan/1) Pengenalan basis data.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5f695e8d954a1ad5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basis data/Catatan/2) instalasi & query awal database.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4d748c39a464e82c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basis data/Catatan/2) instalasi & query awal database.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b4e91ceeb7eecb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basis data/Catatan/2) instalasi & query awal database.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a9be50999a6be345",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/Pengenalan CSS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "726df9e99f20c455",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basis data/Catatan/2) instalasi & query awal database.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "049cbbd8420cafd1",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "de258462c45a502d",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "5084fabba9a31cd0",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "2457ec309c13bc68",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "bb4fa78c06598f5e",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "1fa8e93714a3d4dc",
+        "type": "leaf",
+        "state": {
+          "type": "mk-path-view",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "6ed84f346f7bef8e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "e3b0f6dddcfd4f78",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "HTML/Catatan/CATATAN HTML.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "ba2256c5028417ef",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "HTML/Catatan/CATATAN HTML.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "d7ab6f2f4180b6fa",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "HTML/Catatan/CATATAN HTML.md"
+          }
+        }
+      },
+      {
+        "id": "7abaeaa312f29298",
+        "type": "leaf",
+        "state": {
+          "type": "advanced-tables-toolbar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "notion-like-tables:Create loom": false
+    }
+  },
+  "active": "f000ae53174a1a24",
+  "lastOpenFiles": [
+    "HTML/Catatan/1) penjelasan obsidian.md",
+    "HTML/Catatan/CATATAN HTML.md",
+    "HTML/Catatan/4) struktur dasar html.md",
+    "HTML/Catatan/3) deskripsi html,css, dan javascript dalam pembuatan website.md",
+    "HTML/Catatan/2) Pengenalan web.md",
+    "Basis data/Catatan/CATATAN BASIS DATA.md",
+    "Basis data/Catatan/2) instalasi & query awal database.md",
+    "Basis data/Catatan/1) Pengenalan basis data.md",
+    "1) Materi obsidian.md",
+    "Basis data/Aset/1.1.jpg",
+    "Basis data/Aset/struktur_database.jpg",
+    "HTML/Aset/3.1.jpg",
+    "Basis data/Catatan/3) SELECT LANJUTKAN.md",
+    "Aset.md",
+    "Basis data/Aset/2.15.jpg",
+    "Basis data/Aset_basisdata/2_1.jpg",
+    "Basis data/Aset_basisdata/2.1 MySQL -u root.jpg",
+    "Basis data/Aset_basisdata/struktur_database.jpg",
+    "Basis data/Aset_basisdata/1.1 contoh database.jpg",
+    "Basis data/Aset_basisdata",
+    "Aset/MySQL.md",
+    "Aset",
+    "CSS/Aset.md",
+    "Basis data/Aset/2.3.jpg",
+    "Basis data/Aset/2.1 MySQL -u root.jpg",
+    "CSS/Pengenalan CSS.md",
+    "Spaces/Home",
+    "Spaces",
+    "HTML/Aset",
+    "HTML/Catatan",
+    "HTML",
+    "CSS/Aset CSS",
+    "CSS/Aset CSS.md",
+    "CSS",
+    "Pemrograman web dan perangkat bergerak/Catatan/4) struktur dasar html.md",
+    "Screenshot_2024-02-06-08-29-37-38.jpg.md",
+    "Pemrograman web dan perangkat bergerak/Catatan/1) Pertemuan .md",
+    "Pemrograman web dan perangkat bergerak/Catatan/1.Materi obsidian.md",
+    "Pemrograman web dan perangkat bergerak/Catatan/3) deskripsi html,css, dan javascript dalam pembuatan website .md",
+    "Pemrograman web dan perangkat bergerak/Catatan/2) Pengenalan web .md",
+    "Z)Materi YT/Materi html.md",
+    "Pasted image 20240129132103.png.md",
+    "Z)Materi YT/Aset",
+    "4.13 Hasil program ondered list.jpg.md",
+    "Hasil program tabel 2.jpg.md",
+    "Pemrograman web dan perangkat bergerak/Untitled.canvas"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "32da8fa5-c1c1-43cd-9d57-ffb620a71057",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Nama",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "c14f1ef1-7233-4918-817f-472c296a9f24",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Tanggal lahir",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      }
+    ],
+    "rows": [
+      {
+        "id": "4b8f4524-8aa0-49bd-ae57-76e92f325888",
+        "index": 0,
+        "sourceId": null,
+        "creationDateTime": "2024-01-20T02:48:35.298Z",
+        "lastEditedDateTime": "2024-01-20T02:49:02.261Z",
+        "cells": [
+          {
+            "id": "0b080b19-221b-4a54-9d88-b352bd684729",
+            "columnId": "32da8fa5-c1c1-43cd-9d57-ffb620a71057",
+            "content": "muh Taufiq adiguna ",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "d87a16a9-bf75-4cbb-8af7-9cd4257b2b2c",
+            "columnId": "c14f1ef1-7233-4918-817f-472c296a9f24",
+            "content": "",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "19f6d4da-be59-4454-896b-8652a5ca1129",
+        "index": 1,
+        "sourceId": null,
+        "creationDateTime": "2024-01-20T02:49:28.981Z",
+        "lastEditedDateTime": "2024-01-20T02:49:28.981Z",
+        "cells": [
+          {
+            "id": "d19272ae-02b0-4163-9370-58a03755919c",
+            "columnId": "32da8fa5-c1c1-43cd-9d57-ffb620a71057",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "5a819bcd-687c-454f-8369-0b238d345f65",
+            "columnId": "c14f1ef1-7233-4918-817f-472c296a9f24",
+            "content": "",
+            "hasValidFrontmatter": null
+          }
+        ]
+      }
+    ],
+    "filters": [],
+    "sources": [],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": true
+    },
+    "externalRowOrder": []
+  },
+  "pluginVersion": "8.15.11"
+}
