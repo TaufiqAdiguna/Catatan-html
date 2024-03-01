@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/CATATAN HTML.md",
+                "file": "Basis data/3) SELECT LANJUTKAN.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/Pengenalan CSS.md",
+                "file": "CSS/CATATAN CSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -204,7 +204,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "HTML/CATATAN HTML.md",
+            "file": "Basis data/3) SELECT LANJUTKAN.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -221,7 +221,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "HTML/CATATAN HTML.md",
+            "file": "Basis data/3) SELECT LANJUTKAN.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -233,7 +233,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "HTML/CATATAN HTML.md"
+            "file": "Basis data/3) SELECT LANJUTKAN.md"
           }
         }
       },
@@ -261,12 +261,24 @@
   },
   "active": "40765bb94261da79",
   "lastOpenFiles": [
+    "Basis data/2) instalasi & query awal database.md",
+    "Basis data/3) SELECT LANJUTKAN.md",
     "Basis data/CATATAN BASIS DATA.md",
+    "CSS/CATATAN CSS.md",
+    "Aset.md",
+    "Basis data/Aset/3.15.jpg",
+    "Basis data/Aset/3.14.jpg",
+    "Basis data/Aset/3.13.jpg",
+    "Basis data/Aset/3.12.jpg",
+    "Basis data/Aset/3.11.jpg",
+    "Basis data/Aset/3.10.jpg",
+    "Basis data/Aset/3.9.jpg",
+    "HTML/CATATAN HTML.md",
+    "HTML/2) Pengenalan web.md",
+    "HTML/1) penjelasan obsidian.md",
     "HTML/Aset/3.1.jpg",
     "Basis data/Catatan/CATATAN BASIS DATA.md",
-    "HTML/CATATAN HTML.md",
     "HTML/Catatan/CATATAN HTML.md",
-    "HTML/CATATAN HTML.md",
     "HTML/Catatan/1) penjelasan obsidian.md",
     "HTML/Catatan/4) struktur dasar html.md",
     "HTML/Catatan/3) deskripsi html,css, dan javascript dalam pembuatan website.md",
@@ -277,25 +289,16 @@
     "Basis data/Aset/1.1.jpg",
     "Basis data/Aset/struktur_database.jpg",
     "Basis data/Catatan/3) SELECT LANJUTKAN.md",
-    "Aset.md",
-    "Basis data/Aset/2.15.jpg",
-    "Basis data/Aset_basisdata/2_1.jpg",
-    "Basis data/Aset_basisdata/2.1 MySQL -u root.jpg",
-    "Basis data/Aset_basisdata/struktur_database.jpg",
-    "Basis data/Aset_basisdata/1.1 contoh database.jpg",
     "Basis data/Aset_basisdata",
     "Aset/MySQL.md",
     "Aset",
     "CSS/Aset.md",
-    "Basis data/Aset/2.3.jpg",
-    "Basis data/Aset/2.1 MySQL -u root.jpg",
-    "CSS/Pengenalan CSS.md",
     "Spaces/Home",
     "Spaces",
     "HTML/Aset",
     "HTML/Catatan",
     "HTML",
-    "CSS/Aset CSS",
+    "CSS/Aset-CSS",
     "CSS/Aset CSS.md",
     "CSS",
     "Pemrograman web dan perangkat bergerak/Catatan/4) struktur dasar html.md",
@@ -303,9 +306,6 @@
     "Pemrograman web dan perangkat bergerak/Catatan/1) Pertemuan .md",
     "Pemrograman web dan perangkat bergerak/Catatan/1.Materi obsidian.md",
     "Pemrograman web dan perangkat bergerak/Catatan/3) deskripsi html,css, dan javascript dalam pembuatan website .md",
-    "Pemrograman web dan perangkat bergerak/Catatan/2) Pengenalan web .md",
-    "Z)Materi YT/Materi html.md",
-    "Pasted image 20240129132103.png.md",
     "Z)Materi YT/Aset",
     "Pemrograman web dan perangkat bergerak/Untitled.canvas"
   ]
