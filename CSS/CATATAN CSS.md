@@ -1,5 +1,6 @@
 # Anatomi CSS
 ![anatomi css](Aset-CSS/1.1.jpg)
+
 ## Selector
 Selector CSS di gunakan untuk memilih elemen HTML yang akan diberi gaya.Dengan menggunakan selector, Anda dapat menargetkan satu atau lebih elemen HTML untuk menerapkan properti CSS.
 
@@ -11,8 +12,21 @@ Dalam CSS property value (nilai sifat) merujuk pada nilai konkret yang diberikan
 
 ---
 # Percobaan I
+## Penjelasan
 
-.
+## Kode Program 
+```CSS
+p {
+color: red;
+}
+```
+
+## Hasil
+### Before
+![Before](Aset-CSS/1.2.jpg)
+
+### After
+![after](Aset-css/1.3.jpg)
 
 # Percobaan II
 
