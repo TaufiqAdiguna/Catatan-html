@@ -311,7 +311,7 @@ Bolder
 # Box Model
 
 ---
-# Border
+## Border
 
 ---
 ### Border-width
@@ -322,22 +322,22 @@ Bolder
 ### Border-color
 
 ---
-# Padding
+## Padding
 
 ---
-## Padding-left
-## Padding-bottom
-## Padding-right
-## Padding-top
+### Padding-left
+### Padding-bottom
+### Padding-right
+### Padding-top
 
 ---
-# Margin
+## Margin
 
 ---
-## Margin-left
-## Margin-top
-## Margin-right
-## Margin-bottom
+### Margin-left
+### Margin-top
+### Margin-right
+### Margin-bottom
 
 ---
 
