@@ -68,6 +68,30 @@
             }
           },
           {
+            "id": "ab19bf9ffe0e4310",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basis data/3) SELECT LANJUTKAN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b2bcde9d82affc27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basis data/4) ALTER.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2f2c0446e29056f9",
             "type": "leaf",
             "state": {
@@ -128,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -204,7 +228,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "CSS/CATATAN CSS.md",
+            "file": "Basis data/4) ALTER.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -221,7 +245,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "CSS/CATATAN CSS.md",
+            "file": "Basis data/4) ALTER.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -233,7 +257,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "CSS/CATATAN CSS.md"
+            "file": "Basis data/4) ALTER.md"
           }
         }
       },
@@ -259,24 +283,39 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "de258462c45a502d",
+  "active": "b2bcde9d82affc27",
   "lastOpenFiles": [
-    "CSS/Aset-CSS/1.2.jpg",
-    "CSS/CATATAN CSS.md",
-    "CSS/Aset-CSS/1.3.jpg",
     "Basis data/3) SELECT LANJUTKAN.md",
-    "Basis data/Aset/3.21.jpg",
-    "Basis data/Aset/3.20.jpg",
-    "Basis data/Aset/3.18.jpg",
-    "Basis data/Aset/3.19.jpg",
-    "Basis data/Aset/3.17.jpg",
-    "Basis data/Aset/3.16.jpg",
+    "Basis data/4) ALTER.md",
     "Basis data/2) instalasi & query awal database.md",
-    "Basis data/CATATAN BASIS DATA.md",
-    "Aset.md",
-    "Basis data/Aset/3.15.jpg",
-    "Basis data/Aset/3.14.jpg",
+    "Basis data/Aset/4.7.jpg",
+    "Basis data/Aset/4.6.jpg",
+    "Basis data/Aset/4.5.jpg",
+    "Basis data/Aset/4.4.jpg",
+    "Basis data/Aset/4.3.jpg",
+    "Basis data/Aset/4.2.jpg",
+    "Basis data/Aset/4.1.jpg",
+    "Basis data/Aset/3.36.jpg",
+    "CSS/CATATAN CSS.md",
     "HTML/CATATAN HTML.md",
+    "CSS/Aset-CSS/1.3.jpg",
+    "Materi tambahan/Css Responsive/CSS Responsive.md",
+    "Materi tambahan",
+    "CSS/Aset-CSS/1.83.jpg",
+    "Aset.md",
+    "Basis data/CATATAN BASIS DATA.md",
+    "CSS Grid Properties/CATATAN GRID.md",
+    "CSS Grid Properties/CONTAINER.md",
+    "CATATAN GRID.md",
+    "CSS Grid Properties/Assets",
+    "CSS Grid Properties",
+    "Materi Grid.md",
+    "Untitled",
+    "Catatan Materi/Semantic HTML/SEMANTIC HTML.md",
+    "1) Materi obsidian.md",
+    "Aset-CSS/1..md",
+    "Aset-CSS",
+    "CSS/Aset-CSS.md",
     "HTML/2) Pengenalan web.md",
     "HTML/1) penjelasan obsidian.md",
     "Basis data/Catatan/CATATAN BASIS DATA.md",
@@ -286,26 +325,11 @@
     "HTML/Catatan/3) deskripsi html,css, dan javascript dalam pembuatan website.md",
     "HTML/Catatan/2) Pengenalan web.md",
     "Basis data/Catatan/2) instalasi & query awal database.md",
-    "Basis data/Catatan/1) Pengenalan basis data.md",
-    "1) Materi obsidian.md",
-    "Basis data/Catatan/3) SELECT LANJUTKAN.md",
     "Basis data/Aset_basisdata",
-    "Aset/MySQL.md",
     "Aset",
-    "CSS/Aset.md",
     "Spaces/Home",
     "Spaces",
     "HTML/Aset",
-    "HTML/Catatan",
-    "HTML",
-    "CSS/Aset-CSS",
-    "CSS/Aset CSS.md",
-    "CSS",
-    "Pemrograman web dan perangkat bergerak/Catatan/4) struktur dasar html.md",
-    "Screenshot_2024-02-06-08-29-37-38.jpg.md",
-    "Pemrograman web dan perangkat bergerak/Catatan/1) Pertemuan .md",
-    "Pemrograman web dan perangkat bergerak/Catatan/1.Materi obsidian.md",
-    "Z)Materi YT/Aset",
     "Pemrograman web dan perangkat bergerak/Untitled.canvas"
   ]
 }

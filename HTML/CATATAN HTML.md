@@ -64,7 +64,7 @@ tag <`doctype html>`memberitahukan web browser bahwa dokumen HTML adalah versi 5
 ```
 
 ## Hasil Program :
-![struktur dasar](Aset/4.1.jpg)
+![struktur dasar](HTML/Aset/4.1.jpg)
 
 
 > [!info] `<tag html>`
@@ -78,7 +78,7 @@ tag <`doctype html>`memberitahukan web browser bahwa dokumen HTML adalah versi 5
 ## Penjelasan 
 **Elemen** adalah suatu kesatuan dan sebuah Tag yang dimulai dari ==Tag pembuka== hingga ke ==Tag penutup==. **ELEMEN** HTML secara garis besar terdiri atas tiga bagian yaitu **Tag pembuka**, **konten/Isi tag**, dan **tag penutup.
 
-![anatomi](Aset/4.2.jpg)
+![anatomi](HTML/Aset/4.2.jpg)
 
 ## Kode Program :
 ``` html
@@ -87,7 +87,7 @@ tag <`doctype html>`memberitahukan web browser bahwa dokumen HTML adalah versi 5
 ```
 
 ## Hasil Program :
-![Hasil program](Aset/4.3.jpg)
+![Hasil program](HTML/Aset/4.3.jpg)
 
 ## Tag Atribut 
 
@@ -145,7 +145,7 @@ Tag heading dalam HTML digunakan untuk menandai teks sebagai judul atau heading,
 ```
 
 ### Hasil Program Tag Heading :
-![Heading](Aset/4.4.jpg)
+![Heading](HTML/Aset/4.4.jpg)
 
 ---
 ## ==Paragraf==
@@ -168,7 +168,7 @@ Tag heading dalam HTML digunakan untuk menandai teks sebagai judul atau heading,
 ```
 
 ### Hasil Program Tag Paragraf :
-![paragraf](Aset/4.5.jpg)
+![paragraf](HTML/Aset/4.5.jpg)
 
 ---
 ## ==Tag Bold==
@@ -189,7 +189,7 @@ Tag heading dalam HTML digunakan untuk menandai teks sebagai judul atau heading,
 ```
 
 ### Hasil Program Tag Bold :
-![tag bold](Aset/4.6.jpg)
+![tag bold](HTML/Aset/4.6.jpg)
 
 ---
 ## ==Tag Garis Bawah==
@@ -209,7 +209,7 @@ Tag heading dalam HTML digunakan untuk menandai teks sebagai judul atau heading,
 ```
 
 ### Hasil Program Tag Garis Bawah :
-![tag underline](Aset/4.7.jpg)
+![tag underline](HTML/Aset/4.7.jpg)
 
 ---
 ## ==Tag Italic==

@@ -185,30 +185,30 @@ mengambil semua data dari tabel "mobil" kecuali  harga rental tidak sama dengan 
 
 
 ---
-# TANTANGAN
+## TANTANGAN
 
 ---
-## Struktur
+### Struktur
 ```MySQL 
 SELECT [nama_kolom] FROM [nama_tabel]
 WHERE [nama_kolom] = [nilai];
 ```
-## Contoh 
+### Contoh 
 ```MySQL
 SELECT pemilik FROM mobil
 WHERE id_mobil = 1;
 ```
-## Hasil 
+### Hasil 
 ![TANTANGAN](Aset/3.8.jpg)
 
-## Analisis 
+### Analisis 
 - `SELECT` : digunakan untuk mengambil sebuah data pada tabel
 - `pemilik` : nama dari kolom yang akan kita tampilkan
 - `FROM mobil` :  merupakan nama tabel yang ingin kita ambil datanya
 - `WHERE` :  digunakan untuk menyaring data yang ada pada tabel
 - `id_mobil = 1;` merupakan baris yang akan kita tampilkan yang memiliki id_mobil bernilai 1
 
-## Kesimpulan
+### Kesimpulan
 perintah SQL tersebut adalah mengambil/menampilkan pemilik mobil dengan ID 1 dari tabel "mobil".
 
 ---
@@ -535,3 +535,372 @@ SELECT * FROM mobil
 `SELECT * FROM mobil WHERE pemilik NOT LIKE 'opi%';`: Jadi Perintah tersebut mengecualikan            sebuah data pada tabel mobil dimana kolom pemilik     yang bernilai Opi tidak akan ditampilkan.
 
 ---
+# NULL & NOT NULL
+## NULL
+### Struktur Query 
+```MySQL
+
+SELECT * FROM [nama_tabel] WHERE [nama_kolom] IS NULL;
+```
+
+### Contoh 
+```MySQL
+
+SELECT * FROM mobil WHERE peminjam IS NULL;
+```
+### Hasil
+![hasil](Aset/3.22.jpg)
+### Analisis 
+- `SELECT * FROM` : Merupakan query awal untuk menampilkan sebuah tabel yang didalamnya berisikan kolom, di mana kolom tersebut menampung sebuah data.
+- `mobil` nama dari tabel yang ingin kita tampilkan   data-data nya.
+- `WHERE` :  digunakan untuk menyaring data yang ada pada tabel.
+- `peminjam IS NULL`pada kolom peminjam akan menampilkan data yang kosong.
+### Kesimpulan 
+Null digunakan ketika kita ingin menampilkan kolom yang kosong/belum ada isinya.
+
+---
+## NOT NULL
+### Struktur Query 
+```MySQL
+
+SELECT * FROM [nama_tabel] WHERE [nama_kolom] IS NOT NULL;
+```
+### Contoh
+```MySQL
+
+SELECT * FROM mobil WHERE peminjam IS NOT NULL;
+```
+### Hasil
+![hasil](Aset/3.23.jpg)
+### Analisis 
+- `SELECT * FROM` : Merupakan query awal untuk menampilkan sebuah tabel yang didalamnya berisikan kolom, di mana kolom tersebut menampung sebuah data.
+- `mobil` nama dari tabel yang ingin kita tampilkan   data-data nya.
+- `WHERE` :  digunakan untuk menyaring data yang ada pada tabel.
+- `peminjam IS NOT NULL` pada kolom peminjam akan ditampilkan data yang terisi/tidak kosong.
+### Kesimpulan 
+Not null di gunakan ketika kita ingin menampilkan data yang terisi atau tidak kosong.
+
+---
+# ORDER BY & LIMIT
+## Mengurutkan data dari data terkecil
+### Struktur Query
+```MySQL
+SELECT * FROM [nama_tabel] ORDER BY [nama_kolom] ASC;
+```
+
+### Contoh 
+```MySQL
+
+SELECT * FROM mobil ORDER BY pemilik ASC;
+```
+### Hasil
+![hasil](Aset/3.24.jpg)
+### Analisis 
+- `SELECT * FROM` : Merupakan query awal untuk menampilkan sebuah tabel yang didalamnya berisikan kolom, di mana kolom tersebut menampung sebuah data.
+- `mobil` nama dari tabel yang ingin kita tampilkan   data-data nya.
+- `ORDER BY` digunakan untuk mengurutkan hasil query berdasarkan hasil tertentu.
+- `ASC`digunakan untuk mengurutkan hasil secara berurutan dari nilai terkecil ke nilai terbesar, seperti urutan alfabetis dari A ke Z.
+### Kesimpulan 
+`ORDER BY ASC` digunakan untuk mengurutkan nilai dari yang terkecil.
+
+---
+## Mengurutkan data dari data terbesar
+
+### Struktur Query 
+```MySQL
+SELECT * FROM [nama_tabel] ORDER BY [nama_kolom] DESC;
+```
+
+### Contoh 
+```MySQL
+
+SELECT * FROM mobil ORDER BY peminjam DESC;
+```
+### Hasil
+![hasil](Aset/3.25.jpg)
+### Analisis 
+- `SELECT * FROM` : Merupakan query awal untuk menampilkan sebuah tabel yang didalamnya berisikan kolom, di mana kolom tersebut menampung sebuah data.
+- `mobil` nama dari tabel yang ingin kita tampilkan   data-data nya.
+- `ORDER BY` digunakan untuk mengurutkan hasil query berdasarkan hasil tertentu.
+- `DESC` digunakan untuk mengurutkan hasil secara berurutan dari nilai terbesar ke nilai terkecil, seperti urutan alfabetis dari Z ke A.
+### Kesimpulan
+`ORDER BY DESC` digunakan untuk mengurutkan nilai dari yang terbesar.
+
+---
+## Membatasi data yang tampil 
+## Struktur Query 
+## Contoh 
+## Hasil
+## Analisis 
+## Kesimpulan 
+
+# DISTINCT
+## Contoh Pertama 
+### Struktur Query
+```MySQL
+
+SELECT DISTINCT(nama_kolom) FROM [nama_tabel];
+```
+
+### Contoh 
+```MySQL
+
+SELECT DISTINCT(warna) FROM mobil;
+```
+### Hasil
+![Hasil](Aset/3.26.jpg)
+### Analisis 
+- `SELECT DISTINCT (warna)` digunakan untuk  mengambil nilai unik dari kolom warna dalam tabel, dan menghapus data duplikat sehingga hanya menampilkan data-data yang berbeda.
+- `FROM mobil` Query tersebut memerintahkan untuk mengambil data pada tabel mobil.
+### Kesimpulan 
+Distinct digunakan untuk menampilkan data-data yang asli atau tidak duplikat 
+
+---
+## Kombinasi Distinct dan Order By
+
+### Struktur Query 
+```MySQL
+
+SELECT DISTINCT(nama_kolom) FROM [nama_tabel] ORDER BY [nama_kolom] DESC;
+```
+### Contoh
+ ```MySQL
+ 
+SELECT DISTINCT(harga_rental) FROM mobil ORDER BY harga_rental DESC;
+```
+
+### Hasil
+![Hasil](Aset/3.27.jpg)
+### Analisis 
+- `SELECT DISTINCT (harga_rental)` digunakan untuk mengambil nilai unik dari kolom harga_rental dalam tabel, dan menghapus data duplikat sehingga hanya menampilkan data-data yang berbeda.
+- `FROM mobil` Query tersebut memerintahkan untuk mengambil data pada tabel mobil.
+- `ORDER BY harga_rental DESC` Query tersebut Mengurutkan isi dalam kolom harga_rental dari yang tertinggi.
+### Kesimpulan 
+Kombinasi Distinct dan Order By digunakan ketika ingin mengetahui jumlah data asli yang ada pada kolom secara berurutan, baik dari yang tertinggi ataupun yang terendah.
+
+---
+
+# CONCAT, CONCAT_WS, AS
+
+## Menggabungkan kolom tanpa pemisah
+### Struktur Query 
+```MySQL
+
+SELECT CONCAT(kolom1,kolom2) FROM [nama_tabel];
+```
+### Contoh
+```MySQL
+
+SELECT CONCAT(pemilik,warna) FROM mobil;
+```
+### Hasil
+![hasil](Aset/3.28.jpg)
+
+### Analisis 
+- `SELECT CONCAT` digunakan untuk mengambil dan menggabungkan 2 kolom atau lebih menjadi satu string tunggal.
+- `(pemilik,warna)` Merupakan kolom yang akan di gabungkan menjadi satu.
+- `FROM mobil` query tersebut akan mengambil data dari tabel mobil.
+### kesimpulan 
+`CONCAT` digunakan ketika kita ingin menggabungkan suatu kolom menjadi satu.
+
+---
+## Menggabungkan kolom dengan pemisah
+### Struktur Query 
+```MySQL
+
+SELECT  CONCAT_WS(Separator,kolom1,kolom2,
+kolom3) FROM [nama_tabel];
+```
+### Contoh
+```MySQL
+SELECT CONCAT_WS("-",no_plat,no_mesin,
+id_mobil) FROM mobil;
+```
+### Hasil
+![hasil](Aset/3.29.jpg)
+### Analisis 
+- `SELECT CONCAT_WS` digunakan untuk mengambil dan menggabungkan 2 kolom atau lebih menjadi satu string tunggal dengan pemisah.
+- `("-",no_plat,no_mesin,id_mobil)` tanda "-"  adalah pemisah yang akan digunakan. `no_plat,no_mesin,id_mobil` nama kolom-kolom yang dipilih dari tabel untuk di gabungkan.
+- `FROM mobil` query tersebut akan mengambil data dari tabel mobil.
+### kesimpulan 
+`CONCAT_WS` digunakan untuk menggabungkan nilai kolom-kolom dengan pemisah agar data-data yang di gabung terlihat rapi.
+
+---
+## Memberikan nama kolom alias
+
+### Struktur Query 
+```MySQL
+
+SELECT CONCAT_WS(Separator,kolom1,kolom2) AS [nama_alias] FROM mobil;
+```
+### Contoh
+```MySQL
+
+SELECT CONCAT_WS("+",pemilik,peminjam) AS COLLAB FROM mobil;
+```
+### Hasil
+![hasil](Aset/3.30.jpg)
+### Analisis 
+- `SELECT CONCAT_WS` digunakan untuk mengambil dan menggabungkan 2 kolom atau lebih menjadi satu string tunggal dengan pemisah.
+- `("+",pemilik,peminjam)` tanda`"+"` sebagai pemisah `pemilik,peminjam` merupakan kolom yang akan digabungkan nilainya,setiap nilai dari kolom `pemilik` dan `peminjam` akan digabungkan menjadi satu string dengan tanda `"+"` di antara mereka.
+- `AS COLLAB` AS merupakan alias sedangkan collab nama dari penggabungan 2 kolom yaitu pemilik dan peminjam.
+- `FROM mobil` query tersebut akan mengambil data dari tabel mobil.
+### kesimpulan 
+Kita bisa menggunakan Query tersebut untuk menggabungkan sebuah kolom dengan memberi nama alias, agar lebih mudah di mengerti.
+
+---
+# VIEW
+
+## Membuat tabel virtual
+### Struktur Query 
+```MySQL
+
+CREATE VIEW [nama_tabel_virtual] AS SELECT id_mobil,no_plat,pemilik,peminjam FROM [nama_tabel] WHERE [nama_kolom] = "nilai";
+```
+### Contoh 
+```MySQL
+
+CREATE VIEW info_no_plat AS SELECT id_mobil, no_plat, pemilik, peminjam FROM mobil WHERE pemilik = "dani";
+```
+### Hasil
+![hasil](3.31.jpg)
+### Analisis 
+- `CREATE VIEW info_no_plat AS` Perintah query tersebut membuat sebuah tabel virtual dengan nama info_no_plat.
+- `SELECT id_mobil, no_plat, pemilik, peminjam FROM mobil` digunakan untuk memilih kolom-kolom dari tabel mobil untuk di masukkan ke dalam tabel virtual yang dibuat.
+- `WHERE pemilik = "dani";` perintah tersebut akan menampilkan data-data yang pemiliknya Dani.
+### kesimpulan 
+Tabel virtual digunakan untuk mengelompokkan sebuah kolom tertentu dari tabel yang sudah ada.
+
+---
+## Menampilkan tabel virtual
+### Struktur Query 
+### Contoh 
+```MySQL
+SELECT * FROM info_no_plat;
+```
+### Hasil
+![hasil](3.32.jpg)
+### Analisis 
+- `SELECT * FROM` : Merupakan query awal untuk menampilkan sebuah tabel virtual yang didalamnya berisikan kolom, di mana kolom tersebut menampung sebuah data.
+- `info_no_plat` nama dari tabel virtual.
+### kesimpulan 
+Jika ingin menampilkan tabel virtual cukup dengan perintah SELECT * FROM.
+
+---
+## Menghapus tabel virtual
+### Struktur Query 
+### Contoh 
+```MySQL
+DROP VIEW info_no_plat;
+```
+### Hasil
+![hasil](3.33.jpg)
+
+### Analisis 
+- `DROP VIEW` perintah query tersebut akan menghapus tabel virtual.
+- `info_no_plat` nama tabel virtual yang akan di hapus.
+### kesimpulan 
+Jika ingin menghapus tabel virtual cukup dengan perintah DROP VIEW.
+
+---
+
+
+# Tantangan 
+### 1
+#### Struktur Query 
+```MySQL
+
+CREATE VIEW [nama_tabel_virtual] AS SELECT [kolom_pilihan] FROM [nama_tabel] WHERE [kolom] = nilai;
+```
+#### Contoh 
+```MySQL
+CREATE VIEW tantangan AS SELECT no_plat,warna,peminjam FROM mobil WHERE peminjam is null;
+```
+#### Hasil
+![hasil](Aset/3.34.jpg)
+
+#### Analisis 
+- `CREATE VIEW` perintah MySQL yang digunakan untuk membuat tabel view yang akan tersimpan di dalam database.
+- `tantangan AS` nama alias dari tabel virtual yang kita buat.
+- `SELECT no_plat,warna,peminjam` Kolom yang kita pilih untuk di masukkan ke dalam sebuah tabel view yang dibuat.
+- `FROM mobil` kolom yang kita pilih untuk tabel view merupakan dari tabel mobil yang sudah ada.
+- `WHERE peminjam is null;` data yang akan tampil dimana peminjamnya null atau tidak ada.
+
+---
+### 2
+#### Struktur Query 
+```mysql
+
+UPDATE [nama_tabel] SET [nama_kolom] = nilai WHERE [nama_kolom] = nilai;
+```
+#### Contoh 
+```mysql
+UPDATE mobil SET peminjam = NULL WHERE id_mobil = 4;
+```
+#### Hasil
+![hasil](Aset/3.35.jpg)
+
+#### Analisis 
+- `UPDATE mobil` Query tersebut akan mengupdate data pada tabel mobil.
+- `SET peminjam = NULL` perintah tersebut akan mengosongkan kolom peminjam dengan `NULL`.
+- `WHERE id_mobil = 4;` data yang akan di update yang memiliki `Id_mobil = 4`.
+
+---
+
+
+
+
+
+# AGREGASI
+## Menghitung total nilai numerik suatu kolom (Sum)
+### Struktur Query 
+### Contoh 
+### Hasil
+### Analisis 
+### Kesimpulan 
+
+---
+## Menghitung jumlah baris/data, biasanya berdasarkan kriteria tertentu (Count)
+### Struktur Query 
+### Contoh 
+### Hasil
+### Analisis 
+### Kesimpulan 
+
+
+---
+### Struktur Query 
+### Contoh 
+### Hasil
+### Analisis 
+### Kesimpulan 
+
+---
+## Menampilkan nilai terendah (Min)
+### Struktur Query 
+### Contoh 
+### Hasil
+### Analisis 
+### Kesimpulan 
+
+---
+## Menampilkan nilai tertinggi (Max)
+### Struktur Query 
+### Contoh 
+### Hasil
+### Analisis 
+### Kesimpulan 
+
+---
+## Menampilkan nilai rata-rata (Avg)
+### Struktur Query 
+### Contoh 
+### Hasil
+### Analisis 
+### Kesimpulan
+
+---
+
+
+
+
