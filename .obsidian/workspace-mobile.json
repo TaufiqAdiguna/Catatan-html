@@ -83,9 +83,11 @@
             "id": "b2bcde9d82affc27",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "MATERI CSS/Bootstrap/assets/bf-1.jpg"
+                "file": "EKSPLORASI CSS/CSS GRID.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -226,7 +228,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "MATERI CSS/Bootstrap/assets/bf-1.jpg",
+            "file": "EKSPLORASI CSS/CSS GRID.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -243,7 +245,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "MATERI CSS/Bootstrap/assets/bf-1.jpg",
+            "file": "EKSPLORASI CSS/CSS GRID.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -255,7 +257,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "MATERI CSS/Bootstrap/assets/bf-1.jpg"
+            "file": "EKSPLORASI CSS/CSS GRID.md"
           }
         }
       },
@@ -283,6 +285,7 @@
   },
   "active": "b2bcde9d82affc27",
   "lastOpenFiles": [
+    "MATERI CSS/Bootstrap/assets/bf-1.jpg",
     "MATERI CSS/Bootstrap/Bootstrap Framework.md",
     "Materi tambahan",
     "Aset/internal.jpg.md",
