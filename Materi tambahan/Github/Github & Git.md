@@ -78,7 +78,7 @@ Apabila berhasil tampil seperti gambar berikut ini, berarti konfigurasi berhasil
 
 # Membuat Project Pertama
 Pertama, Buat Folder bernama **“latihan-git”** dan Buka di Visual Studio Code
- ![400][assets/Github/git-10.png]
+ ![400][assets/git-10.png]
  
 Klik “Open Folder” lalu pilih folder yang telah kita buat tadi.
 
@@ -134,7 +134,7 @@ Setelah itu akan ada beberapa form untuk memberikan beberapa informasi mengenai 
 	 - **Add Readme File** ( Membuat deskripsi repository secara detail dengan file Readme )
 	 - **Add .gitignore** ( Jika ini diaktifkan, maka riwayat perubahan tidak akan dicatat oleh sistem Git )
 	 - **Choose License** ( Memilih jenis lisensi untuk repository project )
-![](github-rp.png)
+![][assets/github-rp.png]
 Setelah semuanya diisi maka klik tombol **“Create Repository”** Jika berhasil maka akan tampil seperti ini
 
 ![](git%20command%20repository.png)
@@ -299,8 +299,6 @@ Sekarang kita lihat di Repository github bahwa Branch yang saya buat telah ditam
 
 ![](branch%20halaman_about%20pull.png)
 
-
-
 # Melakukan Pembaruan & Penggabungan Project
 beberapa hari telah berlalu, rehan2 membuat fitur baru yaitu membuat halaman about, nah maka dari itu pasti di repository rehan1 belum terupdate akan segala perubahan yang dilakukan oleh rehan2
 
@@ -436,6 +434,43 @@ Perintah `git commit` digunakan untuk membuat snapshot permanen dari perubahan y
    Opsi `--no-verify` akan memungkinkan Anda untuk membuat commit tanpa menjalankan skrip hook pra-commit yang mungkin terkonfigurasi dalam proyek Anda.
 
 Itu adalah beberapa opsi umum yang dapat digunakan bersama dengan perintah `git commit`. Pilih opsi yang sesuai dengan kebutuhan proyek Anda.
+### Aturan Standar Menulis Pesan Git Commit yang Baik
+Pesan komit Git adalah salah satu bagian terpenting dari sebuah komit. Mereka memberikan wawasan mengapa kode tertentu ditambahkan ke basis kode. Itulah mengapa penting untuk mempelajari cara menulis pesan Git commit yang baik.
+
+menggunakan Komitmen Konvensional yang merupakan praktik bagus di antara tim teknik. Komitmen Konvensional adalah konvensi pemformatan yang menyediakan seperangkat aturan untuk merumuskan struktur pesan komit yang konsisten seperti:
+```
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+Tipe komit dapat mencakup hal berikut:
+
+- `feat`– fitur baru diperkenalkan dengan perubahan
+- `fix`– perbaikan bug telah terjadi
+- `chore`– perubahan yang tidak terkait dengan perbaikan atau fitur dan tidak mengubah file src atau pengujian (misalnya memperbarui dependensi)
+- `refactor`– kode yang difaktorkan ulang yang tidak memperbaiki bug atau menambahkan fitur
+- `docs`– pembaruan dokumentasi seperti README atau file penurunan harga lainnya
+- `style`– perubahan yang tidak mempengaruhi arti kode, kemungkinan terkait dengan format kode seperti spasi, titik koma yang hilang, dan sebagainya.
+- `test`– termasuk tes baru atau koreksi sebelumnya
+- `perf`– peningkatan kinerja
+- `ci`– terkait integrasi berkelanjutan
+- `build`– perubahan yang mempengaruhi sistem build atau ketergantungan eksternal
+- `revert`– mengembalikan komit sebelumnya
+#### Perbandingan Pesan Commit
+##### Bagus
+- `feat: improve performance with lazy load implementation for images`
+- `chore: update npm dependency to latest version`
+- `Fix bug preventing users from submitting the subscribe form`
+- `Update incorrect client phone number within footer body per client request`
+##### Buruk
+- `fixed bug on landing page`
+- `Changed style`
+- `oops`
+- `I think I fixed it this time?`
+#### Kesimpulan
+Menulis pesan komit yang baik adalah keterampilan yang sangat bermanfaat untuk dikembangkan, dan membantu Anda berkomunikasi dan berkolaborasi dengan tim Anda. Komit berfungsi sebagai arsip perubahan. Mereka bisa menjadi naskah kuno untuk membantu kita menguraikan masa lalu, dan membuat keputusan yang masuk akal di masa depan.
 ## `git push`
 Perintah `git push` digunakan untuk mengirimkan perubahan lokal yang sudah di-commit ke repositori remote. Ini berarti bahwa perubahan yang telah Anda lakukan pada branch lokal akan diperbarui di repositori remote sehingga dapat diakses oleh orang lain yang berkolaborasi dalam proyek yang sama. Berikut adalah contoh penggunaan perintah `git push`:
 
@@ -668,192 +703,33 @@ Perintah `git remote` digunakan untuk menampilkan informasi tentang remote repos
    Perintah ini menghapus semua referensi ke remote repository tertentu dari repositori lokal.
 
 Perintah `git remote` membantu Anda mengelola dan berinteraksi dengan remote repositories dalam proyek Git. Pastikan untuk memahami konfigurasi remote repository Anda sebelum membuat perubahan untuk menghindari masalah kolaborasi dan pengembangan.
-# Catatan
-Berikut adalah beberapa perintah Git untuk mengunggah kode ke GitHub sesuai dengan kebutuhan materi ini.
-## `git init`
-Perintah `git add` digunakan untuk menambahkan perubahan (modifikasi atau penambahan file) ke dalam staging area. Staging area adalah tempat persiapan sebelum Anda melakukan commit. Dengan menggunakan `git add`, Anda memberitahu Git bahwa perubahan tertentu siap untuk di-commit.
-
-Berikut adalah beberapa contoh penggunaan perintah `git add`:
-
-1. **Menambahkan Semua Perubahan:**
-   ```bash
-   git add .
-   ```
-   Perintah ini akan menambahkan semua perubahan (modifikasi atau penambahan file) dalam direktori kerja ke dalam staging area.
-
-2. **Menambahkan Perubahan pada File Tertentu:**
-   ```bash
-   git add namafile.txt
-   ```
-   Menggantilah "namafile.txt" dengan nama file yang ingin Anda tambahkan ke dalam staging area. Anda juga dapat memberikan daftar file yang dipisahkan oleh spasi.
-
-3. **Menambahkan Perubahan pada Direktori Tertentu:**
-   ```bash
-   git add namadirektori/
-   ```
-   Perintah di atas akan menambahkan semua perubahan dalam direktori tertentu ke dalam staging area.
-
-4. **Menambahkan Perubahan Interaktif:**
-   ```bash
-   git add -i
-   ```
-   Perintah ini membuka antarmuka interaktif yang memungkinkan Anda memilih perubahan mana yang ingin ditambahkan ke dalam staging area.
-## `git add`
-## `git log`
-Perintah `git log` digunakan untuk melihat riwayat commit dalam repositori. Berikut adalah beberapa contoh penggunaan perintah `git log`:
-
-1. **Menampilkan Riwayat Commit:**
-   ```bash
-   git log
-   ```
-3. **Menampilkan Riwayat Commit dalam Satu Baris:**
-   ```bash
-   git log --oneline
-   ```
-5. **Menampilkan Grafik Commit:**
-   ```bash
-   git log --graph
-   ```
-7. **Menampilkan Commit Berdasarkan Penulis:**
-   ```bash
-   git log --author="Nama Penulis"
-   ```
-9. **Menampilkan Commit dalam Rentang Waktu Tertentu:**
-   ```bash
-   git log --since="tanggal" --until="tanggal"
-   ```
-## `git commit`
-Perintah `git commit` digunakan untuk membuat snapshot permanen dari perubahan yang telah di-stage (dengan menggunakan `git add`). Saat Anda menjalankan `git commit`, Git akan membuat catatan baru dalam sejarah proyek Anda. Berikut adalah contoh penggunaan perintah `git commit` beserta beberapa opsi yang umum digunakan:
-
-1. **Membuat Commit Tanpa Melibatkan Editor Eksternal:**
-   ```bash
-   git commit -m "Pesan commit yang menjelaskan perubahan"
-   ```
-   Opsi `-m` digunakan untuk menambahkan pesan commit langsung dari baris perintah. Pesan commit sebaiknya memberikan ringkasan singkat tentang perubahan yang Anda buat.
-
-2. **Membuat Commit dengan Pesan Lebih Detail:**
-   ```bash
-   git commit
-   ```
-   Jika Anda tidak menggunakan opsi `-m`, Git akan membuka editor teks untuk memungkinkan Anda menulis pesan commit yang lebih detail. Setelah menulis pesan, simpan dan keluar dari editor untuk menyelesaikan commit.
-
-3. **Mengubah Pesan Commit Terakhir:**
-   ```bash
-   git commit --amend
-   ```
-   Opsi ini memungkinkan Anda mengubah pesan commit terakhir. Editor teks akan terbuka, dan Anda dapat mengedit pesan sebelum menyimpan perubahan.
-
-4. **Menggabungkan Staging dan Pembuatan Commit:**
-   ```bash
-   git commit -a -m "Pesan commit"
-   ```
-   Opsi `-a` akan menggabungkan langkah-langkah `git add` dan `git commit` menjadi satu langkah. Ini akan secara otomatis meng-add semua perubahan yang telah dilakukan dan membuat commit.
-
-5. **Membuat Commit dengan Penandaan Waktu Tertentu:**
-   ```bash
-   git commit --date="YYYY-MM-DD HH:MM:SS"
-   ```
-   Opsi ini memungkinkan Anda menentukan tanggal dan waktu kapan commit dibuat. Gantilah "YYYY-MM-DD HH:MM:SS" dengan format yang sesuai.
-
-6. **Membuat Commit Tanpa Menambahkan Perubahan ke dalam Staging Area Terlebih Dahulu:**
-   ```bash
-   git commit -a -m "Pesan commit" --no-verify
-   ```
-   Opsi `--no-verify` akan memungkinkan Anda untuk membuat commit tanpa menjalankan skrip hook pra-commit yang mungkin terkonfigurasi dalam proyek Anda.
-
-Itu adalah beberapa opsi umum yang dapat digunakan bersama dengan perintah `git commit`. Pilih opsi yang sesuai dengan kebutuhan proyek Anda.
-## `git remote`
-Perintah `git remote` digunakan untuk menampilkan informasi tentang remote repositories yang terkait dengan repositori Git lokal. Remote repositories adalah repositori yang terletak di tempat lain (umumnya di server atau hosting Git) dan dihubungkan dengan repositori lokal Anda. Berikut adalah beberapa contoh penggunaan perintah `git remote`:
-
-1. **Menampilkan Daftar Remote Repositories:**
-   ```bash
-   git remote
-   ```
-   Perintah ini akan menampilkan daftar nama remote repositories yang telah ditambahkan ke repositori lokal Anda.
-
-2. **Menampilkan Informasi Lebih Detail:**
-   ```bash
-   git remote -v
-   ```
-   Opsi `-v` (atau `--verbose`) menampilkan URL fetch dan push untuk setiap remote repository, memberikan informasi yang lebih detail.
-
-3. **Menambahkan Remote Repository Baru:**
-   ```bash
-   git remote add nama-remote url-repository
-   ```
-   Perintah ini digunakan untuk menambahkan remote repository baru ke repositori lokal. Gantilah "nama-remote" dengan nama yang Anda tentukan dan "url-repository" dengan URL repositori Git.
-
-4. **Mengganti Nama Remote Repository:**
-   ```bash
-   git remote rename nama-remote baru-remote
-   ```
-   Jika Anda ingin mengganti nama remote repository yang sudah ada, gunakan perintah di atas. Gantilah "nama-remote" dengan nama yang ingin Anda ganti dan "baru-remote" dengan nama baru.
-
-5. **Menghapus Remote Repository:**
-   ```bash
-   git remote remove nama-remote
-   ```
-   Perintah ini digunakan untuk menghapus remote repository yang sudah ditambahkan sebelumnya. Gantilah "nama-remote" dengan nama remote yang ingin dihapus.
-
-6. **Melihat Informasi Fetch dan Push Remote Repository:**
-   ```bash
-   git remote show nama-remote
-   ```
-   Perintah ini menampilkan informasi lebih lanjut tentang remote repository tertentu, termasuk refetch dan push URL, dan branch yang di-track.
-
-7. **Mengganti URL Remote Repository:**
-   ```bash
-   git remote set-url nama-remote url-baru
-   ```
-   Jika Anda perlu mengganti URL remote repository yang sudah ditambahkan sebelumnya, gunakan perintah di atas.
-
-8. **Menghapus Semua Referensi ke Remote Repository:**
-   ```bash
-   git remote rm nama-remote
-   ```
-   Perintah ini menghapus semua referensi ke remote repository tertentu dari repositori lokal.
-
-Perintah `git remote` membantu Anda mengelola dan berinteraksi dengan remote repositories dalam proyek Git. Pastikan untuk memahami konfigurasi remote repository Anda sebelum membuat perubahan untuk menghindari masalah kolaborasi dan pengembangan.
-## `git push`
-Perintah `git push` digunakan untuk mengirimkan perubahan lokal yang sudah di-commit ke repositori remote. Ini berarti bahwa perubahan yang telah Anda lakukan pada branch lokal akan diperbarui di repositori remote sehingga dapat diakses oleh orang lain yang berkolaborasi dalam proyek yang sama. Berikut adalah contoh penggunaan perintah `git push`:
-
-1. **Push ke Branch yang Sama di Repositori Remote:**
-   ```bash
-   git push origin nama-branch
-   ```
-   Menggantilah "nama-branch" dengan nama branch yang ingin Anda push. Ini akan mengirimkan perubahan pada branch lokal ke branch yang sama di repositori remote.
-
-2. **Push ke Branch yang Berbeda di Repositori Remote:**
-   ```bash
-   git push origin nama-branch- lokal:nama-branch-remote
-   ```
-   Jika Anda ingin push branch lokal ke branch yang berbeda di repositori remote, gunakan sintaks di atas. Gantilah "nama-branch-lokal" dengan nama branch lokal dan "nama-branch-remote" dengan nama branch di repositori remote.
-
-3. **Push ke Branch Default (Biasanya "master"):**
-   ```bash
-   git push origin master
-   ```
-   Jika branch lokal Anda adalah "master" atau branch default lainnya, Anda dapat menggunakan perintah di atas untuk push ke branch tersebut di repositori remote.
-
-4. **Push Semua Branch:**
-   ```bash
-   git push --all origin
-   ```
-   Perintah ini akan mengirimkan semua branch lokal yang belum ada di repositori remote ke repositori remote.
-
-5. **Push dengan Force:**
-   ```bash
-   git push -f origin nama-branch
-   ```
-   Opsi `-f` atau `--force` digunakan untuk memaksa push perubahan bahkan jika itu akan menimpa perubahan di repositori remote. Hati-hati saat menggunakan opsi ini karena dapat menyebabkan kehilangan perubahan.
-
-6. **Push dengan Tag:**
-   ```bash
-   git push origin --tags
-   ```
-   Jika Anda telah membuat tag dan ingin mengirimkannya ke repositori remote, gunakan perintah di atas.
-
-Pastikan untuk memahami implikasi dari perintah `git push`, terutama jika Anda menggunakan opsi-opsi seperti `--force`. Push dengan hati-hati untuk menghindari masalah dan konflik yang tidak diinginkan dalam kolaborasi tim.
+# Best Practices
+## Inisialisasi Repository
+```bash
+git init
+git add .
+git commit -m "feat: initial commit"
+git remote add origin <URL REMOTE REPOSITORY>
+git push origin master
+```
+Keterangan:
+1. **git init**: Memulai repositori Git di direktori proyek Anda.
+2. **git add .** : Menambahkan semua file yang telah diubah atau baru ke dalam staging area.
+3. **git commit -m "feat: initial commit"**: Menyimpan perubahan ke repositori dengan pesan "feat: initial commit", menandakan komit awal proyek.
+4. **git remote add origin `<URL REMOTE REPOSITORY>`**: Menghubungkan repositori lokal dengan repositori jarak jauh (remote repository).
+5. **git push origin master**: Mengunggah semua komit ke remote repository di branch master.
+## Jika Ada Perubahan Pada Repository
+```bash
+git status
+git add .
+git commit -m "fix: add missing use statement for HomeController"
+git push origin master
+```
+Keterangan
+1. **git status**: Menampilkan status perubahan di repositori lokal.
+2. **git add .**: Menambahkan semua perubahan ke staging area.
+3. **git commit -m "fix: add missing use statement for HomeController"**: Menyimpan perubahan dengan pesan komit yang menjelaskan perbaikan yang dilakukan.
+4. **git push origin master**: Mengirimkan komit-komit baru ke remote repository untuk diperbarui.
 # Daftar Referensi
 - Dokumentasi Github (https://docs.github.com/)
 - Petani Kode - Belajar Git Pemula (https://www.petanikode.com/tutorial/git/)
