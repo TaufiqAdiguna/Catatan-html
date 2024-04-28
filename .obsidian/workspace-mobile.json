@@ -83,11 +83,9 @@
             "id": "b2bcde9d82affc27",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "MATERI CSS/Bootstrap/Bootstrap Framework.md",
-                "mode": "source",
-                "source": false
+                "file": "MATERI CSS/Bootstrap/assets/bf-1.jpg"
               }
             }
           },
@@ -228,7 +226,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "MATERI CSS/Bootstrap/Bootstrap Framework.md",
+            "file": "MATERI CSS/Bootstrap/assets/bf-1.jpg",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -245,7 +243,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "MATERI CSS/Bootstrap/Bootstrap Framework.md",
+            "file": "MATERI CSS/Bootstrap/assets/bf-1.jpg",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -257,7 +255,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "MATERI CSS/Bootstrap/Bootstrap Framework.md"
+            "file": "MATERI CSS/Bootstrap/assets/bf-1.jpg"
           }
         }
       },
@@ -283,11 +281,11 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "de258462c45a502d",
+  "active": "b2bcde9d82affc27",
   "lastOpenFiles": [
+    "MATERI CSS/Bootstrap/Bootstrap Framework.md",
     "Materi tambahan",
     "Aset/internal.jpg.md",
-    "MATERI CSS/Bootstrap/Bootstrap Framework.md",
     "MATERI CSS/Css Responsive/CSS Responsive.pdf",
     "MATERI CSS/CSS/CATATAN CSS.md",
     "Materi tambahan/Semantic HTML/assets/semantic vs non semantic.jpg",
@@ -311,7 +309,6 @@
     "MATERI CSS/Bootstrap/Bootstrap Framework.pdf",
     "MATERI CSS/Bootstrap/assets",
     "Materi tambahan/Semantic HTML",
-    "Materi tambahan/Github",
     "EKSPLORASI CSS/CSS GRID.md",
     "CSS Grid Properties/CONTAINER.md",
     "Materi tambahan/Semantic HTML/SEMANTIC HTML.md",
