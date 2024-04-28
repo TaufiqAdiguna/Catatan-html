@@ -1,5 +1,5 @@
 # Anatomi CSS
-![anatomi css](MATERI%20CSS/CSS/Aset-CSS/1.1.jpg)
+![anatomi css](Aset-CSS/1.1.jpg)
 
 ## Selector
 Selector CSS di gunakan untuk memilih elemen HTML yang akan diberi gaya.Dengan menggunakan selector, Anda dapat menargetkan satu atau lebih elemen HTML untuk menerapkan properti CSS.
@@ -37,10 +37,10 @@ color: red;
 
 ## Hasil
 ### Before
-![Before](1.2.jpg)
+![Before](Aset-CSS/1.2.jpg)
 
 ### After
-![after](1.3.jpg)
+![Before](Aset-CSS/1.3.jpg)
 
 
 ## Kesimpulan 
@@ -73,10 +73,10 @@ Font-size: 20px
 
 ### Hasil gambar 
 #### Before 
-![before font-size](1.4.jpg)
+![Before](Aset-CSS/1.4.jpg)
 
 #### After
-![after](1.5.jpg)
+![after](Aset-CSS/1.5.jpg)
 
 ### Kesimpulan 
 Font size berfungsi untuk mengatur ukuran Text pada Text dalam button
@@ -94,10 +94,10 @@ margin-top:50px;
 
 ### Hasil Gambar 
 #### Before
-![before](1.6.jpg)
+![before](Aset-CSS/1.6.jpg)
 
 #### After
-![After](1.7.jpg)
+![After](Aset-CSS/1.7.jpg)
 
 ### Kesimpulan 
 Margin-top digunakan untuk memberikan jarak antara elemen dengan elemen di atasnya
@@ -115,10 +115,10 @@ Color:green;
 
 ### Hasil Gambar 
 #### Before 
-![before](1.8.jpg)
+![before](Aset-CSS/1.8.jpg)
 
 #### After
-![after](1.9.jpg)
+![after](Aset-CSS/1.9.jpg)
 
 ### Kesimpulan 
 Color di gunakan untuk memberikan gaya pada textnya.
@@ -153,7 +153,7 @@ Adapun tempat penulisan CSS secara internal, kita dapat tuliskan di dalam `<head
 ```
 
 ### Hasil
-![Hasil](Internal.jpg)
+![Hasil](Aset-CSS/Internal.jpg)
 
 ### Kesimpulan 
 Pemanggilan CSS secara internal dilakukan dengan hanya 1 file saja, yang dimana kode CSS kita taro di dalam `<style>` serta posisi `<style>` yang berada dalam `<head>`
@@ -178,7 +178,7 @@ Inline adalah pemanggilan css dengan cara didalam tag yang ingin kita berikan st
 ```
 
 ### Hasil
-![Hasil](Inline.jpg)
+![Hasil](Aset-CSS/Inline.jpg)
 
 ### Kesimpulan 
 Pemanggilan secara inline dengan cara di dalam tag htmlnya.
@@ -208,7 +208,8 @@ Color: black;
 }
 ```
 ### Hasil
-![hasil](External.jpg)
+![hasil](Aset-CSS/External.jpg)
+
 ### Kesimpulan 
 Pemanggilan CSS secara External dibutukan untuk membuat file baru dengan memberikan link dalam file htmlnya.
 
@@ -238,7 +239,8 @@ Elemen selector adalah jenis selector dengan cara pemanggilan langsung menyebut 
 </html>
 ```
 ### Hasil
-![hasil](Elemen.jpg)
+![hasil](Aset-CSS/Elemen.jpg)
+
 ### Kesimpulan
 Dengan menggunakan elemen selector, Anda dapat menerapkan gaya ke semua elemen yang memiliki tag HTML yang sama, seperti` <p> `untuk paragraf atau `<h1>` untuk heading level 1. 
 
@@ -265,7 +267,8 @@ Digunakan untuk memberikan gaya pada elemen HTML yang memiliki kelas tertentu. K
 </html>
 ```
 ### Hasil
-![hasil](Class.jpg)
+![hasil](Aset-CSS/Class.jpg)
+
 ### Kesimpulan 
 Class Selector dalam CSS memungkinkan Anda untuk menargetkan elemen berdasarkan nilai atribut `class` yang telah ditetapkan untuk elemen tersebut. 
 
@@ -292,7 +295,8 @@ ID dalam CSS merujuk pada identifikasi unik dari sebuah elemen HTML. Setiap elem
 </html>
 ```
 ### Hasil
-![hasil](Id.jpg)
+![hasil](Aset-CSS/Id.jpg)
+
 ### Kesimpulan 
 Id Selector dalam CSS digunakan untuk menargetkan elemen berdasarkan nilai atribut id yang unik untuk setiap elemen. 
 
@@ -330,10 +334,10 @@ text-align dalam CSS digunakan untuk mengatur penataan horizontal teks dalam seb
 
 ### Hasil
 #### Before
-![before](1.10.jpg)
+![before](Aset-CSS/1.10.jpg)
 
 #### After
-![after](1.11.jpg)
+![before](Aset-CSS/1.11.jpg)
 
 ### Kesimpulan 
 Jika ingin mengatur tata letak sebuah Text dalam website, kita bisa gunakan Property text-align
@@ -369,10 +373,9 @@ Beberapa contoh property value nya  :
 
 ### Hasil
 #### Before
-![before](1.12.jpg)
+![before](Aset-CSS/1.12.jpg)
 #### after
-![after](1.13.jpg)
-
+![after](Aset-CSS/1.13.jpg)
 
 ### Kesimpulan 
 Text-decoration digunakan untuk memberikan dekorasi pada Text dimana dekorasi tersebut berupa garis bawah,tengah,dan atas.
@@ -408,9 +411,10 @@ Beberapa contoh Properti value nya :
 
 ### Hasil
 #### Before
-![before](1.14.jpg)
+![before](Aset-CSS/1.14.jpg)
+
 #### After
-![after](1.15.jpg)
+![after](Aset-CSS/1.15.jpg)
 
 ### Kesimpulan 
 Digunakan untuk mengubah Text, apakah menjadi huruf kapital atau huruf kecil
@@ -446,9 +450,10 @@ Beberapa contoh property value nya :
 
 ### Hasil
 #### Before
-![before](1.16.jpg)
+![before](Aset-CSS/1.16.jpg)
+
 #### After
-![after](1.17.jpg)
+![after](Aset-CSS/1.17.jpg)
 
 ### Kesimpulan 
 Text indent biasa digunakan ketika kita ingin membuat paragraf yang dimana baris pertamanya memiliki jarak tertentu dengan dari kirinya
@@ -483,9 +488,10 @@ Beberapa contoh property value nya :
 
 ### Hasil
 #### Before
-![before](1.18.jpg)
+![before](Aset-CSS/1.18.jpg)
+
 #### After
-![after](1.19.jpg)
+![after](Aset-CSS/1.19.jpg)
 
 ### Kesimpulan 
 `Letter spacing` digunakan ketika ingin memberi jarak antara karakter.
@@ -515,10 +521,10 @@ Beberapa contoh property value nya :
 
 ### Hasil
 #### Before
-![before](1.20.jpg)
+![before](Aset-CSS/1.20.jpg)
 
 #### After 
-![after](1.21.jpg)
+![after](Aset-CSS/1.21.jpg)
 
 ### Kesimpulan 
 `Line-height` dalam CSS adalah properti yang mengontrol tinggi baris dalam sebuah elemen, mempengaruhi jarak vertikal antara garis teks.
@@ -547,9 +553,10 @@ Beberapa contoh property value nya :
 
 ### Hasil
 #### Before
-![before](1.22.jpg)
+![before](Aset-CSS/1.22.jpg)
+
 #### After
-![after](1.23.jpg)
+![after](Aset-CSS/1.23.jpg)
 
 ### Kesimpulan 
 `word-spacing` dalam CSS adalah properti yang memungkinkan Anda mengatur jarak antara kata-kata dalam teks, dengan nilai positif menambahkan spasi dan nilai negatif mengurangi spasi. Properti ini membantu mengontrol tata letak teks.
@@ -580,7 +587,7 @@ Beberapa contoh property value nya :
 ```
 
 ### Hasil
-![Hasil](1.24.jpg)
+![Hasil](Aset-CSS/1.24.jpg)
 
 ### Kesimpulan 
 `Background image` dalam CSS adalah properti yang memungkinkan Anda menetapkan gambar sebagai latar belakang elemen HTML.
@@ -616,7 +623,8 @@ Beberapa contoh property value nya :
 ```
 
 ### Hasil
-![hasil](1.25.jpg)
+![hasil](Aset-CSS/1.25.jpg)
+
 ### Kesimpulan 
 `Background size` property css yang digunakan untuk mengatur ukuran background gambar yang ada pada elemen html.
 
@@ -649,9 +657,10 @@ Beberapa contoh property value nya :
 ```
 ### Hasil
 #### Before
-![before](1.26.jpg)
+![before](Aset-CSS/1.26.jpg)
+
 #### After
-![after](1.27.jpg)
+![after](Aset-CSS/1.27.jpg)
 ### Kesimpulan 
 `Background repeat` digunakan jika ingin mengatur cara latar gambar diulang dalam elemen html.
 
@@ -687,7 +696,8 @@ Beberapa contoh property value nya :
 ```
 
 ### Hasil
-![HASIL](1.28.jpg)
+![HASIL](Aset-CSS/1.28.jpg)
+
 ### Kesimpulan 
 `background-attachment` dalam CSS adalah properti yang mengontrol apakah gambar latar belakang akan tetap diam atau bergulir bersamaan dengan konten saat pengguna menggulir halaman. 
 
@@ -724,7 +734,8 @@ Beberapa contoh property value nya:
 </html>
 ```
 ### Hasil
-![hasil](1.29.jpg)
+![hasil](Aset-CSS/1.29.jpg)
+
 ### Kesimpulan 
 `Background position` digunakan untuk mengatur posisi gambar yang ada dalam elemen html, seperti contoh di atas menggunakan top, gambar akan berada di atas elemen
 
@@ -754,7 +765,7 @@ Beberapa contoh property value nya:
 ```
 
 ### Hasil
-![HASIL](1.30.jpg)
+![HASIL](Aset-CSS/1.30.jpg)
 
 ### Kesimpulan 
 `Font size` berfungsi untuk mengatur ukuran Text yang ada pada elemen html.
@@ -787,9 +798,9 @@ Beberapa contoh property value nya :
 ```
 ### Hasil
 #### Before
-![before](1.31.jpg)
+![before](Aset-CSS/1.31.jpg)
 #### After
-![after](1.32.jpg)
+![after](Aset-CSS/1.32.jpg)
 ### Kesimpulan 
 `Font style` Property CSS yang digunakan untuk menentukan gaya penulisan Text.
 
@@ -825,9 +836,9 @@ Beberapa contoh property value nya :
 
 ### Hasil
 #### Before
-![before](1.33.jpg)
+![before](Aset-CSS/1.33.jpg)
 #### After
-![after](1.34.jpg)
+![after](Aset-CSS/1.34.jpg)
 
 ### Kesimpulan
 `Font-weight` digunakan untuk mengatur pada suatu Text dalam elemen html.
@@ -857,7 +868,7 @@ Beberapa contoh property value nya :
 ```
 
 ### Hasil
-![hasil](1.35.jpg)
+![hasil](Aset-CSS/1.35.jpg)
 
 ### Kesimpulan
 `Font-family` digunakan jika ingin merubah font default pada elemen html.
@@ -889,9 +900,9 @@ Beberapa contoh property value nya :
 
 #### Hasil
 ##### Before
-![before](1.36.jpg)
+![before](Aset-CSS/1.36.jpg)
 ##### After
-![after](1.37.jpg)
+![after](Aset-CSS/1.37.jpg)
 
 #### Kesimpulan
 `Border width` Property CSS yang digunakan untuk mengatur ketebalan garis pada suatu elemen html.
@@ -923,7 +934,7 @@ Beberapa contoh property value nya:
 ```
 
 #### Hasil
-![hasil](1.38.jpg)
+![hasil](Aset-CSS/1.38.jpg)
 
 #### Kesimpulan
 `Border style` digunakan jika ingin mengatur garis sesuai dengan keinginan kita pada suatu elemen html
@@ -952,7 +963,7 @@ Beberapa contoh property value nya:
 ```
 
 #### Hasil
-![hasil](1.39.jpg)
+![hasil](Aset-CSS/1.39.jpg)
 
 #### Kesimpulan
 `Border color` berfungsi untuk memberikan warna pada garis yang ada pada elemen html.
@@ -987,9 +998,9 @@ Beberapa contoh property value nya:
 
 #### Hasil
 ##### Before 
-![before](1.42.jpg)
+![before](Aset-CSS/1.42.jpg)
 ##### After 
-![afte](1.43.jpg)
+![afte](Aset-CSS/1.43.jpg)
 
 #### Kesimpulan
 `Border radius` digunakan untuk mengatur sudut lengkung pada suatu elemen html.
@@ -1024,9 +1035,9 @@ Beberapa contoh property value nya:
 
 #### Hasil
 ##### Before
-![before](1.44.jpg)
+![before](Aset-CSS/1.44.jpg)
 ##### After
-![after](1.45.jpg)
+![after](Aset-CSS/1.45.jpg)
 
 #### Kesimpulan 
 `Padding-left` digunakan jika ingin membuat jarak dari batas kiri elemen dengan konten yang ada didalamnya.
@@ -1059,9 +1070,9 @@ Beberapa contoh property value nya:
 
 #### Hasil
 ##### Before
-![before](1.44.jpg)
+![before](Aset-CSS/1.44.jpg)
 ##### After 
-![after](1.46.jpg)
+![after](Aset-CSS/1.46.jpg)
 
 #### Kesimpulan 
 `Padding bottom` digunakan jika ingin membuat jarak dari batas bawah elemen dengan konten yang ada didalamnya.
@@ -1095,9 +1106,9 @@ Beberapa contoh property value nya:
 
 #### Hasil
 ##### Before
-![before](1.44.jpg)
+![before](Aset-CSS/1.44.jpg)
 ##### After
-![after](1.47.jpg)
+![after](Aset-CSS/1.47.jpg)
 
 #### Kesimpulan 
 `Padding-right` digunakan jika ingin membuat jarak dari batas kanan elemen dengan konten yang ada didalamnya.
@@ -1129,9 +1140,9 @@ Beberapa contoh property value nya:
 ```
 #### Hasil
 ##### Before
-![before](1.44.jpg)
+![before](Aset-CSS/1.44.jpg)
 ##### After
-![after](1.48.jpg)
+![after](Aset-CSS/1.48.jpg)
 
 #### Kesimpulan 
 `Padding top` digunakan jika ingin membuat jarak dari batas atas elemen dengan konten yang ada didalamnya.
@@ -1162,9 +1173,9 @@ Beberapa contoh property value nya:
 ```
 #### Hasil
 ##### Before
-![before ](1.49.jpg)
+![before ](Aset-CSS/1.49.jpg)
 ##### After
-![after](1.50.jpg)
+![after](Aset-CSS/1.50.jpg)
 
 #### Kesimpulan
 `Margin left` digunakan jika ingin mengatur jarak antara batas elemen kiri dengan blok elemen html.
@@ -1196,9 +1207,9 @@ Beberapa contoh property value nya:
 
 #### Hasil
 ##### Before
-![before](1.51.jpg)
+![before](Aset-CSS/1.51.jpg)
 ##### After
-![after](1.52.jpg)
+![after](Aset-CSS/1.52.jpg)
 #### Kesimpulan 
 `Margin right` digunakan jika ingin mengatur jarak antara elemen yang dikanan dengan elemen yang berada di kirinya.
 
@@ -1229,9 +1240,10 @@ Beberapa contoh property value nya:
 
 #### Hasil
 ##### before 
-![before](1.49.jpg)
+![before](Aset-CSS/1.49.jpg)
 ##### After
-![after](1.53.jpg)
+![after](Aset-CSS/1.53.jpg)
+
 #### Kesimpulan 
 `Margin top` digunakan jika ingin mengatur jarak antara batas atas elemen dengan elemen yang diatasnya.
 
@@ -1262,9 +1274,9 @@ Beberapa contoh property value nya:
 
 #### Hasil
 ##### Before 
-![before](1.54.jpg)
+![before](Aset-CSS/1.54.jpg)
 ##### After
-![before](1.55.jpg)
+![before](Aset-CSS/1.55.jpg)
 #### Kesimpulan 
 `Margin bottom` digunakan jika ingin mengatur jarak antara batas elemen bawah dengan elemen dibawahnya.
 
@@ -1328,8 +1340,7 @@ img {
 ```
 
 ### Hasil
-![hasil](Box-model.jpg)
-
+![hasil](Aset-CSS/Box-model.jpg)
 
 ---
 # Pseudo class
@@ -1364,10 +1375,9 @@ img {
 
 ### Hasil
 #### Before
-![before](1.56.jpg)
+![before](Aset-CSS/1.56.jpg)
 #### After
-![aftwr](1.57.jpg)
-
+![aftwr](Aset-CSS/1.57.jpg)
 ### Kesimpulan
 `Hover` digunakan jika ingin menambahkan gaya pada suatu elemen html,dimana jika cursor diarahkan ke elemen maka otomatis elemen tersebut berubah bentuk sesuai dengan gaya yang dikasih.
 
@@ -1401,7 +1411,7 @@ img {
 ```
 
 ### Hasil
-![hasil](1.56.jpg)
+![hasil](Aset-CSS/1.56.jpg)
 
 >[!note] Info
 >**Tidak dapat memberikan hasil Afternya, karena hanya tampil jika diklik saja, beda dengan hover yang hanya perlu geser cursor ke elemen untuk melihat perubahannya.**
@@ -1435,9 +1445,9 @@ img {
 
 ### Hasil
 #### Before
-![before](1.58.jpg)
+![before](Aset-CSS/1.58.jpg)
 #### After
-![after](1.59.jpg)
+![after](Aset-CSS/1.59.jpg)
 
 ### Kesimpulan
 `Visited` pseudo Class ini digunakan untuk memberikan gaya pada tampilan link yang sudah dikunjungi.
@@ -1468,9 +1478,9 @@ img {
 
 ### Hasil
 #### Before
-![before](1.60.jpg)
+![before](Aset-CSS/1.60.jpg)
 #### After
-![after](1.61.jpg)
+![after](Aset-CSS/1.61.jpg)
 
 ### Kesimpulan
 Jadi fungsi dari Pseudo Class `link` ini memberikan gaya pada tautan yang belum dikunjungi.
@@ -1517,9 +1527,9 @@ Transition dalam css adalah sebuah mekanisme untuk mengendalikan perubahan pada 
 
 ## Hasil
 ### Before
-![before](1.62.jpg)
+![before](Aset-CSS/1.62.jpg)
 ### After
-![after](1.63.jpg)
+![after](Aset-CSS/1.63.jpg)
 
 ## Kesimpulan
 `Transition` Property CSS yang digunakan untuk memberikan efek perubahan secara halus dalam sebuah elemen html.
@@ -1590,7 +1600,7 @@ img {
 ```
 
 ### Hasil
-![hasil](Transition.jpg)
+![hasil](Aset-CSS/Transition.jpg)
 
 ---
 # Transform
@@ -1626,9 +1636,9 @@ digunakan untuk mengubah tampilan suatu elemen, seperti memindahkannya, memutari
 
 ### Hasil
 #### Before
-![before](1.64.jpg)
+![before](Aset-CSS/1.64.jpg)
 #### After
-![after](1.65.jpg)
+![after](Aset-CSS/1.65.jpg)
 
 ### Kesimpulan 
 Properti `scale` ini mengubah ukuran dari elemen dengan memperbesar (scaling up) atau memperkecil (scaling down) ukuran elemen berdasarkan faktor yang diberikan.
@@ -1666,9 +1676,9 @@ Properti `scale` ini mengubah ukuran dari elemen dengan memperbesar (scaling up)
 
 ### Hasil
 #### Before
-![before](1.64.jpg)
+![before](Aset-CSS/1.64.jpg)
 #### After
-![after](1.66.jpg)
+![after](Aset-CSS/1.66.jpg)
 
 ### Kesimpulan
 `scaleX` adalah cara yang efektif untuk mengubah ukuran horizontal elemen dalam tata letak web.
@@ -1705,9 +1715,9 @@ Rotate Property CSS yang digunakan untuk memutar elemen disekitar titik pusatnya
 ```
 ### Hasil
 #### Before
-![before](1.64.jpg)
+![before](Aset-CSS/1.64.jpg)
 #### After 
-![after](1.67.jpg)
+![after](Aset-CSS/1.67.jpg)
 ### Kesimpulan
 `rotate` ia akan berputar searah jarum jam jika nilai positif digunakan, dan berlawanan arah jarum jam jika nilai negatif digunakan
 
@@ -1743,9 +1753,9 @@ Rotate Property CSS yang digunakan untuk memutar elemen disekitar titik pusatnya
 
 ### Hasil
 #### Before
-![before](1.64.jpg)
+![before](Aset-CSS/1.64.jpg)
 #### After 
-![after](1.68.jpg)
+![after](Aset-CSS/1.68.jpg)
 
 ### Kesimpulan
 Properti `skewX` mengizinkan kita untuk menentukan sudut miring `(skew angle)` dalam derajat. Ketika kita menggunakan `skewX(angle)`, elemen akan dimiringkan sepanjang sumbu horizontal sebesar sudut yang ditentukan.
@@ -1781,9 +1791,9 @@ Properti `skewX` mengizinkan kita untuk menentukan sudut miring `(skew angle)` d
 ```
 ### Hasil
 #### Before
-![before](1.64.jpg)
+![before](Aset-CSS/1.64.jpg)
 #### After 
-![after](1.69.jpg)
+![after](Aset-CSS/1.69.jpg)
 ### Kesimpulan
 Properti `skew` memungkinkan kita untuk menentukan dua sudut miring (skew angles), satu untuk sumbu X dan satu untuk sumbu Y, dalam derajat.
 
@@ -1819,9 +1829,9 @@ Properti `skew` memungkinkan kita untuk menentukan dua sudut miring (skew angles
 ```
 ### Hasil
 #### Before
-![before](1.64.jpg)
+![before](Aset-CSS/1.64.jpg)
 #### After 
-![after](1.70.jpg)
+![after](Aset-CSS/1.70.jpg)
 ### Kesimpulan
 Properti `translate` memungkinkan kita untuk menentukan pergeseran (offset) dalam piksel atau persentase terhadap ukuran elemen terkait.
 
@@ -1857,9 +1867,9 @@ Contoh property value nya seperti `matrix(1, -0.3, 0.6, 1, 50, 20)`.
 ```
 ### Hasil
 #### Before
-![before](1.64.jpg)
+![before](Aset-CSS/1.64.jpg)
 #### After 
-![after](1.71.jpg)
+![after](Aset-CSS/1.71.jpg)
 ### Kesimpulan
 Penggunaan `matrix` memungkinkan kita untuk mengontrol transformasi dengan tingkat kebebasan yang tinggi, tetapi sintaksnya memerlukan pemahaman tentang operasi matrikx dan pengaruhnya terhadap elemen yang ditransformasi.
 
@@ -1890,7 +1900,7 @@ Penggunaan `matrix` memungkinkan kita untuk mengontrol transformasi dengan tingk
 </html>
 ```
 #### Hasil
-![hasil](Flex.jpg)
+![hasil](Aset-CSS/Flex.jpg)
 
 #### Kesimpulan
 `display: flex;` mengaktifkan model layout Flexbox di sebuah container CSS, yang memungkinkan pengaturan tata letak yang fleksibel untuk elemen-elemen di dalamnya.
@@ -1939,7 +1949,7 @@ Beberapa contoh property value nya :
 </html>
 ```
 #### Hasil
-![hasil](1.73.jpg)
+![hasil](Aset-CSS/1.73.jpg)
 #### Kesimpulan 
 `Flex direction` berfungsi ketika kita ingin mengatur tataletak item yang berada didalam container.
 
@@ -1985,7 +1995,7 @@ Beberapa Property Value nya :
 </html>
 ```
 #### Hasil
-![hasil](1.74.jpg)
+![hasil](Aset-CSS/1.74.jpg)
 #### Kesimpulan 
 `Flex wrap` dominan digunakan ketika item yang berada dalam 1 baris sudah tidak cukup di tampung oleh container, maka item selanjutnya akan membuat baris baru.
 
@@ -2029,7 +2039,7 @@ Beberapa contoh Property Value nya :
 </html>
 ```
 #### Hasil
-![hasil](1.75.jpg)
+![hasil](Aset-CSS/1.75.jpg)
 #### Kesimpulan 
 `Align items` digunakan untuk mengatur tataletak suatu elemen secara vertikal 
 
@@ -2077,7 +2087,7 @@ Beberapa contoh property value nya :
 </html>
 ```
 #### Hasil
-![hasil](1.76.jpg)
+![hasil](Aset-CSS/1.76.jpg)
 #### Kesimpulan 
 `Justify content` digunakan untuk mengatur jarak antar elemen secara horizontal atau baris
 
@@ -2128,7 +2138,7 @@ Beberapa Property Value nya :
 </html>
 ```
 #### Hasil
-![hasil](1.77.jpg)
+![hasil](Aset-CSS/1.77.jpg)
 #### Kesimpulan 
 `Align content` digunakan untuk mengatur jarak antar elemen secara vertikal 
 
@@ -2178,7 +2188,7 @@ Beberapa Property Value nya :
 </html>
 ```
 #### Hasil
-![hasil](Order.jpg)
+![hasil](Aset-CSS/Order.jpg)
 #### Kesimpulan 
 Order digunakan ketika kita ingin mengatur tataletak flex item dalam flex container 
 
@@ -2240,7 +2250,7 @@ Order digunakan ketika kita ingin mengatur tataletak flex item dalam flex contai
 </html>
 ```
 #### Hasil
-![hasil](Grow.jpg)
+![hasil](Aset-CSS/Grow.jpg)
 #### Kesimpulan 
 `Flex-Grow `digunakan ketika kita ingin memperluas salah satu flex item dalam sebuah flex container.
 
@@ -2289,7 +2299,7 @@ Order digunakan ketika kita ingin mengatur tataletak flex item dalam flex contai
 
 ```
 #### Hasil
-![hasil](1.80.jpg)
+![hasil](Aset-CSS/1.80.jpg)
 
 #### Kesimpulan 
 `Flex-shrink` mengatur ukuran item ketika ruang tidak cukup.
@@ -2343,7 +2353,7 @@ Order digunakan ketika kita ingin mengatur tataletak flex item dalam flex contai
 
 ```
 #### Hasil
-![hasil](1.81.jpg)
+![hasil](Aset-CSS/1.81.jpg)
 #### Kesimpulan 
 `flex-basis` menentukan ukuran awal elemen sebelum fleksbox membagikan ruang yang tersisa.
 
@@ -2403,7 +2413,7 @@ Nilai yang umum digunakan untuk align-self adalah:
 
 ```
 #### Hasil
-![hasil ](1.82.jpg)
+![hasil ](Aset-CSS/1.82.jpg)
 #### Kesimpulan 
 `Align self` mengatur penempatan item secara vertikal 
 
@@ -2444,7 +2454,7 @@ Properti `flex` memungkinkan Anda untuk secara singkat menentukan bagaimana elem
 
 ```
 #### Hasil
-![hasil](1.83.jpg)
+![hasil](Aset-CSS/1.83.jpg)
 #### Kesimpulan 
 `Flex` merupakan gabungan dri flex grow,flex shrink,flex basis
 
@@ -2530,7 +2540,7 @@ img {
 ```
 
 ### Hasil
-![hasil](Studi-kasus-flex.jpg)
+![hasil](Aset-CSS/Studi-kasus-flex.jpg)
 
 ---
 # Position
@@ -2577,9 +2587,9 @@ img {
 ```
 ### Hasil
 #### Before
-![hasil](1.84.jpg)
+![hasil](Aset-CSS/1.84.jpg)
 #### After
-![hasil](1.85.jpg)
+![hasil](Aset-CSS/1.85.jpg)
 ### Kesimpulan 
 `Position relative` berpindah dari tempat awalnya yang akan menggangu posisi elemen lain.
 
@@ -2627,9 +2637,10 @@ img {
 ```
 ### Hasil
 #### Before
-![hasil](1.84.jpg)
+![hasil](Aset-CSS/1.84.jpg)
 #### After
-![hasil](1.86.jpg)
+![hasil](Aset-CSS/1.86.jpg)
+
 ### Kesimpulan 
 `Position absolute` dia berpindah mengikuti parentnya, tanpa mempengaruhi tata letak elemen-elemen lain.
 
@@ -2672,7 +2683,7 @@ img {
 </html>
 ```
 ### Hasil
-![hasil](1.87.jpg)
+![hasil](Aset-CSS/1.87.jpg)
 ### Kesimpulan 
 `Position Fixed` digunakan ketika ada elemen, kita ingin dia berada dalam viewport terus.
 
@@ -2705,9 +2716,9 @@ img {
 ```
 ### Hasil
 #### Before
-![hasil](1.88.jpg)
+![hasil](Aset-CSS/1.88.jpg)
 #### After
-![hasil](1.89.jpg)
+![hasil](Aset-CSS/1.89.jpg)
 ### Kesimpulan 
 `Sticky` digunakan ketika ada suatu elemen yang terdapat dalam baris, akan tetapi kita mau dia berada dalam viewport terus menerus tanpa harus ikut ke scroll.
 
@@ -2823,6 +2834,6 @@ img {
 ```
 
 ### Hasil
-![hasil](Position.jpg)
+![hasil](Aset-CSS/Position.jpg)
 
 ---

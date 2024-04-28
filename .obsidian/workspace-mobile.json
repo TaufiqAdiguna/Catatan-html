@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EKSPLORASI CSS/CSS GRID.md",
+                "file": "MATERI CSS/CSS/CATATAN CSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -228,7 +228,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "EKSPLORASI CSS/CSS GRID.md",
+            "file": "MATERI CSS/CSS/CATATAN CSS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -245,7 +245,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "EKSPLORASI CSS/CSS GRID.md",
+            "file": "MATERI CSS/CSS/CATATAN CSS.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -257,7 +257,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "EKSPLORASI CSS/CSS GRID.md"
+            "file": "MATERI CSS/CSS/CATATAN CSS.md"
           }
         }
       },
@@ -285,12 +285,13 @@
   },
   "active": "b2bcde9d82affc27",
   "lastOpenFiles": [
+    "EKSPLORASI CSS/CSS GRID.md",
+    "MATERI CSS/CSS/CATATAN CSS.md",
     "MATERI CSS/Bootstrap/assets/bf-1.jpg",
     "MATERI CSS/Bootstrap/Bootstrap Framework.md",
     "Materi tambahan",
     "Aset/internal.jpg.md",
     "MATERI CSS/Css Responsive/CSS Responsive.pdf",
-    "MATERI CSS/CSS/CATATAN CSS.md",
     "Materi tambahan/Semantic HTML/assets/semantic vs non semantic.jpg",
     "Materi tambahan/Semantic HTML/assets/p-komentar.png",
     "Materi tambahan/Semantic HTML/assets/code-semantic.png",
@@ -300,7 +301,6 @@
     "Materi tambahan/Github/assets/trust-author-vsc.png",
     "Materi tambahan/Github/assets/status repository.png",
     "Materi tambahan/Github/assets/push repo.png",
-    "Materi tambahan/Github/assets/open-folder-vsc.png",
     "Materi tambahan/Semantic HTML/SEMANTIC HTML.pdf",
     "Materi tambahan/Semantic HTML/SEMANTIC HTML.md",
     "Materi tambahan/Semantic HTML/assets",
@@ -312,7 +312,6 @@
     "MATERI CSS/Bootstrap/Bootstrap Framework.pdf",
     "MATERI CSS/Bootstrap/assets",
     "Materi tambahan/Semantic HTML",
-    "EKSPLORASI CSS/CSS GRID.md",
     "CSS Grid Properties/CONTAINER.md",
     "Materi tambahan/Semantic HTML/SEMANTIC HTML.md",
     "Materi tambahan/Github/Github & Git.md",
