@@ -1,7 +1,7 @@
 # Pengenalan Responsive Web Design
 Responsive web design atau desain web responsif adalah sebuah teknik atau metode bagi web designer untuk membuat suatu layout website yang dapat menyesuaikan diri sesuai dengan ukuran layar pengguna. Baik dari ukuran huruf, user interface, gambar dan tata letak akan menyesuaikan dengan lebar layar dan resolusi device yang digunakan. 
 Selain dapat memengaruhi apa yang ditampilkan pada perangkat tertentu, ini juga untuk meningkatkan kenyamanan pengguna dalam mengunjungi suatu website.
-![100%](responsive-1.png)
+![hasjl](Assets/responsive-1.png)
 # Mengapa perlu CSS Responsive?
 Pernahkah Anda mengunjungi situs web di smartphone Anda dan halaman webnya berantakan atau teksnya terlalu kecil untuk dibaca? Ini artinya situs web tersebut belum responsif. Dengan memakai css responsif maka web kita memungkinkan tampil optimal di berbagai perangkat, mulai dari desktop, laptop, tablet, hingga smartphone. Berikut alasan beberapa alasan mengapa css responsif penting: 
 - **Tampilan yang Bagus di Semua Perangkat**
@@ -67,9 +67,10 @@ Saat mendesain website, mulailah dengan mempertimbangkan tampilan website pada p
 
 # Implementasi CSS Responsif
 ## Sebelum Responsif
-![](res-2.png)
+![hasil](Assets/res-2.png)
+
 ## Sesudah Responsif
-![](res-3.png)
+![hasil](Assets/res-3.png)
 ## Kode
 ### HTML
 ```html

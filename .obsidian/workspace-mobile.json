@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATERI CSS/CSS/CATATAN CSS.md",
+                "file": "MATERI CSS/Css Responsive/CSS Responsive.md",
                 "mode": "source",
                 "source": false
               }
@@ -228,7 +228,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "MATERI CSS/CSS/CATATAN CSS.md",
+            "file": "MATERI CSS/Css Responsive/CSS Responsive.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -245,7 +245,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "MATERI CSS/CSS/CATATAN CSS.md",
+            "file": "MATERI CSS/Css Responsive/CSS Responsive.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -257,7 +257,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "MATERI CSS/CSS/CATATAN CSS.md"
+            "file": "MATERI CSS/Css Responsive/CSS Responsive.md"
           }
         }
       },
@@ -285,10 +285,10 @@
   },
   "active": "b2bcde9d82affc27",
   "lastOpenFiles": [
-    "EKSPLORASI CSS/CSS GRID.md",
-    "MATERI CSS/CSS/CATATAN CSS.md",
-    "MATERI CSS/Bootstrap/assets/bf-1.jpg",
     "MATERI CSS/Bootstrap/Bootstrap Framework.md",
+    "MATERI CSS/CSS/CATATAN CSS.md",
+    "EKSPLORASI CSS/CSS GRID.md",
+    "MATERI CSS/Bootstrap/assets/bf-1.jpg",
     "Materi tambahan",
     "Aset/internal.jpg.md",
     "MATERI CSS/Css Responsive/CSS Responsive.pdf",
