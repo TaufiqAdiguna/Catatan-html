@@ -229,7 +229,7 @@ Tag heading dalam HTML digunakan untuk menandai teks sebagai judul atau heading,
 ```
 
 ### Hasil Program Tag Italic :
-![tag Italic](Aset/4.8.jpg)
+![tag Italic](HTML/Aset/4.8.jpg)
 
 ---
 ## ==Tag Br==
@@ -250,7 +250,7 @@ Tag heading dalam HTML digunakan untuk menandai teks sebagai judul atau heading,
 ```
 
 ### Hasil Program Tag Br :
-![tag br](Aset/4.9.jpg)
+![tag br](HTML/Aset/4.9.jpg)
 
 
 ---
@@ -279,7 +279,7 @@ Sebuah rumah yang berisikan satu keluarga yaitu,ayah,ibu,dan 3 anaknya.</n>
 ```
 
 ### Hasil Program Tag Align :
-![tag Align](Aset/4.10.jpg)
+![tag Align](HTML/Aset/4.10.jpg)
 
 
 ___

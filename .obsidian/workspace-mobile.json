@@ -85,7 +85,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATERI CSS/Css Responsive/CSS Responsive.md",
+                "file": "Basis data/3) SELECT LANJUTKAN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dbd798bef4bb04e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basis data/4) ALTER.md",
                 "mode": "source",
                 "source": false
               }
@@ -152,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -228,7 +240,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "MATERI CSS/Css Responsive/CSS Responsive.md",
+            "file": "Basis data/4) ALTER.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -245,7 +257,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "MATERI CSS/Css Responsive/CSS Responsive.md",
+            "file": "Basis data/4) ALTER.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -257,7 +269,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "MATERI CSS/Css Responsive/CSS Responsive.md"
+            "file": "Basis data/4) ALTER.md"
           }
         }
       },
@@ -283,9 +295,26 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "b2bcde9d82affc27",
+  "active": "de258462c45a502d",
   "lastOpenFiles": [
+    "Basis data/Aset/4.10.jpg",
+    "Basis data/Aset/4.9.jpg",
+    "Basis data/Aset/4.8.jpg",
+    "Basis data/2) instalasi & query awal database.md",
+    "Basis data/3) SELECT LANJUTKAN.md",
+    "Basis data/4) ALTER.md",
     "MATERI CSS/Bootstrap/Bootstrap Framework.md",
+    "Basis data/Aset/4.5.jpg",
+    "Basis data/Aset/3.41.jpg",
+    "Basis data/Aset/3.39.jpg",
+    "Basis data/Aset/3.40.jpg",
+    "Basis data/Aset/4.1.jpg",
+    "MATERI PHP/PHP.md",
+    "MATERI PHP/Aset",
+    "Untitled.md",
+    "Nn",
+    "MATERI PHP",
+    "MATERI CSS/Css Responsive/CSS Responsive.md",
     "MATERI CSS/CSS/CATATAN CSS.md",
     "EKSPLORASI CSS/CSS GRID.md",
     "MATERI CSS/Bootstrap/assets/bf-1.jpg",
@@ -294,35 +323,20 @@
     "MATERI CSS/Css Responsive/CSS Responsive.pdf",
     "Materi tambahan/Semantic HTML/assets/semantic vs non semantic.jpg",
     "Materi tambahan/Semantic HTML/assets/p-komentar.png",
-    "Materi tambahan/Semantic HTML/assets/code-semantic.png",
-    "Materi tambahan/Semantic HTML/assets/best-praktis-layout.png",
-    "Materi tambahan/Semantic HTML/assets/best-praktis-h1.png",
-    "Materi tambahan/Github/assets/working directory in git.png",
-    "Materi tambahan/Github/assets/trust-author-vsc.png",
-    "Materi tambahan/Github/assets/status repository.png",
-    "Materi tambahan/Github/assets/push repo.png",
     "Materi tambahan/Semantic HTML/SEMANTIC HTML.pdf",
     "Materi tambahan/Semantic HTML/SEMANTIC HTML.md",
     "Materi tambahan/Semantic HTML/assets",
     "Materi tambahan/Github/Github & Git.pdf",
     "Materi tambahan/Github/Github & Git.md",
     "Materi tambahan/Github/assets",
-    "MATERI CSS/Css Responsive/CSS Responsive.md",
     "MATERI CSS/Css Responsive/assets",
-    "MATERI CSS/Bootstrap/Bootstrap Framework.pdf",
-    "MATERI CSS/Bootstrap/assets",
-    "Materi tambahan/Semantic HTML",
     "CSS Grid Properties/CONTAINER.md",
     "Materi tambahan/Semantic HTML/SEMANTIC HTML.md",
     "Materi tambahan/Github/Github & Git.md",
-    "MATERI CSS/Css Responsive/CSS Responsive.md",
     "Materi tambahan/Css Responsive/CSS Responsive.md",
     "Materi tambahan/Css Responsive/css responsive rev.md",
     "css responsive rev.md/css responsive rev.md",
     "css responsive rev.md",
-    "Basis data/4) ALTER.md",
-    "Basis data/3) SELECT LANJUTKAN.md",
-    "Basis data/2) instalasi & query awal database.md",
     "HTML/CATATAN HTML.md",
     "Aset.md",
     "Basis data/CATATAN BASIS DATA.md",

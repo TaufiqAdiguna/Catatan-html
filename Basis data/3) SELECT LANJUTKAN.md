@@ -854,50 +854,137 @@ UPDATE mobil SET peminjam = NULL WHERE id_mobil = 4;
 # AGREGASI
 ## Menghitung total nilai numerik suatu kolom (Sum)
 ### Struktur Query 
+```mysql
+SELECT SUM(nama_kolom) AS [nama_alias] FROM [nama_tabel]
+```
 ### Contoh 
+```mysql
+
+SELECT SUM(harga_rental) AS total_harga FROM mobil;
+```
 ### Hasil
+![hasil](Aset/3.36.jpg)
+
 ### Analisis 
+- `SELECT` digunakan untuk mengambil/menampilkan data 
+- `SUM` digunakan untuk menjumlahkan nilai numerik dalam kolom.
+- `harga_rental` nama kolom yang ingin di jumlahkan nilainya.
+- `AS total_harga`sebagai nama alias kolom
+- `FROM mobil` query tersebut akan mengambil data dari tabel mobil.
 ### Kesimpulan 
+`SUM` digunakan untuk menjumlahkan nilai numerik dalam kolom 
 
 ---
 ## Menghitung jumlah baris/data, biasanya berdasarkan kriteria tertentu (Count)
 ### Struktur Query 
+```mysql
+SELECT COUNT(nama_kolom) AS [nama_alias] FROM 
+[nama_tabel];
+```
 ### Contoh 
+```mysql
+SELECT COUNT(pemilik) AS total_pemilik FROM mobil;
+```
 ### Hasil
-### Analisis 
-### Kesimpulan 
+![hasil](Aset/3.37.jpg)
 
+### Analisis 
+- `SELECT` digunakan untuk mengambil/menampilkan data.
+- `COUNT` digunakan untuk menghitung jumlah baris(nilai non-NULL).
+- `pemilik` nama kolom yang ingin di hitung jumlah barisnya.
+- `AS total_pemilik` sebagai nama alias kolom
+- `FROM mobil` query tersebut akan mengambil data dari tabel mobil.
+### Kesimpulan 
+`COUNT` digunakan ketika ingin menghitung jumlah baris dalam suatu kolom(atau jumlah non-NULL).
 
 ---
 ### Struktur Query 
+```mysql
+SELECT COUNT(nama_kolom) AS [nama_alias] FROM 
+[nama_tabel];
+```
 ### Contoh 
+```mysql
+
+SELECT COUNT(peminjam) AS total_peminjam FROM mobil;
+```
 ### Hasil
+![hasil](Aset/3.38.jpg)
+
 ### Analisis 
+- `SELECT` digunakan untuk mengambil/menampilkan data.
+- `COUNT` digunakan untuk menghitung jumlah baris(nilai non-NULL).
+- `peminjam` nama kolom yang ingin di hitung jumlah barisnya.
+- `AS total_peminjam` sebagai nama alias kolom
+- `FROM mobil` query tersebut akan mengambil data dari tabel mobil.
 ### Kesimpulan 
+`COUNT` digunakan untuk menghitung jumlah baris dalam kolom yang hanya memiliki (bukan NULL)
 
 ---
 ## Menampilkan nilai terendah (Min)
 ### Struktur Query 
+```mysql
+SELECT MIN(nama_kolom) AS [nama_alias] FROM [nama_tabel];
+```
 ### Contoh 
+```mysql
+SELECT MIN(harga_rental) AS minimum FROM mobil;
+```
 ### Hasil
+![hasil](Aset/3.39.jpg)
+
 ### Analisis 
+- `SELECT` digunakan untuk mengambil/menampilkan data.
+- `MIN` digunakan untuk menampilkan nilai numerik terendah dalam suatu kolom.
+- `harga_rental` nama kolom yang ingin kita tampilkan nilai terendahnya.
+- `AS minuman` sebagai nama alias kolom
+- `FROM mobil` query tersebut akan mengambil data dari tabel mobil.
 ### Kesimpulan 
+`MIN` digunakan untuk menampilkan nilai terendah dari suatu kolom.
 
 ---
 ## Menampilkan nilai tertinggi (Max)
 ### Struktur Query 
+```mysql
+SELECT MAX(nama_kolom) AS [nama_alias] FROM [nama_tabel];
+```
 ### Contoh 
+```mysql
+SELECT MAX(harga_rental) AS maximum FROM mobil;
+```
 ### Hasil
+![hasil](Aset/3.40.jpg)
+
 ### Analisis 
+- `SELECT` digunakan untuk mengambil/menampilkan data.
+- `MAX` digunakan untuk menampilkan nilai numerik tertinggi dalam suatu kolom
+- `harga_rental` nama kolom yang ingin kita tampilkan nilai tertinggi nya.
+- `AS maximun` sebagai nama alias kolom
+- `FROM mobil` query tersebut akan mengambil data dari tabel mobil.
 ### Kesimpulan 
+`MAX` digunakan untuk menampilkan nilai numerik tertinggi dari suatu kolom.
 
 ---
 ## Menampilkan nilai rata-rata (Avg)
 ### Struktur Query 
+```mysql
+SELECT AVG(nama_kolom) AS [nama_alias] FROM [nama_tabel];
+```
 ### Contoh 
+```mysql
+SELECT AVG(harga_rental) AS rerata FROM mobil;
+```
 ### Hasil
+![hasil](Aset/3.41.jpg)
+
 ### Analisis 
+- `SELECT` digunakan untuk mengambil/menampilkan data.
+- `AVG` digunakan untuk menghitung rata-rata dari nilai numerik yang ada pada kolom
+- `harga_rental` nama kolom yang ingin kita tampilkan nilai tertinggi nya.
+- `AS rerata` sebagai nama alias kolom
+- `FROM mobil` query tersebut akan mengambil data dari tabel mobil.
 ### Kesimpulan
+`AVG` digunakan untuk menghitung rata-rata dari nilai numerik pada suatu kolom.
 
 ---
 
