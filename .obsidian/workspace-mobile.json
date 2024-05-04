@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis data/4) ALTER.md",
+                "file": "Basis data/3) SELECT LANJUTKAN.md",
                 "mode": "source",
                 "source": false
               }
@@ -240,7 +240,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis data/4) ALTER.md",
+            "file": "Basis data/3) SELECT LANJUTKAN.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis data/4) ALTER.md",
+            "file": "Basis data/3) SELECT LANJUTKAN.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -269,7 +269,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Basis data/4) ALTER.md"
+            "file": "Basis data/3) SELECT LANJUTKAN.md"
           }
         }
       },
@@ -297,12 +297,13 @@
   },
   "active": "de258462c45a502d",
   "lastOpenFiles": [
+    "Basis data/Aset/4.8.jpg",
+    "Basis data/3) SELECT LANJUTKAN.md",
+    "Basis data/Aset/3.42.jpg",
+    "Basis data/4) ALTER.md",
     "Basis data/Aset/4.10.jpg",
     "Basis data/Aset/4.9.jpg",
-    "Basis data/Aset/4.8.jpg",
     "Basis data/2) instalasi & query awal database.md",
-    "Basis data/3) SELECT LANJUTKAN.md",
-    "Basis data/4) ALTER.md",
     "MATERI CSS/Bootstrap/Bootstrap Framework.md",
     "Basis data/Aset/4.5.jpg",
     "Basis data/Aset/3.41.jpg",
@@ -321,8 +322,6 @@
     "Materi tambahan",
     "Aset/internal.jpg.md",
     "MATERI CSS/Css Responsive/CSS Responsive.pdf",
-    "Materi tambahan/Semantic HTML/assets/semantic vs non semantic.jpg",
-    "Materi tambahan/Semantic HTML/assets/p-komentar.png",
     "Materi tambahan/Semantic HTML/SEMANTIC HTML.pdf",
     "Materi tambahan/Semantic HTML/SEMANTIC HTML.md",
     "Materi tambahan/Semantic HTML/assets",

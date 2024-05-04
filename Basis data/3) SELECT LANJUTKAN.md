@@ -629,11 +629,27 @@ SELECT * FROM mobil ORDER BY peminjam DESC;
 ---
 ## Membatasi data yang tampil 
 ## Struktur Query 
+```mysql
+SELECT * FROM [nama_tabel]
+    WHERE [nama_kolom] = [nilai] ORDER BY         [nama_kolom] ASC LIMIT [nilai];
+```
 ## Contoh 
+```mysql
+SELECT * FROM mobil 
+    WHERE warna = 'Hitam' ORDER BY                harga_rental ASC LIMIT 2;
+```
 ## Hasil
+![hasil](Aset/3.42.jpg)
 ## Analisis 
+- `SELECT * FROM` : Merupakan query awal untuk menampilkan sebuah tabel yang didalamnya berisikan kolom, di mana kolom tersebut menampung sebuah data.
+- `mobil` nama dari tabel yang ingin kita tampilkan   data-data nya.
+- `WHERE warna = 'Hitam'` Memilih hanya baris-baris di mana nilai kolom warna adalah `'Hitam'`.
+- `ORDER BY harga_rental ASC` Mengurutkan baris-baris tersebut berdasarkan kolom harga_rental secara menaik (dari harga rental terendah ke tertinggi).
+- `LIMIT 2` Membatasi hasil query untuk hanya menampilkan 2 baris pertama yang memenuhi kondisi warna hitam dan diurutkan berdasarkan harga rental.
 ## Kesimpulan 
+Perintah SQL tersebut mengambil data `mobil` berwarna `hitam` dengan `harga_rental` terendah, hanya menampilkan 2 hasil teratas.
 
+---
 # DISTINCT
 ## Contoh Pertama 
 ### Struktur Query
