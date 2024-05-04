@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis data/3) SELECT LANJUTKAN.md",
+                "file": "HTML/CATATAN HTML.md",
                 "mode": "source",
                 "source": false
               }
@@ -240,7 +240,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis data/3) SELECT LANJUTKAN.md",
+            "file": "HTML/CATATAN HTML.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis data/3) SELECT LANJUTKAN.md",
+            "file": "HTML/CATATAN HTML.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -269,7 +269,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Basis data/3) SELECT LANJUTKAN.md"
+            "file": "HTML/CATATAN HTML.md"
           }
         }
       },
@@ -295,10 +295,10 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "de258462c45a502d",
+  "active": "dbd798bef4bb04e5",
   "lastOpenFiles": [
-    "Basis data/Aset/4.8.jpg",
     "Basis data/3) SELECT LANJUTKAN.md",
+    "Basis data/Aset/4.8.jpg",
     "Basis data/Aset/3.42.jpg",
     "Basis data/4) ALTER.md",
     "Basis data/Aset/4.10.jpg",
