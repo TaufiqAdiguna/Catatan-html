@@ -779,7 +779,7 @@ CREATE VIEW [nama_tabel_virtual] AS SELECT id_mobil,no_plat,pemilik,peminjam FRO
 CREATE VIEW info_no_plat AS SELECT id_mobil, no_plat, pemilik, peminjam FROM mobil WHERE pemilik = "dani";
 ```
 ### Hasil
-![hasil](3.31.jpg)
+![hasil](Aset/3.31.jpg)
 ### Analisis 
 - `CREATE VIEW info_no_plat AS` Perintah query tersebut membuat sebuah tabel virtual dengan nama info_no_plat.
 - `SELECT id_mobil, no_plat, pemilik, peminjam FROM mobil` digunakan untuk memilih kolom-kolom dari tabel mobil untuk di masukkan ke dalam tabel virtual yang dibuat.
@@ -795,7 +795,7 @@ Tabel virtual digunakan untuk mengelompokkan sebuah kolom tertentu dari tabel ya
 SELECT * FROM info_no_plat;
 ```
 ### Hasil
-![hasil](3.32.jpg)
+![hasil](Aset/3.32.jpg)
 ### Analisis 
 - `SELECT * FROM` : Merupakan query awal untuk menampilkan sebuah tabel virtual yang didalamnya berisikan kolom, di mana kolom tersebut menampung sebuah data.
 - `info_no_plat` nama dari tabel virtual.
@@ -810,7 +810,7 @@ Jika ingin menampilkan tabel virtual cukup dengan perintah SELECT * FROM.
 DROP VIEW info_no_plat;
 ```
 ### Hasil
-![hasil](3.33.jpg)
+![hasil](Aset/3.33.jpg)
 
 ### Analisis 
 - `DROP VIEW` perintah query tersebut akan menghapus tabel virtual.
@@ -819,54 +819,53 @@ DROP VIEW info_no_plat;
 Jika ingin menghapus tabel virtual cukup dengan perintah DROP VIEW.
 
 ---
-
-
 # Tantangan 
-### 1
-#### Struktur Query 
+## 1
+### Struktur Query 
 ```MySQL
 
 CREATE VIEW [nama_tabel_virtual] AS SELECT [kolom_pilihan] FROM [nama_tabel] WHERE [kolom] = nilai;
 ```
-#### Contoh 
+### Contoh 
 ```MySQL
 CREATE VIEW tantangan AS SELECT no_plat,warna,peminjam FROM mobil WHERE peminjam is null;
 ```
-#### Hasil
+### Hasil
 ![hasil](Aset/3.34.jpg)
 
-#### Analisis 
+### Analisis 
 - `CREATE VIEW` perintah MySQL yang digunakan untuk membuat tabel view yang akan tersimpan di dalam database.
 - `tantangan AS` nama alias dari tabel virtual yang kita buat.
 - `SELECT no_plat,warna,peminjam` Kolom yang kita pilih untuk di masukkan ke dalam sebuah tabel view yang dibuat.
 - `FROM mobil` kolom yang kita pilih untuk tabel view merupakan dari tabel mobil yang sudah ada.
 - `WHERE peminjam is null;` data yang akan tampil dimana peminjamnya null atau tidak ada.
 
+### Kesimpulan 
+Program MySQL tersebut membuat sebuah view yang disebut `tantangan` yang berisi daftar mobil yang belum dipinjam, dengan kolom-kolom `no_plat`, `warna`, dan `peminjam` dari tabel `mobil` di mana nilai `peminjam` belum diisi (NULL). View ini menyediakan informasi tentang mobil-mobil yang tersedia untuk dipinjam.
+
 ---
-### 2
-#### Struktur Query 
+## 2
+### Struktur Query 
 ```mysql
 
 UPDATE [nama_tabel] SET [nama_kolom] = nilai WHERE [nama_kolom] = nilai;
 ```
-#### Contoh 
+### Contoh 
 ```mysql
 UPDATE mobil SET peminjam = NULL WHERE id_mobil = 4;
 ```
-#### Hasil
+### Hasil
 ![hasil](Aset/3.35.jpg)
 
-#### Analisis 
+### Analisis 
 - `UPDATE mobil` Query tersebut akan mengupdate data pada tabel mobil.
 - `SET peminjam = NULL` perintah tersebut akan mengosongkan kolom peminjam dengan `NULL`.
 - `WHERE id_mobil = 4;` data yang akan di update yang memiliki `Id_mobil = 4`.
 
+### Kesimpulan 
+Perintah MySQL tersebut akan mengubah nilai kolom `peminjam` menjadi NULL untuk `mobil` yang memiliki `id_mobil = 4` dalam tabel `mobil`.
+
 ---
-
-
-
-
-
 # AGREGASI
 ## Menghitung total nilai numerik suatu kolom (Sum)
 ### Struktur Query 
