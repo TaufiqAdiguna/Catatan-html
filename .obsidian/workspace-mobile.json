@@ -97,7 +97,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/CATATAN HTML.md",
+                "file": "MATERI PHP/PHP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "739c250e13611659",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PRAKTIKUM 5/Aset-praktikum/Catatan.md",
                 "mode": "source",
                 "source": false
               }
@@ -164,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -240,7 +252,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "HTML/CATATAN HTML.md",
+            "file": "PRAKTIKUM 5/Aset-praktikum/Catatan.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -257,7 +269,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "HTML/CATATAN HTML.md",
+            "file": "PRAKTIKUM 5/Aset-praktikum/Catatan.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -269,7 +281,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "HTML/CATATAN HTML.md"
+            "file": "PRAKTIKUM 5/Aset-praktikum/Catatan.md"
           }
         }
       },
@@ -295,30 +307,34 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "dbd798bef4bb04e5",
+  "active": "739c250e13611659",
   "lastOpenFiles": [
-    "Basis data/3) SELECT LANJUTKAN.md",
-    "Basis data/Aset/4.8.jpg",
-    "Basis data/Aset/3.42.jpg",
-    "Basis data/4) ALTER.md",
-    "Basis data/Aset/4.10.jpg",
-    "Basis data/Aset/4.9.jpg",
+    "MATERI PHP/PHP.md",
+    "MATERI PHP/Aset/5.jpg",
+    "MATERI PHP/Aset/4.jpg",
+    "MATERI PHP/Aset/3.jpg",
+    "MATERI PHP/Aset/2.jpg",
+    "MATERI PHP/Aset/Tua.jpg",
+    "MATERI PHP/Aset/15.jpg",
+    "MATERI PHP/Aset/14.jpg",
+    "MATERI PHP/Aset/16.jpg",
+    "MATERI PHP/Aset/13.jpg",
+    "MATERI PHP/Aset/12.jpg",
+    "PRAKTIKUM 5/Aset-praktikum/Catatan.md",
+    "PRAKTIKUM 5/Catatan.md",
+    "MATERI CSS/CSS/CATATAN CSS.md",
+    "PRAKTIKUM 5/Aset-praktikum",
+    "PRAKTIKUM 5",
     "Basis data/2) instalasi & query awal database.md",
     "MATERI CSS/Bootstrap/Bootstrap Framework.md",
-    "Basis data/Aset/4.5.jpg",
-    "Basis data/Aset/3.41.jpg",
-    "Basis data/Aset/3.39.jpg",
-    "Basis data/Aset/3.40.jpg",
-    "Basis data/Aset/4.1.jpg",
-    "MATERI PHP/PHP.md",
+    "MATERI CSS/Css Responsive/CSS Responsive.md",
+    "HTML/CATATAN HTML.md",
+    "Basis data/3) SELECT LANJUTKAN.md",
+    "Basis data/4) ALTER.md",
     "MATERI PHP/Aset",
-    "Untitled.md",
     "Nn",
     "MATERI PHP",
-    "MATERI CSS/Css Responsive/CSS Responsive.md",
-    "MATERI CSS/CSS/CATATAN CSS.md",
     "EKSPLORASI CSS/CSS GRID.md",
-    "MATERI CSS/Bootstrap/assets/bf-1.jpg",
     "Materi tambahan",
     "Aset/internal.jpg.md",
     "MATERI CSS/Css Responsive/CSS Responsive.pdf",
@@ -327,8 +343,6 @@
     "Materi tambahan/Semantic HTML/assets",
     "Materi tambahan/Github/Github & Git.pdf",
     "Materi tambahan/Github/Github & Git.md",
-    "Materi tambahan/Github/assets",
-    "MATERI CSS/Css Responsive/assets",
     "CSS Grid Properties/CONTAINER.md",
     "Materi tambahan/Semantic HTML/SEMANTIC HTML.md",
     "Materi tambahan/Github/Github & Git.md",
@@ -336,12 +350,10 @@
     "Materi tambahan/Css Responsive/css responsive rev.md",
     "css responsive rev.md/css responsive rev.md",
     "css responsive rev.md",
-    "HTML/CATATAN HTML.md",
     "Aset.md",
     "Basis data/CATATAN BASIS DATA.md",
     "CSS Grid Properties/CATATAN GRID.md",
     "CATATAN GRID.md",
-    "Materi Grid.md",
     "Pemrograman web dan perangkat bergerak/Untitled.canvas"
   ]
 }
