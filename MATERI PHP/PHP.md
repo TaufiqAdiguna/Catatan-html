@@ -305,7 +305,7 @@ if (!$nilaiBenar) {
 ?>
 ```
 #### Hasil
-![hasil](Aset/8.jpg)
+![hasil](MATERI%20PHP/Aset/8.jpg)
 #### Analisis
 - Variabel `$a` diberi nilai `10`.
 - Variabel `$b` diberi nilai `5`.
@@ -336,7 +336,7 @@ if ($umur >= 18) {
 }
 ```
 #### Hasil
-![hasil](Aset/9.jpg)
+![hasil](MATERI%20PHP/Aset/9.jpg)
 #### Analisis
 - `<?php`Ini adalah tag pembuka untuk memulai blok kode PHP.
 - `$umur = 25;` Baris ini mendeklarasikan variabel `$umur` dan menginisialisasinya dengan nilai 25.
@@ -371,7 +371,7 @@ if ($umur >= 18) {
 
 ```
 #### Hasil
-![hasil](Aset/9.jpg)
+![hasil](MATERI%20PHP/Aset/9.jpg)
 #### Analisis
 - `$umur = 20;` baris ini mendeklarasikan variabel umur dengan nilai 20.
 - `if ($umur >= 18)` Ini adalah kondisi yang dievaluasi. Jika nilai variabel $umur lebih besar dari atau sama dengan 18, maka blok kode yang akan di eksekusi `echo "Anda sudah dewasa.";`.
@@ -410,7 +410,7 @@ if ($nilai > 90) {
 }
 ```
 #### Hasil
-![hasil](Aset/10.jpg)
+![hasil](MATERI%20PHP/Aset/10.jpg)
 #### Analisis
 - Pernyataan ini mengevaluasi apakah variabel `$nilai` lebih besar dari `90`. Jika kondisi `$nilai > 90` benar (true), maka pernyataan `echo "Nilai Anda sangat baik";` akan dieksekusi.
 - Pernyataan `else if` mengevaluasi apakah variabel `$nilai` lebih besar dari `75`, hanya jika kondisi Pertama (`$nilai > 90`) tidak terpenuhi. Jika kondisi `$nilai > 75` benar (true), maka pernyataan `echo "Nilai Anda cukup baik";`akan dieksekusi.
@@ -469,7 +469,7 @@ switch ($hari) {
 }
 ```
 #### Hasil
-![hasil](Aset/11.jpg)
+![hasil](MATERI%20PHP/Aset/11.jpg)
 
 #### Analisis
 - Ekspresi yang dievaluasi dalam switch case adalah nilai dari variabel $hari.
@@ -496,7 +496,7 @@ echo $nama_mahasiswa[0];
 echo $nama_mahasiswa[3];
 ```
 #### Hasil
-![hasil](Aset/12.jpg)
+![hasil](MATERI%20PHP/Aset/12.jpg)
 #### Analisis
 - Array `$nama_mahasiswa` dibuat dengan 5 elemen, di mana setiap elemen adalah nama seorang siswa.
 - Ini adalah cara menginisialisasi array 1 dimensi dalam PHP. Elemen-elemen array dipisahkan oleh koma `(",")` dan diapit oleh tanda kurung siku 
@@ -529,7 +529,7 @@ echo $kontak['email'];
 echo $kontak['telepon'];
 ```
 #### Hasil
-![hasil](Aset/13.jpg)
+![hasil](MATERI%20PHP/Aset/13.jpg)
 #### Analisis
 - Di sini, `$kontak` adalah nama variabel yang digunakan untuk menyimpan array asosiatif.
 - Array asosiatif ini memiliki tiga pasangan kunci-nilai:
@@ -581,6 +581,19 @@ Array `$siswa` terdiri dari beberapa sub-array yang mewakili informasi siswa (na
 ### Penjelasan
 ### Struktur
 ### Program
+```php
+$siswa = [
+[['nis' => 123],
+['nama' => 'rahman'],
+['jurusan' => 'rpl']],
+
+[['nis' => 321],
+['nama' => 'rahmat'],
+['jurusan' => 'tkj']]
+];
+
+Var_dump($siswa);
+```
 ### Hasil
 ### Analisis
 ### Kesimpulan Program
@@ -685,19 +698,26 @@ foreach ($array as $nilai) {
 ```
 #### Program
 ```php
-$fruits = ["Apel", "Jeruk", "Pisang"];
-foreach ($fruits as $fruit) {
-    echo $fruit . " ";
+<?php
+$data_penduduk = array(
+    'Dodi' => '12',
+    'Joana' => '20',
+    'Gulamo' => '24',
+    'Rahmat' => '45'
+);
+
+foreach ($data_penduduk as $nama => $umur) {
+    echo $nama . " - " . $umur . "<br>";
 }
+?>
 ```
 #### Hasil
-![hasil](16.jpg)
+![hasil]()
+
 #### Analisis
-- Variabel `$fruits` adalah sebuah array yang berisi daftar buah-buahan.
-- Foreach loop digunakan untuk mengulang setiap elemen dalam array `$fruits`.
-- Pada setiap iterasi, nilai dari elemen saat ini dalam array (`$fruit`) akan disimpan dalam variabel sementara ($fruit) dan dapat digunakan di dalam blok kode foreach.
+
 ####  Kesimpulan Program
-Foreach Loop: Digunakan khusus untuk mengulang elemen-elemen dalam array atau objek, sangat berguna untuk mengakses setiap elemen dalam struktur data.
+`Foreach Loop` Digunakan khusus untuk mengulang elemen-elemen dalam array atau objek, sangat berguna untuk mengakses setiap elemen dalam struktur data.
 
 ---
 ## Function
@@ -755,7 +775,7 @@ Metode GET adalah salah satu cara pengiriman data dari browser ke server dalam p
 ```php
 <form action="proses.php" method="get">
     Nama: <input type="text" name="nama"><br>
-    Umur: <input type="text" name="umur"><br>
+    Umur: <input type="text" name="nama"><br>
     <input type="submit" value="Kirim">
 </form>
 ```
@@ -775,44 +795,64 @@ echo "Umur: " . $umur . " tahun";
 #### Program
 ##### Form HTML (form_get.html):
 ```html
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
 <body>
-
-<h2>Form Kirim Data dengan Metode GET</h2>
-
-<form action="proses.php" method="get">
-    Nama: <input type="text" name="nama"><br>
-    Umur: <input type="text" name="umur"><br>
-    <input type="submit" value="Kirim">
-</form>
-
+    <!-- Pada atribut action, kalian tuliskan nama file php yang bertugas untuk mengelola atau menangkap data dari form tersebut. -->
+    <form action="proses_get.php"method="GET">
+        <input type="text" name="nama"                 placeholder="Masukkan nama">
+        <input type="number" name="umur"               placeholder="Masukkan umur"> <br>
+        <button type="submit">Kirim</button>
+    </form>
 </body>
+<!-- untuk mengambil data -->
 </html>
 ```
 ##### Script PHP (proses.php):
 ```php
 <?php
-// Memeriksa apakah data nama dan umur sudah dikirim melalui metode GET
-if (isset($_GET['nama']) && isset($_GET['umur'])) {
-    $nama = $_GET['nama'];
-    $umur = $_GET['umur'];
-
-    // Menampilkan data yang diterima
-    echo "Nama: " . $nama . "<br>";
-    echo "Umur: " . $umur . " tahun";
-} else {
-    // Menampilkan pesan jika data tidak lengkap
-    echo "Data nama dan umur tidak ditemukan.";
-}
+// Key dari array-nya, sesuai dengan nama dari atribut name di setiap input-nya
+$nama = $_GET["nama"];
+$umur = $_GET["umur"];
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"       content="width=device-width, initial-scale=1.0">
+    <title>GET</title>
+</head>
+
+<body>
+// Ini adalah versi singkatnya dari php echo,yang fungsinya untuk menampilkan data
+    <p>Nama anda <?= $nama ?></p>
+    <p>Umur anda <?= $umur ?> tahun</p>
+</body>
+
+</html>
 ```
 #### Hasil
+![hasil](Aset/18.jpg)
+![hasil](Aset/19.jpg)
 #### Analisis
-- Pada baris pertama, `isset($_GET['nama']) dan isset($_GET['umur'])` digunakan untuk memeriksa apakah parameter `nama` dan `umur` tersedia dalam query string yang dikirim melalui metode GET.
-- Jika kedua parameter tersebut tersedia (nilai pengembalian `true`), maka program akan melanjutkan untuk mengambil nilai `nama` dan `umur` dari `$_GET` menggunakan `$_GET['nama'] dan $_GET['umur']`.
-- Jika salah satu atau kedua parameter tidak tersedia (nilai pengembalian `false`), maka program akan mengeksekusi blok `else` dan menampilkan pesan "Data nama dan umur tidak ditemukan."
-- Jika data `nama` dan `umur` ditemukan dalam query string GET, program akan menampilkan informasi tersebut menggunakan perintah `echo`.
-- Hasilnya akan ditampilkan dalam format "Nama: `[nama]`" dan "Umur: `[umur]` tahun".
+##### HTML
+- `<form action="proses_post.php" method="POST">` Form ini dikonfigurasi untuk mengirim data  menggunakan metode POST ke file proses_post.php.
+- `input type="text" name="nama_lengkap" placeholder="Masukkan nama">` digunakan untuk  meminta user untuk memasukkan nama_lengkap dengan `type=text`.
+- `<input type="number" name="umur" placeholder="Masukkan umur">` digunakan untuk meminta user untuk memasukkan umurnya dengan `type=number`.
+- `<button type="submit">Kirim</button>` digunakan untuk mengirim data ke `proses_post.php` yang sudah di isi oleh user.
+
+##### PHP
+- Nilai dari `$_POST["nama"]` disimpan dalam variabel `$nama`.
+- Nilai dari `$_POST["umur"]` disimpan dalam variabel `$umur`.
+- `<p>Nama anda <?= $nama ?></p>` menampilkan nama user yang diisi, dengan memanggil variabel `$nama`
+- `<p>Umur anda <?= $umur ?> tahun</p>`  menampilkan umur user yang di isi, dengan memanggil variabel `$umur
 #### Kesimpulan Program
 Program PHP di atas adalah contoh sederhana penggunaan metode GET untuk mengambil dan memproses data yang dikirimkan melalui URL. 
 
@@ -821,44 +861,92 @@ Program PHP di atas adalah contoh sederhana penggunaan metode GET untuk mengambi
 #### Penjelasan
 Metode POST adalah salah satu cara pengiriman data dari browser ke server dalam protokol HTTP. Dalam konteks PHP, metode POST digunakan untuk mengirim data dari formulir HTML atau permintaan HTTP lainnya dari client ke server. Data yang dikirim menggunakan metode POST tidak terlihat di URL, sehingga cocok digunakan untuk mengirim data sensitif seperti password.
 #### Struktur
+##### HTML
+```html
+<form action="proses.php" method="POST">
+    Nama: <input type="text" name="nama"><br>
+    Umur: <input type="text" name="nama"><br>
+    <input type="submit" value="Kirim">
+</form>
+```
+##### PHP
+```PHP
+<?php
+// Mengakses data yang dikirimkan melalui metode GET
+$nama = $_GET['nama'];
+$umur = $_GET['umur'];
+
+// Menampilkan data yang diterima
+echo "Nama: " . $nama . "<br>";
+echo "Umur: " . $umur . " tahun";
+?>
+```
+
 #### Program
 ##### Form html
 ```html
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
 <body>
+    <!-- Pada atribut action, kalian tuliskan nama file php yang bertugas untuk mengelola atau menangkap data dari form tersebut. -->
+    <form action="proses_post.php" method="POST">
+        <input type="text" name="nama" placeholder="Masukkan nama">
+        <input type="number" name="umur" placeholder="Masukkan umur">
+        <input type="password" name="password" placeholder="Masukkan password"><br>
+        <button type="submit">Kirim</button>
+    </form>
+</body>
+<!-- untuk mengirim data -->
+</html>
+```
+##### Script PHP
+```php
+<?php
+// Key dari array-nya, sesuai dengan nama dari atribut name di setiap input-nya
+$nama = $_POST["nama"];
+$umur = $_POST["umur"];
 
-<h2>Form Kirim Data dengan Metode POST</h2>
+var_dump($_POST);
 
-<form action="proses.php" method="post">
-    Nama: <input type="text" name="nama"><br>
-    Umur: <input type="text" name="umur"><br>
-    <input type="submit" value="Kirim">
-</form>
+?>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>POST</title>
+</head>
+<body>
+    <p>Nama anda <?= $nama ?></p>
+    <p>Umur anda <?= $umur ?> tahun</p>
+    <p>Password anda aman!</p>
 </body>
 </html>
 ```
 
-##### Script PHP
-```php
-<?php
-// Memeriksa apakah data nama dan umur sudah dikirim melalui metode POST
-if (isset($_POST['nama']) && isset($_POST['umur'])) {
-    $nama = $_POST['nama'];
-    $umur = $_POST['umur'];
-
-    // Menampilkan data yang diterima
-    echo "Nama: " . $nama . "<br>";
-    echo "Umur: " . $umur . " tahun";
-} else {
-    // Menampilkan pesan jika data tidak lengkap
-    echo "Data nama dan umur tidak ditemukan.";
-}
-?>
-```
-
 #### Hasil
+![hasil](Aset/20.jpg)
+![hasil ](Aset/21.jpg)
+
 #### Analisis
+##### HTML
+- `<form action="proses_post.php" method="POST">` Form ini dikonfigurasi untuk mengirim data menggunakan metode POST ke file proses_post.php.
+- `input type="text" name="nama_lengkap" placeholder="Masukkan nama">` digunakan untuk  meminta user untuk memasukkan nama_lengkap dengan `type=text`.
+- `<input type="number" name="umur" placeholder="Masukkan umur">` digunakan untuk meminta user untuk memasukkan umurnya dengan `type=number`.
+- `<input type="password" name="password" placeholder="Masukkan password">` digunakan untuk meminta user untuk memasukkan umurnya dengan `type=password`.
+- `<button type="submit">Kirim</button>` digunakan untuk mengirim data ke `proses_post.php` yang sudah di isi oleh user.
+
+##### PHP
+- Nilai dari `$_POST["nama"]` disimpan dalam variabel `$nama`.
+- Nilai dari `$_POST["umur"]` disimpan dalam variabel `$umur`.
+- `var_dump($_POST)` digunakan untuk mencetak seluruh isi array` $_POST` yang diterima dari form. 
+- `<p>Nama anda <?= $nama ?></p>` menampilkan nama user yang diisi, dengan memanggil variabel `$nama`
+- `<p>Umur anda <?= $umur ?> tahun</p>`  menampilkan umur user yang di isi, dengan memanggil variabel `$umur`
+- `<p>Password anda aman!</p>` menampilkan pesan dengan tag `<p>`.
+
 #### Kesimpulan Program
 Metode POST dalam PHP adalah cara untuk mengirimkan data dari client ke server dengan cara yang lebih aman dan tersembunyi. 
 
