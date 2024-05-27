@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATERI CSS/Responsive/CSS Responsive.md",
+                "file": "1) Materi obsidian.md",
                 "mode": "source",
                 "source": false
               }
@@ -264,7 +264,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "MATERI CSS/Responsive/CSS Responsive.md",
+            "file": "1) Materi obsidian.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -281,7 +281,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "MATERI CSS/Responsive/CSS Responsive.md",
+            "file": "1) Materi obsidian.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -293,7 +293,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "MATERI CSS/Responsive/CSS Responsive.md"
+            "file": "1) Materi obsidian.md"
           }
         }
       },
@@ -319,9 +319,12 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "de258462c45a502d",
+  "active": "a4a5100e0283d0d6",
   "lastOpenFiles": [
     "MATERI PHP/PHP.md",
+    "MATERI PHP/Aset/17.jpg",
+    "MATERI PHP/Aset/16.jpg",
+    "MATERI CSS/Responsive/CSS Responsive.md",
     "Basis data/2) instalasi & query awal database.md",
     "Untitled 1",
     "Basis data/5) GROUP BY & HAVING.md",
@@ -333,8 +336,6 @@
     "Basis data/Aset/5.7.jpg",
     "Basis data/Aset/5.6.jpg",
     "Basis data/Aset/5.5.jpg",
-    "Basis data/Aset/5.4.jpg",
-    "Basis data/Aset/5.3.jpg",
     "PRAKTIKUM 5 lanjutan/Catatan.md",
     "Basis data/4) ALTER.md",
     "PRAKTIKUM 5/Catatan.md",
@@ -344,7 +345,6 @@
     "PRAKTIKUM 5/Aset",
     "PRAKTIKUM 5",
     "MATERI CSS/Bootstrap/Bootstrap Framework.md",
-    "MATERI CSS/Responsive/CSS Responsive.md",
     "HTML/CATATAN HTML.md",
     "Basis data/3) SELECT LANJUTKAN.md",
     "MATERI PHP/Aset",

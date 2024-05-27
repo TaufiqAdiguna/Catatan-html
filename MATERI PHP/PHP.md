@@ -336,7 +336,8 @@ if ($umur >= 18) {
 }
 ```
 #### Hasil
-![hasil](MATERI%20PHP/Aset/9.jpg)
+![hasil](Aset/9.jpg)
+
 #### Analisis
 - `<?php`Ini adalah tag pembuka untuk memulai blok kode PHP.
 - `$umur = 25;` Baris ini mendeklarasikan variabel `$umur` dan menginisialisasinya dengan nilai 25.
@@ -371,7 +372,7 @@ if ($umur >= 18) {
 
 ```
 #### Hasil
-![hasil](MATERI%20PHP/Aset/9.jpg)
+![hasil](Aset/9.jpg)
 #### Analisis
 - `$umur = 20;` baris ini mendeklarasikan variabel umur dengan nilai 20.
 - `if ($umur >= 18)` Ini adalah kondisi yang dievaluasi. Jika nilai variabel $umur lebih besar dari atau sama dengan 18, maka blok kode yang akan di eksekusi `echo "Anda sudah dewasa.";`.
@@ -410,7 +411,7 @@ if ($nilai > 90) {
 }
 ```
 #### Hasil
-![hasil](MATERI%20PHP/Aset/10.jpg)
+![hasil](Aset/10.jpg)
 #### Analisis
 - Pernyataan ini mengevaluasi apakah variabel `$nilai` lebih besar dari `90`. Jika kondisi `$nilai > 90` benar (true), maka pernyataan `echo "Nilai Anda sangat baik";` akan dieksekusi.
 - Pernyataan `else if` mengevaluasi apakah variabel `$nilai` lebih besar dari `75`, hanya jika kondisi Pertama (`$nilai > 90`) tidak terpenuhi. Jika kondisi `$nilai > 75` benar (true), maka pernyataan `echo "Nilai Anda cukup baik";`akan dieksekusi.
@@ -469,7 +470,7 @@ switch ($hari) {
 }
 ```
 #### Hasil
-![hasil](MATERI%20PHP/Aset/11.jpg)
+![hasil](Aset/11.jpg)
 
 #### Analisis
 - Ekspresi yang dievaluasi dalam switch case adalah nilai dari variabel $hari.
@@ -579,7 +580,11 @@ Array `$siswa` terdiri dari beberapa sub-array yang mewakili informasi siswa (na
 ---
 ## Var_dump
 ### Penjelasan
+`var_dump` adalah sebuah fungsi dalam PHP yang digunakan untuk menampilkan informasi tentang variabel, termasuk tipe datanya dan nilai yang disimpannya. Fungsi ini sangat berguna dalam debugging karena memberikan rincian lengkap tentang isi dari variabel yang sedang diperiksa.
 ### Struktur
+```php
+var_dump($variabel);
+```
 ### Program
 ```php
 $siswa = [
@@ -595,8 +600,12 @@ $siswa = [
 Var_dump($siswa);
 ```
 ### Hasil
+![hasil](Aset/22.jpg)
 ### Analisis
+- Variabel `$siswa` adalah array multidimensi yang berisi dua elemen, masing-masing merepresentasikan satu siswa. 
+- Setiap elemen siswa adalah array yang berisi tiga sub-array untuk `nis`, `nama`, dan `jurusan`. Struktur ini kompleks dan dapat disederhanakan untuk kemudahan akses dan manipulasi data.
 ### Kesimpulan Program
+Variabel `$siswa` adalah array multidimensi yang berisi data tentang siswa dalam bentuk sub-array. Setiap sub-array dalam elemen utama `$siswa` berisi informasi terpisah tentang `nis`, `nama`, dan `jurusan` siswa. Penggunaan `var_dump` memberikan pandangan yang jelas tentang struktur dan isi dari array ini, yang sangat berguna untuk memahami bagaimana data tersebut diatur dan diakses. 
 
 ---
 ## Looping (Perulangan)
@@ -676,6 +685,7 @@ do {
 ```
 #### Hasil
 ![hasil](Aset/15.jpg)
+
 #### Analisis
 - Variabel `$i` diinisialisasi dengan nilai 1.
 - Blok kode dalam do-while loop akan dieksekusi setidaknya satu kali karena kondisi dicek setelah blok kode dijalankan.
@@ -712,10 +722,12 @@ foreach ($data_penduduk as $nama => $umur) {
 ?>
 ```
 #### Hasil
-![hasil]()
+![hasil](Aset/17.jpg)
 
 #### Analisis
-
+-  `$data_penduduk = array('Dodi' => '12','Joana' => '20','Gulamo' => '24','Rahmat' => '45' );` Mendefinisikan array asosiatif bernama `$data_penduduk`. Array ini memiliki empat elemen, di mana setiap elemen terdiri dari pasangan kunci (nama) dan nilai (umur).
+- `foreach ($data_penduduk as $nama => $umur) {` `foreach` digunakan untuk mengiterasi setiap elemen dalam array `$data_penduduk`. Dalam setiap iterasi, kunci dari elemen disimpan dalam variabel `$nama` dan nilai disimpan dalam variabel `$umur`.
+- `echo $nama . " - " . $umur . "<br>";`echo digunakan untuk mencetak nama dan umur dari setiap elemen. Menggabungkan variabel `$nama` dan `$umur` dengan string `" - "` di antara mereka. Tag HTML `<br>` ditambahkan di akhir untuk membuat baris baru setelah setiap output.
 ####  Kesimpulan Program
 `Foreach Loop` Digunakan khusus untuk mengulang elemen-elemen dalam array atau objek, sangat berguna untuk mengakses setiap elemen dalam struktur data.
 
