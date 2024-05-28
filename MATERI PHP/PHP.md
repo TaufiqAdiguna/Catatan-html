@@ -960,6 +960,6 @@ var_dump($_POST);
 - `<p>Password anda aman!</p>` menampilkan pesan dengan tag `<p>`.
 
 #### Kesimpulan Program
-Metode POST dalam PHP adalah cara untuk mengirimkan data dari client ke server dengan cara yang lebih aman dan tersembunyi. 
+Metode POST dalam PHP adalah cara untuk mengirimkan data dari client ke server dengan cara yang lebih aman dan  tersembunyi. 
 
 ---
