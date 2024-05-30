@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATERI PHP/PHP.md",
+                "file": "MATERI CSS/Responsive/CSS Responsive.md",
                 "mode": "source",
                 "source": false
               }
@@ -264,7 +264,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "MATERI PHP/PHP.md",
+            "file": "MATERI CSS/Responsive/CSS Responsive.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -281,7 +281,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "MATERI PHP/PHP.md",
+            "file": "MATERI CSS/Responsive/CSS Responsive.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -293,7 +293,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "MATERI PHP/PHP.md"
+            "file": "MATERI CSS/Responsive/CSS Responsive.md"
           }
         }
       },
@@ -321,14 +321,17 @@
   },
   "active": "a4a5100e0283d0d6",
   "lastOpenFiles": [
+    "MATERI CSS/Bootstrap/Bootstrap Framework.md",
+    "TUTORIAL OBSIDIAN.md",
+    "PRAKTIKUM 5/Catatan.md",
+    "Basis data/4) ALTER.md",
+    "Basis data/2) instalasi & query awal database.md",
     "Basis data/3) SELECT LANJUTKAN.md",
-    "Basis data/5) GROUP BY & HAVING.md",
-    "1) Materi obsidian.md",
     "MATERI PHP/PHP.md",
+    "Basis data/5) GROUP BY & HAVING.md",
     "MATERI PHP/Aset/17.jpg",
     "MATERI PHP/Aset/16.jpg",
     "MATERI CSS/Responsive/CSS Responsive.md",
-    "Basis data/2) instalasi & query awal database.md",
     "Untitled 1",
     "MATERI PHP/Aset/19.jpg",
     "MATERI PHP/Aset/18.jpg",
@@ -339,14 +342,11 @@
     "Basis data/Aset/5.6.jpg",
     "Basis data/Aset/5.5.jpg",
     "PRAKTIKUM 5 lanjutan/Catatan.md",
-    "Basis data/4) ALTER.md",
-    "PRAKTIKUM 5/Catatan.md",
     "Aset-praktikum/tabel.md",
     "Aset-praktikum",
     "MATERI CSS/CSS/CATATAN CSS.md",
     "PRAKTIKUM 5/Aset",
     "PRAKTIKUM 5",
-    "MATERI CSS/Bootstrap/Bootstrap Framework.md",
     "HTML/CATATAN HTML.md",
     "MATERI PHP/Aset",
     "Nn",
@@ -366,7 +366,6 @@
     "css responsive rev.md/css responsive rev.md",
     "css responsive rev.md",
     "Aset.md",
-    "Basis data/CATATAN BASIS DATA.md",
     "Pemrograman web dan perangkat bergerak/Untitled.canvas"
   ]
 }

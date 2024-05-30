@@ -2,7 +2,7 @@
 
 ---
 # Tabel Pegawai 
-![hasil](Aset/Pegawai.jpg)
+![hasil](PRAKTIKUM%205%20lanjutan/Aset/Pegawai.jpg)
 
 # 8
 ## Query
@@ -10,7 +10,7 @@
 SELECT noCab, SUM(Gaji) AS Total_Gaji from pegawai GROUP BY noCab HAVING SUM(Gaji) >= 8000000;
 ```
 ## Hasil
-![hasil](Aset/8.jpg)
+![hasil](PRAKTIKUM%205%20lanjutan/Aset/8.jpg)
 ## Analisis
 ==select== = untuk memilih kolom mana saja yang dipilih untuk di tampilkan atau di jumlah.
 ==noCab== = nama kolom yang dipilih untuk ditampilkan.
@@ -32,7 +32,7 @@ ___
 SELECT AVG(Gaji) AS rata_rata from pegawai;
 ```
 ## Hasil
-![9.](Aset/9.jpg)
+![9.](PRAKTIKUM%205%20lanjutan/Aset/9.jpg)
 ## Analisis
 ==Select== = untuk memilih kolom mana data Yang dipilih untuk ditampilkan.
 ==AVG (Gaji)== = untuk menghitung rata-rata dari data yang ada Pada kolom Yang dipilih. 
@@ -50,7 +50,7 @@ ___
 SELECT AVG(Gaji) AS GajiRataManager FROM pegawai WHERE Jabatan = "Manager";
 ```
 ## Hasil
-![10.](Aset/10.jpg)
+![10.](PRAKTIKUM%205%20lanjutan/Aset/10.jpg)
 ## Analisis
 ==SELECT== = untuk memilih kolom mana saja yang dipilih untuk ditampilkan.
 ==AVG (Gaji)== = untuk menghitung rata-rata dari data yang ada pada kolom Yang dipilih. Gaji adalah nama kolom Yang dipilih untuk dihitung rata-ratanya.
@@ -63,7 +63,7 @@ SELECT AVG(Gaji) AS GajiRataManager FROM pegawai WHERE Jabatan = "Manager";
 
 ---
 # Tabel Pegawai 
-![hasil](Aset/Pegawai.jpg)
+![hasil](PRAKTIKUM%205%20lanjutan/Aset/Pegawai.jpg)
 
 # 11
 ## Query 
@@ -71,7 +71,7 @@ SELECT AVG(Gaji) AS GajiRataManager FROM pegawai WHERE Jabatan = "Manager";
 SELECT nocab, AVG(gaji) AS ratagaji FROM pegawai GROUP BY nocab;
 ```
 ## Hasil
-![hasil](Aset/11.jpg)
+![hasil](PRAKTIKUM%205%20lanjutan/Aset/11.jpg)
 
 ## Analisis 
 - `SELECT` untuk memilih kolom mana saja yang dipilih untuk ditampilkan/dihitung.
@@ -91,7 +91,7 @@ SELECT nocab, AVG(gaji) AS ratagaji FROM pegawai GROUP BY nocab;
 SELECT nocab, AVG(gaji) AS Ratagaji FROM pegawai GROUP BY nocab HAVING nocab = 'C101' OR nocab = 'C102';
 ```
 ## Hasil
-![hasil](Aset/12.jpg)
+![hasil](PRAKTIKUM%205%20lanjutan/Aset/12.jpg)
 
 ## Analisis 
 - `SELECT` untuk memilih kolom mana saja yang dipilih untuk ditampilkan/dihitung.
@@ -112,7 +112,7 @@ SELECT nocab, AVG(gaji) AS Ratagaji FROM pegawai GROUP BY nocab HAVING nocab = '
 SELECT MAX(gaji) AS gajiterbesar, MIN(gaji) AS gajiterkecil FROM pegawai;
 ```
 ## Hasil
-![hasil](Aset/13.jpg)
+![hasil](PRAKTIKUM%205%20lanjutan/Aset/13.jpg)
 
 ## Analisis 
 - `SELECT` untuk memilih kolom mana saja yang dipilih untuk ditampilkan/dihitung.
@@ -132,7 +132,7 @@ FROM pegawai
 WHERE Jabatan = "Manajer";
 ```
 ## Hasil
-![hasil](Aset/14.png)
+![hasil](PRAKTIKUM%205%20lanjutan/Aset/14.png)
 ## Analisis
 - `SELECT`= Untuk memilih kolom nama mana saja yang dipilih untuk ditampilkan l.
 - `MAX(Gaji)`= Untuk menampilkan nilai terbesar dari suatu data dalam kolom yang dipilih. Gaji  adalah nama kolom yang dipilih.
@@ -153,7 +153,7 @@ FROM pegawai
 GROUP BY NoCab;
 ```
 ## Hasil
-![](Aset/15.png)
+![](PRAKTIKUM%205%20lanjutan/Aset/15.png)
 ## Analisis
 - `SELECT`= Untuk memilih kolom nama mana saja yang dipilih untuk ditampilkan.
 - `NoCab`= Nama kolom yang ingin ditampilkan.
@@ -174,7 +174,7 @@ FROM pegawai
 GROUP BY NoCab HAVING COUNT(NIP) >= 3;
 ```
 ## Hasil
-![](Aset/16.png)
+![](PRAKTIKUM%205%20lanjutan/Aset/16.png)
 ## Analisis
 - `SELECT`= Untuk memilih kolom nama mana saja yang dipilih untuk ditampilkan.
 - `NoCab`= Nama kolom yang ingin ditampilkan.

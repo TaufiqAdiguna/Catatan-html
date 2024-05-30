@@ -364,7 +364,7 @@ Mengapa hanya kolom id_pelanggan yang menggunakan constraint primary key?
 
 ---
 # ==Insert==
-## INSERT 1 DATA
+## iNSERT 1 DATA
 ### Struktur
 ```MySQL
 INSERT INTO [nama_tabel]
@@ -445,7 +445,7 @@ VALUES (127,"ZHAFRAN","RIZKI");
 >[! summary ] Kesimpulan 
 >Untuk menambahkan data di kolom tertentu kita harus memanggil kolom yang ingin kita tambahkan data didalamnya terlebih dahulu Setelah itu data-data apa yang ingin kita masukkan 
 
----
+---.
 # ==SELECT==
 ## SELURUH DATA
 ### Struktur 

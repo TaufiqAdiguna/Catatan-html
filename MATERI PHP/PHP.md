@@ -56,7 +56,7 @@ echo "<br>";
 echo 'Kelasnya ' . $tk_kelas . ' '. Kelas;
 ```
 ## Hasil
-![hasil](Aset/1.jpg)
+![hasil](MATERI%20PHP/Aset/1.jpg)
 
 ---
 # PHP Dasar
@@ -76,7 +76,7 @@ echo "nilai yang ingin ditampilkan";
 ?>
 ```
 #### Hasil
-![hasil](Aset/2.jpg)
+![hasil](MATERI%20PHP/Aset/2.jpg)
 #### Analisis 
 - `echo` digunakan untuk menampilkan sebuah output ke dalam halaman web
 - `"Halo Selamat datang."` Text yang akan di tampilkan di halaman web.
@@ -114,7 +114,7 @@ echo "Halo, $nama! Selamat datang.";
 ```
 
 #### Hasil
-![hasil](Aset/3.jpg)
+![hasil](MATERI%20PHP/Aset/3.jpg)
 
 #### Analisis 
 - Komentar digunakan untuk menjelaskan fungsionalitas program, memberikan informasi kepada pembaca kode, atau untuk mencatat catatan terkait kode. Mereka membantu dalam memahami maksud dan logika di balik setiap bagian dari kode PHP.
@@ -144,7 +144,7 @@ echo "Umur: $umur tahun<br>";
 ?>
 ```
 #### Hasil
-![hasil](Aset/4.jpg)
+![hasil](MATERI%20PHP/Aset/4.jpg)
 
 #### Analisis 
 - Variabel `$nama` diinisialisasi dengan nilai string `"Taufiq".`
@@ -336,7 +336,7 @@ if ($umur >= 18) {
 }
 ```
 #### Hasil
-![hasil](Aset/9.jpg)
+![hasil](MATERI%20PHP/Aset/9.jpg)
 
 #### Analisis
 - `<?php`Ini adalah tag pembuka untuk memulai blok kode PHP.
@@ -372,7 +372,7 @@ if ($umur >= 18) {
 
 ```
 #### Hasil
-![hasil](Aset/9.jpg)
+![hasil](MATERI%20PHP/Aset/9.jpg)
 #### Analisis
 - `$umur = 20;` baris ini mendeklarasikan variabel umur dengan nilai 20.
 - `if ($umur >= 18)` Ini adalah kondisi yang dievaluasi. Jika nilai variabel $umur lebih besar dari atau sama dengan 18, maka blok kode yang akan di eksekusi `echo "Anda sudah dewasa.";`.
@@ -411,7 +411,7 @@ if ($nilai > 90) {
 }
 ```
 #### Hasil
-![hasil](Aset/10.jpg)
+![hasil](MATERI%20PHP/Aset/10.jpg)
 #### Analisis
 - Pernyataan ini mengevaluasi apakah variabel `$nilai` lebih besar dari `90`. Jika kondisi `$nilai > 90` benar (true), maka pernyataan `echo "Nilai Anda sangat baik";` akan dieksekusi.
 - Pernyataan `else if` mengevaluasi apakah variabel `$nilai` lebih besar dari `75`, hanya jika kondisi Pertama (`$nilai > 90`) tidak terpenuhi. Jika kondisi `$nilai > 75` benar (true), maka pernyataan `echo "Nilai Anda cukup baik";`akan dieksekusi.
@@ -470,7 +470,7 @@ switch ($hari) {
 }
 ```
 #### Hasil
-![hasil](Aset/11.jpg)
+![hasil](MATERI%20PHP/Aset/11.jpg)
 
 #### Analisis
 - Ekspresi yang dievaluasi dalam switch case adalah nilai dari variabel $hari.
@@ -722,7 +722,7 @@ foreach ($data_penduduk as $nama => $umur) {
 ?>
 ```
 #### Hasil
-![hasil](Aset/17.jpg)
+![hasil](MATERI%20PHP/Aset/17.jpg)
 
 #### Analisis
 -  `$data_penduduk = array('Dodi' => '12','Joana' => '20','Gulamo' => '24','Rahmat' => '45' );` Mendefinisikan array asosiatif bernama `$data_penduduk`. Array ini memiliki empat elemen, di mana setiap elemen terdiri dari pasangan kunci (nama) dan nilai (umur).
@@ -851,8 +851,8 @@ $umur = $_GET["umur"];
 </html>
 ```
 #### Hasil
-![hasil](Aset/18.jpg)
-![hasil](Aset/19.jpg)
+![hasil](MATERI%20PHP/Aset/18.jpg)
+![hasil](MATERI%20PHP/Aset/19.jpg)
 #### Analisis
 ##### HTML
 - `<form action="proses_post.php" method="POST">` Form ini dikonfigurasi untuk mengirim data  menggunakan metode POST ke file proses_post.php.
