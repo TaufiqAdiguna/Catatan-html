@@ -1,7 +1,8 @@
 
 # Tabel Pegawai 
-![hasil](PRAKTIKUM%205/Aset/Pegawai.jpg)
+![hasil](Aset/Pegawai.jpg)
 
+---
 # 1
 
 ## Query
@@ -13,7 +14,7 @@ SELECT COUNT(NIP) AS JumlahPegawai, COUNT(jabatan) AS JumlahJabatan FROM pegawai
 ```
 
 ## Hasil
-![hasil](PRAKTIKUM%205/Aset/19.jpg)
+![hasil](Aset/19.jpg)
 
 ## Analisis 
 - `SELECT` : Untuk memilih kolom apa saja yang ingin dipilih (untuk dihitung)
@@ -37,7 +38,7 @@ select COUNT(NIP) AS jumlahpegawai
 ```
 
 ## Hasil
-![Praktikum](PRAKTIKUM%205/Aset/2.jpg)
+![Praktikum](Aset/2.jpg)
 
 ## Analisis 
  - Select = untuk memilih kolom mana saja yang ingin dipilih untuk dihitung.
@@ -59,7 +60,7 @@ SELECT Nocab, COUNT(NIP) AS Jumlah_pegawai
 ```
 
 ## Hasil
-![Praktikum](PRAKTIKUM%205/Aset/3.jpg)
+![Praktikum](Aset/3.jpg)
 
 ## Analisis 
 - SELECT = untuk memilih kolom mana saja yang ingin dihitung atau ditampilkan.
@@ -82,7 +83,7 @@ SELECT Nocab, COUNT(NIP) AS Jumlah_pegawai
 ```
 
 ## Hasil
-![Praktikum](PRAKTIKUM%205/Aset/4.jpg)
+![Praktikum](Aset/4.jpg)
 
 ## Analisis 
 - SELECT = untuk memilih kolom mana saja yang ingin dihitung atau ditampilkan.
@@ -97,6 +98,7 @@ SELECT Nocab, COUNT(NIP) AS Jumlah_pegawai
 - (COUNT (NIP) >= 3) = merupakan kondisi Yand harus dipenuhi oleh suatu kelompor data. Jadi hanya kelompok data Yang hasil hitungannya lebih atau Sama dengan 3.
 - Hasilnya seperti sebelumnya, ada 9 barisan data dibagi sesuai Nocab nya masing- -masing. Namun Yand ingin ditampilkan adalah hasil hitungan yang lebih dari atau sama dengan 3. Yaitu Nocab C102 Yang ada 3. Yand Jain c101 ada 2, c103 ada 2, C104 ada 2.
 
+---
 # 5
 ## Query
 ```sql
@@ -105,15 +107,17 @@ Select SUM(Gaji) AS Total_Gaji
 ```
 
 ## Hasil
-![](gbr1.png)
+![hasil](Aset/gbr1.png)
+
 ## Analisis
 - SELECT = Untuk memilih kolom mana saja yang dipilih untuk dijumlahkan. 
 - SUM(Gaji) = Untuk menghitung jumlah data (khusus angka) pada kolom yang harus dipilh. Gaji merupakan nama kolom yang dipilih untuk dihitung jumlah isi datanya. 
 - AS = Untuk mengganti nama dari kolom hasil SUM(Gaji) untuk sementara. 
 - Total_Gaji = Merupakan nama sementara dari perintah AS. 
 - FROM pegawai = Untuk memilih dari table mana yang kolom datanya akan digunakan. Pegawai adalah nama dari table yang dipilih. 
-- **Hasilnya* = kolom Gaji yang isi datanya berupa angka-angka, semuanya dijumlahkan menjadi satu seperti ditotalkan (sama seperti matematika pada umumnya). Dan hasilnya adalah 30575000. Adapun nama kolom dari hasil jumlah tersebut diubah dari SUM(Gaji) menjadi Total_Gaji.
+- Hasilnya = kolom Gaji yang isi datanya berupa angka-angka, semuanya dijumlahkan menjadi satu seperti ditotalkan (sama seperti matematika pada umumnya). Dan hasilnya adalah 30575000. Adapun nama kolom dari hasil jumlah tersebut diubah dari SUM(Gaji) menjadi Total_Gaji.
 
+---
 # 6
 ## Query
 ```sql
@@ -123,7 +127,7 @@ Select SUM(Gaji) AS Gaji_Manager
 ```
 
 ## Hasil
-![](gbr2.png)
+![hasil](Aset/gbr2.png)
 ## Analisis
 - Select= untuk memiliki kolom mana saja yang dipilih untuk digunakan.
 - SUM= untuk menghitung jumlah isi data (khusus angka) pada kolom yang dipilih. gaji yang dipilih untuk dijumlahkan isi datanya.
@@ -133,6 +137,8 @@ Select SUM(Gaji) AS Gaji_Manager
 - WHERE= kondisi yang harus dipenuhi oleh suatu kolom agar datanya bisa dijumlah
 - (Jabatan="Manajer")= merupakan kondisi dari WHERE. hanya barisan data yang kolom Gaji-nya bisa dijumlahkan.
 - Hasilnya = barisan data yang kolom jumlahnya berisi manager akan dijumlah kolom Gaji-nya menjadi 17.250.000. jadi hanya beberapa kolom saja yang dijumlah.
+
+---
 # 7
 ## Query
 ```sql
@@ -141,7 +147,7 @@ Select NoCab, SUM(Gaji) TotalGaji
   ->GROUP BY NoCab;
 ```
 ## Hasil
-![](gbr3.png)
+![hasil](Aset/gbr3.png)
 ## Analisis
 - SELECT= untuk memilih kolom mana saja yang dipilih untuk ditampilkan atau dijumlahkan.
 - SUM(Gaji)= untuk menghitung jumlah data (khusus angka) pada kolom yang dipilih. Gaji adalah nama kolom yang dipilih untuk dijumlahkan isi datanya.
@@ -151,6 +157,8 @@ Select NoCab, SUM(Gaji) TotalGaji
 - GROUP BY= untuk mengelompokkan data berdasarkan nilai data yang telah ditentukan pada kolo yang dipilih.
 - NoCab= nama kolom yang datanya dipilih untuk dikelompokkan.
 - Hasilnya= jadi berdasarkan kolom NoCab, barisan data yang kolom NoCab-nya berisi C102 maka kolom gaji dari barisan data itu digunakan bersama barisan data yang meiliki NoCab C101 juga. maka kolom gaji dijumlahkan sesuai dengan kolom NOCab masing-masing, mulai dari C101 memiliki 2 kolom gaji yang bisa dijumlahkan. sama denfan C103 dand C104. adapun C102 memiliki 3 kolom Gaji yanf dapat dijumlahkan. TotalGaji merupakan hasil perintah dari AS untuk mengubah nama kolom gasil dari SUM(Gaji).
+
+---
 # 8
 ## Query
 ```mysql
@@ -158,7 +166,7 @@ SELECT noCab, SUM(Gaji) AS Total_Gaji from pegawai GROUP BY noCab HAVING SUM(Gaj
 ```
 ## Hasil
 
-![hasil](PRAKTIKUM%205/Aset/8.jpg)
+![hasil](Aset/8.jpg)
 ## Analisis
 ==select== = untuk memilih kolom mana saja yang dipilih untuk di tampilkan atau di jumlah.
 ==noCab== = nama kolom yang dipilih untuk ditampilkan.
@@ -180,7 +188,8 @@ ___
 SELECT AVG(Gaji) AS rata_rata from pegawai;
 ```
 ## Hasil
-![9.](PRAKTIKUM%205/Aset/9.jpg)
+![9.](Aset/9.jpg)
+
 ## Analisis
 ==Select== = untuk memilih kolom mana data Yang dipilih untuk ditampilkan.
 ==AVG (Gaji)== = untuk menghitung rata-rata dari data yang ada Pada kolom Yang dipilih. 
@@ -198,7 +207,8 @@ ___
 SELECT AVG(Gaji) AS GajiRataManager FROM pegawai WHERE Jabatan = "Manager";
 ```
 ## Hasil
-![10.](PRAKTIKUM%205/Aset/10.jpg)
+![10.](Aset/10.jpg)
+
 ## Analisis
 ==SELECT== = untuk memilih kolom mana saja yang dipilih untuk ditampilkan.
 ==AVG (Gaji)== = untuk menghitung rata-rata dari data yang ada pada kolom Yang dipilih. Gaji adalah nama kolom Yang dipilih untuk dihitung rata-ratanya.
@@ -211,7 +221,7 @@ SELECT AVG(Gaji) AS GajiRataManager FROM pegawai WHERE Jabatan = "Manager";
 
 ---
 # Tabel Pegawai 
-![hasil](PRAKTIKUM%205/Aset/Pegawai.jpg)
+![hasil](Aset/Pegawai.jpg)
 
 # 11
 ## Query 
@@ -219,7 +229,7 @@ SELECT AVG(Gaji) AS GajiRataManager FROM pegawai WHERE Jabatan = "Manager";
 SELECT nocab, AVG(gaji) AS ratagaji FROM pegawai GROUP BY nocab;
 ```
 ## Hasil
-![hasil](PRAKTIKUM%205/Aset/11.jpg)
+![hasil](Aset/11.jpg)
 
 ## Analisis 
 - `SELECT` untuk memilih kolom mana saja yang dipilih untuk ditampilkan/dihitung.
@@ -239,7 +249,7 @@ SELECT nocab, AVG(gaji) AS ratagaji FROM pegawai GROUP BY nocab;
 SELECT nocab, AVG(gaji) AS Ratagaji FROM pegawai GROUP BY nocab HAVING nocab = 'C101' OR nocab = 'C102';
 ```
 ## Hasil
-![hasil](PRAKTIKUM%205/Aset/12.jpg)
+![hasil](Aset/12.jpg)
 
 ## Analisis 
 - `SELECT` untuk memilih kolom mana saja yang dipilih untuk ditampilkan/dihitung.
@@ -260,7 +270,7 @@ SELECT nocab, AVG(gaji) AS Ratagaji FROM pegawai GROUP BY nocab HAVING nocab = '
 SELECT MAX(gaji) AS gajiterbesar, MIN(gaji) AS gajiterkecil FROM pegawai;
 ```
 ## Hasil
-![hasil](PRAKTIKUM%205/Aset/13.jpg)
+![hasil](Aset/13.jpg)
 
 ## Analisis 
 - `SELECT` untuk memilih kolom mana saja yang dipilih untuk ditampilkan/dihitung.
@@ -280,7 +290,8 @@ FROM pegawai
 WHERE Jabatan = "Manajer";
 ```
 ## Hasil
-![](PRAKTIKUM%205/Aset/14.png)
+![hasil](Aset/14.png)
+
 ## Analisis
 - `SELECT`= Untuk memilih kolom nama mana saja yang dipilih untuk ditampilkan l.
 - `MAX(Gaji)`= Untuk menampilkan nilai terbesar dari suatu data dalam kolom yang dipilih. Gaji  adalah nama kolom yang dipilih.
@@ -301,7 +312,8 @@ FROM pegawai
 GROUP BY NoCab;
 ```
 ## Hasil
-![](PRAKTIKUM%205/Aset/15.png)
+![hasil](Aset/15.png)
+
 ## Analisis
 - `SELECT`= Untuk memilih kolom nama mana saja yang dipilih untuk ditampilkan.
 - `NoCab`= Nama kolom yang ingin ditampilkan.
@@ -322,7 +334,8 @@ FROM pegawai
 GROUP BY NoCab HAVING COUNT(NIP) >= 3;
 ```
 ## Hasil
-![](PRAKTIKUM%205/Aset/16.png)
+![hasil](Aset/16.png)
+
 ## Analisis
 - `SELECT`= Untuk memilih kolom nama mana saja yang dipilih untuk ditampilkan.
 - `NoCab`= Nama kolom yang ingin ditampilkan.
@@ -336,9 +349,8 @@ GROUP BY NoCab HAVING COUNT(NIP) >= 3;
 - `HAVING`= Kondisi yang harus dipenuhi oleh suatu kelompok data.
 - `(COUNT(NIP) >= 3`= Kondisi dari `HAVING` hanya hasil hitung kolom `NIP` yang lebih dari atau sama dengan 3 yang muncul.
 - **Hasilnya** = Seperti no.4, yang mempunyai hasil hitung lebih dari atau sama dengan 3 adalah `NoCab C102`. Jadi hanya itu yang dicari nilai maksimum dan minimumnya pada kolom `Gaji`.
---- 
 
-# PRAKTIKUM 5
+--- 
 ## 17
 ### Program
 ```MySql
@@ -361,7 +373,9 @@ Select COUNT(NIP) AS JumlahPegawai,SUM(Gaji) AS totalGaji
 - `From Pegawai`= untuk memilih tabel mana yang dipilih untuk ditampilkan pegawai adalah nama tabel yang dipilih. 
 - Hasil Dihitung berapa `NIP`, dijumlahkan semua data pada kolom `Gaji`, Dihitung Rata-Rata dari kolom `Gaji`, Ditampilkan Nilai terbesar pada kolom `Gaji`, dan nilai terkecil dalam kolom `Gaji`. 
 ### Hasil
-![gambar](PRAKTIKUM%205/Aset/17.jpg)
+![gambar](Aset/17.jpg)
+
+---
 ## 18
 ### Program
 ```Mysql
@@ -393,4 +407,6 @@ Select COUNT(NIP) AS JumlahPegawai,SUM(Gaji) AS totalGaji
 - `(Sum(Gaji)) <= 2.600.000)`= kondisi dari `Having`, hanya data yang hasil jumlah gajinya kurang dari atau sama dengan `2600000` yang bisa tampil
 - `Hasilnya`= ada 2 barisan data yang memenuhi kondisi `<= 2600000` Adapun kondisi where yang juga dipenuhi oleh barisan data tersebut. Masing-masing namanya diubah sesuai Perintah `AS`. 
 ## Hasil 
-![gambar](PRAKTIKUM%205/Aset/18.jpg)
+![gambar](Aset/18.jpg)
+
+---

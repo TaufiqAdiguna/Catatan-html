@@ -104,24 +104,12 @@
             }
           },
           {
-            "id": "739c250e13611659",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PRAKTIKUM 5 lanjutan/Catatan.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a4a5100e0283d0d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATERI PHP/MATERI PHP-DASAR/PHP.md",
+                "file": "PRAKTIKUM 5/Catatan.md",
                 "mode": "source",
                 "source": false
               }
@@ -188,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -264,7 +252,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "MATERI PHP/MATERI PHP-DASAR/PHP.md",
+            "file": "PRAKTIKUM 5/Catatan.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -281,7 +269,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "MATERI PHP/MATERI PHP-DASAR/PHP.md",
+            "file": "PRAKTIKUM 5/Catatan.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -293,7 +281,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "MATERI PHP/MATERI PHP-DASAR/PHP.md"
+            "file": "PRAKTIKUM 5/Catatan.md"
           }
         }
       },
@@ -321,10 +309,10 @@
   },
   "active": "a4a5100e0283d0d6",
   "lastOpenFiles": [
-    "MATERI PHP/PHP-MySQL/Catatan.md",
     "MATERI PHP/MATERI PHP-DASAR/PHP.md",
-    "TUTORIAL OBSIDIAN.md",
     "Catatan.md",
+    "MATERI PHP/PHP-MySQL/Catatan.md",
+    "TUTORIAL OBSIDIAN.md",
     "MATERI PHP",
     "Aset_1/9.png",
     "Aset_1/8.png",
