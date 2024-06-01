@@ -56,7 +56,7 @@ echo "<br>";
 echo 'Kelasnya ' . $tk_kelas . ' '. Kelas;
 ```
 ## Hasil
-![hasil](MATERI%20PHP/Aset/1.jpg)
+![hasil](Aset/1.jpg)
 
 ---
 # PHP Dasar
@@ -76,7 +76,7 @@ echo "nilai yang ingin ditampilkan";
 ?>
 ```
 #### Hasil
-![hasil](MATERI%20PHP/Aset/2.jpg)
+![hasil](Aset/2.jpg)
 #### Analisis 
 - `echo` digunakan untuk menampilkan sebuah output ke dalam halaman web
 - `"Halo Selamat datang."` Text yang akan di tampilkan di halaman web.
@@ -114,7 +114,7 @@ echo "Halo, $nama! Selamat datang.";
 ```
 
 #### Hasil
-![hasil](MATERI%20PHP/Aset/3.jpg)
+![hasil](Aset/3.jpg)
 
 #### Analisis 
 - Komentar digunakan untuk menjelaskan fungsionalitas program, memberikan informasi kepada pembaca kode, atau untuk mencatat catatan terkait kode. Mereka membantu dalam memahami maksud dan logika di balik setiap bagian dari kode PHP.
@@ -144,7 +144,7 @@ echo "Umur: $umur tahun<br>";
 ?>
 ```
 #### Hasil
-![hasil](MATERI%20PHP/Aset/4.jpg)
+![hasil](Aset/4.jpg)
 
 #### Analisis 
 - Variabel `$nama` diinisialisasi dengan nilai string `"Taufiq".`
@@ -305,7 +305,8 @@ if (!$nilaiBenar) {
 ?>
 ```
 #### Hasil
-![hasil](MATERI%20PHP/Aset/8.jpg)
+![hasil](Aset/8.jpg)
+
 #### Analisis
 - Variabel `$a` diberi nilai `10`.
 - Variabel `$b` diberi nilai `5`.
@@ -336,7 +337,7 @@ if ($umur >= 18) {
 }
 ```
 #### Hasil
-![hasil](MATERI%20PHP/Aset/9.jpg)
+![hasil](Aset/9.jpg)
 
 #### Analisis
 - `<?php`Ini adalah tag pembuka untuk memulai blok kode PHP.
@@ -372,7 +373,8 @@ if ($umur >= 18) {
 
 ```
 #### Hasil
-![hasil](MATERI%20PHP/Aset/9.jpg)
+![hasil](Aset/9.jpg)
+
 #### Analisis
 - `$umur = 20;` baris ini mendeklarasikan variabel umur dengan nilai 20.
 - `if ($umur >= 18)` Ini adalah kondisi yang dievaluasi. Jika nilai variabel $umur lebih besar dari atau sama dengan 18, maka blok kode yang akan di eksekusi `echo "Anda sudah dewasa.";`.
@@ -411,7 +413,7 @@ if ($nilai > 90) {
 }
 ```
 #### Hasil
-![hasil](MATERI%20PHP/Aset/10.jpg)
+![hasil](Aset/10.jpg)
 #### Analisis
 - Pernyataan ini mengevaluasi apakah variabel `$nilai` lebih besar dari `90`. Jika kondisi `$nilai > 90` benar (true), maka pernyataan `echo "Nilai Anda sangat baik";` akan dieksekusi.
 - Pernyataan `else if` mengevaluasi apakah variabel `$nilai` lebih besar dari `75`, hanya jika kondisi Pertama (`$nilai > 90`) tidak terpenuhi. Jika kondisi `$nilai > 75` benar (true), maka pernyataan `echo "Nilai Anda cukup baik";`akan dieksekusi.
@@ -470,7 +472,7 @@ switch ($hari) {
 }
 ```
 #### Hasil
-![hasil](MATERI%20PHP/Aset/11.jpg)
+![hasil](Aset/11.jpg)
 
 #### Analisis
 - Ekspresi yang dievaluasi dalam switch case adalah nilai dari variabel $hari.
@@ -497,7 +499,8 @@ echo $nama_mahasiswa[0];
 echo $nama_mahasiswa[3];
 ```
 #### Hasil
-![hasil](MATERI%20PHP/Aset/12.jpg)
+![hasil](Aset/12.jpg)
+
 #### Analisis
 - Array `$nama_mahasiswa` dibuat dengan 5 elemen, di mana setiap elemen adalah nama seorang siswa.
 - Ini adalah cara menginisialisasi array 1 dimensi dalam PHP. Elemen-elemen array dipisahkan oleh koma `(",")` dan diapit oleh tanda kurung siku 
@@ -530,7 +533,9 @@ echo $kontak['email'];
 echo $kontak['telepon'];
 ```
 #### Hasil
-![hasil](MATERI%20PHP/Aset/13.jpg)
+![hasil](Aset/13.jpg)
+
+
 #### Analisis
 - Di sini, `$kontak` adalah nama variabel yang digunakan untuk menyimpan array asosiatif.
 - Array asosiatif ini memiliki tiga pasangan kunci-nilai:
@@ -601,6 +606,7 @@ Var_dump($siswa);
 ```
 ### Hasil
 ![hasil](Aset/22.jpg)
+
 ### Analisis
 - Variabel `$siswa` adalah array multidimensi yang berisi dua elemen, masing-masing merepresentasikan satu siswa. 
 - Setiap elemen siswa adalah array yang berisi tiga sub-array untuk `nis`, `nama`, dan `jurusan`. Struktur ini kompleks dan dapat disederhanakan untuk kemudahan akses dan manipulasi data.
@@ -722,7 +728,7 @@ foreach ($data_penduduk as $nama => $umur) {
 ?>
 ```
 #### Hasil
-![hasil](MATERI%20PHP/Aset/17.jpg)
+![hasil](Aset/17.jpg)
 
 #### Analisis
 -  `$data_penduduk = array('Dodi' => '12','Joana' => '20','Gulamo' => '24','Rahmat' => '45' );` Mendefinisikan array asosiatif bernama `$data_penduduk`. Array ini memiliki empat elemen, di mana setiap elemen terdiri dari pasangan kunci (nama) dan nilai (umur).
@@ -766,6 +772,7 @@ echo "Luas lingkaran dengan radius $radius adalah $hasilLuas satuan luas.";
 ```
 #### Hasil
 ![hasil](Aset/5.jpg)
+
 #### Analisis
 - Fungsi `hitungLuasLingkaran` didefinisikan dengan menggunakan kata kunci function.
 - Nama fungsi adalah `hitungLuasLingkaran`.
@@ -851,8 +858,9 @@ $umur = $_GET["umur"];
 </html>
 ```
 #### Hasil
-![hasil](MATERI%20PHP/Aset/18.jpg)
-![hasil](MATERI%20PHP/Aset/19.jpg)
+![hasil](Aset/18.jpg)
+
+![hasil](Aset/19.jpg)
 #### Analisis
 ##### HTML
 - `<form action="proses_post.php" method="POST">` Form ini dikonfigurasi untuk mengirim data  menggunakan metode POST ke file proses_post.php.
@@ -941,6 +949,7 @@ var_dump($_POST);
 
 #### Hasil
 ![hasil](Aset/20.jpg)
+
 ![hasil ](Aset/21.jpg)
 
 #### Analisis

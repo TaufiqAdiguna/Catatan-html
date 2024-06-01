@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATERI PHP/PHP.md",
+                "file": "MATERI PHP/MATERI PHP-DASAR/PHP.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATERI CSS/Responsive/CSS Responsive.md",
+                "file": "MATERI PHP/MATERI PHP-DASAR/PHP.md",
                 "mode": "source",
                 "source": false
               }
@@ -264,7 +264,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "MATERI CSS/Responsive/CSS Responsive.md",
+            "file": "MATERI PHP/MATERI PHP-DASAR/PHP.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -281,7 +281,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "MATERI CSS/Responsive/CSS Responsive.md",
+            "file": "MATERI PHP/MATERI PHP-DASAR/PHP.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -293,7 +293,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "MATERI CSS/Responsive/CSS Responsive.md"
+            "file": "MATERI PHP/MATERI PHP-DASAR/PHP.md"
           }
         }
       },
@@ -321,26 +321,29 @@
   },
   "active": "a4a5100e0283d0d6",
   "lastOpenFiles": [
-    "MATERI CSS/Bootstrap/Bootstrap Framework.md",
+    "MATERI PHP/PHP-MySQL/Catatan.md",
+    "MATERI PHP/MATERI PHP-DASAR/PHP.md",
     "TUTORIAL OBSIDIAN.md",
+    "Catatan.md",
+    "MATERI PHP",
+    "Aset_1/9.png",
+    "Aset_1/8.png",
+    "Aset_1/7.png",
+    "Aset_1/6.png",
+    "Aset_1/5.png",
+    "Aset_1/4.png",
+    "Aset_1/3.png",
+    "Aset_1/2.png",
+    "Aset_1/13.png",
+    "Aset_1/12.png",
+    "Aset_1",
     "PRAKTIKUM 5/Catatan.md",
+    "MATERI CSS/Responsive/CSS Responsive.md",
+    "MATERI CSS/Bootstrap/Bootstrap Framework.md",
     "Basis data/4) ALTER.md",
     "Basis data/2) instalasi & query awal database.md",
     "Basis data/3) SELECT LANJUTKAN.md",
-    "MATERI PHP/PHP.md",
     "Basis data/5) GROUP BY & HAVING.md",
-    "MATERI PHP/Aset/17.jpg",
-    "MATERI PHP/Aset/16.jpg",
-    "MATERI CSS/Responsive/CSS Responsive.md",
-    "Untitled 1",
-    "MATERI PHP/Aset/19.jpg",
-    "MATERI PHP/Aset/18.jpg",
-    "MATERI PHP/Aset/21.jpg",
-    "MATERI PHP/Aset/20.jpg",
-    "Basis data/Aset/5.1.jpg",
-    "Basis data/Aset/5.7.jpg",
-    "Basis data/Aset/5.6.jpg",
-    "Basis data/Aset/5.5.jpg",
     "PRAKTIKUM 5 lanjutan/Catatan.md",
     "Aset-praktikum/tabel.md",
     "Aset-praktikum",
@@ -348,14 +351,13 @@
     "PRAKTIKUM 5/Aset",
     "PRAKTIKUM 5",
     "HTML/CATATAN HTML.md",
-    "MATERI PHP/Aset",
+    "MATERI PHP/MATERI PHP-DASAR/Aset",
     "Nn",
-    "MATERI PHP",
+    "MATERI PHP/MATERI PHP-DASAR",
     "EKSPLORASI CSS/CSS GRID.md",
     "Materi tambahan",
     "Aset/internal.jpg.md",
     "MATERI CSS/Responsive/CSS Responsive.pdf",
-    "Materi tambahan/Semantic HTML/SEMANTIC HTML.pdf",
     "Materi tambahan/Semantic HTML/SEMANTIC HTML.md",
     "Materi tambahan/Github/Github & Git.md",
     "CSS Grid Properties/CONTAINER.md",
@@ -364,8 +366,6 @@
     "Materi tambahan/Css Responsive/CSS Responsive.md",
     "Materi tambahan/Css Responsive/css responsive rev.md",
     "css responsive rev.md/css responsive rev.md",
-    "css responsive rev.md",
-    "Aset.md",
     "Pemrograman web dan perangkat bergerak/Untitled.canvas"
   ]
 }

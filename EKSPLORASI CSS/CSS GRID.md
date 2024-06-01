@@ -55,7 +55,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 </html>
 ```
 #### Hasil Program
-![hasil](Aset/1.png)
+![hasil](EKSPLORASI%20CSS/Aset/1.png)
 
 ---
 ### grid-template-row
@@ -91,7 +91,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 </html>
 ```
 #### Hasil Program
-![hasil](Aset/2.png)
+![hasil](EKSPLORASI%20CSS/Aset/2.png)
 
 ---
 ### grid-auto-colums
@@ -128,7 +128,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 </html>
 ```
 #### Hasil Program
-![hasil](Aset/3.png)
+![hasil](EKSPLORASI%20CSS/Aset/3.png)
 
 ---
 ### grid-auto-rows
@@ -165,7 +165,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 </html>
 ```
 #### Hasil Program
-![hasil](Aset/4.png)
+![hasil](EKSPLORASI%20CSS/Aset/4.png)
 
 ---
 ### grid-auto-flow
@@ -205,7 +205,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil](Aset/5.png)
+![hasil](EKSPLORASI%20CSS/Aset/5.png)
 
 ---
 ### grid-template-areas
@@ -269,7 +269,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 </html>
 ```
 #### Hasil Program
-![hasil](Aset/6.png)
+![hasil](EKSPLORASI%20CSS/Aset/6.png)
 
 ---
 ### grid-template
@@ -311,7 +311,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil](Aset/7.png)
+![hasil](EKSPLORASI%20CSS/Aset/7.png)
 
 ---
 ### grid-column-gap
@@ -349,7 +349,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-!![hasil](Aset/8.png)
+!![hasil](EKSPLORASI%20CSS/Aset/8.png)
 
 ---
 ### grid-row-gap
@@ -388,7 +388,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 </html>
 ```
 #### Hasil Program
-![hasil](Aset/9.png)
+![hasil](EKSPLORASI%20CSS/Aset/9.png)
 
 ---
 ### justify-items
@@ -427,7 +427,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil](Aset/10.png)
+![hasil](EKSPLORASI%20CSS/Aset/10.png)
 
 ---
 ### align-items
@@ -466,7 +466,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil](Aset/11.png)
+![hasil](EKSPLORASI%20CSS/Aset/11.png)
 
 ---
 ### place-items
@@ -504,7 +504,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil](Aset/12.png)
+![hasil](EKSPLORASI%20CSS/Aset/12.png)
 
 ---
 ### justify-content
@@ -542,7 +542,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil program justyfy content ](Aset/13.png)
+![hasil program justyfy content ](EKSPLORASI%20CSS/Aset/13.png)
 
 ---
 ### align-content
