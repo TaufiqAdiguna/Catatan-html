@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PRAKTIKUM 5/Catatan.md",
+                "file": "Basis data/2) INSTALASI & QUERY AWAL DATABASE.md",
                 "mode": "source",
                 "source": false
               }
@@ -240,7 +240,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "PRAKTIKUM 5/Catatan.md",
+            "file": "Basis data/2) INSTALASI & QUERY AWAL DATABASE.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "PRAKTIKUM 5/Catatan.md",
+            "file": "Basis data/2) INSTALASI & QUERY AWAL DATABASE.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -269,7 +269,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "PRAKTIKUM 5/Catatan.md"
+            "file": "Basis data/2) INSTALASI & QUERY AWAL DATABASE.md"
           }
         }
       },
@@ -297,6 +297,8 @@
   },
   "active": "dbd798bef4bb04e5",
   "lastOpenFiles": [
+    "Basis data/3) SELECT LANJUTKAN.md",
+    "PRAKTIKUM 5/Catatan.md",
     "Basis data/6) RELASI TABLE.md",
     "Basis data/6) RELASI TABLE.pdf",
     "MATERI PHP/MATERI PHP-DASAR/PHP.md",
@@ -326,9 +328,7 @@
     "EKSPLORASI/Aset/25.png",
     "Bootstrap/Bootstrap Framework.md",
     "MATERI CSS/CSS/CATATAN CSS.md",
-    "Basis data/3) SELECT LANJUTKAN.md",
     "Basis data/1) Pengenalan basis data.md",
-    "PRAKTIKUM 5/Catatan.md",
     "HTML/1) penjelasan obsidian.md",
     "Materi tambahan/Github/Github & Git.md",
     "Catatan.md",

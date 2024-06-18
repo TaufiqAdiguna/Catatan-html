@@ -23,7 +23,8 @@ MySQL -u root
 ```
 
 ## Hasil
-![MySQL -u root](2.1.jpg)
+![MySQL -u root](Aset/2.1.jpg)
+
 ## Analisis 
 ==MySQL== adalah perintah untuk mengakses Shell MySQL, yaitu antarmuka command line untuk berinteraksi dengan server MySQL
 
@@ -45,7 +46,8 @@ CREATE DATABASE [nama_database];
 CREATE DATABASE Taufiq;
 ```
 ### Hasil 
-![Create database](2.2.jpg)
+![Create database](Aset/2.2.jpg)
+
 ### Analisis :
 - `CREATE DATABASE` adalah sebuah query yang memerintahkan untuk membuat database.
 - `taufiq` adalah nama dari suatu database yang kita buat
@@ -67,7 +69,7 @@ SHOW DATABASES;
 ```
 
 ### Hasil :
-![Show databases](2.3.jpg)
+![Show databases](Aset/2.3.jpg)
 ### Analisis :
 - `SHOW DATABASE` merupakan query untuk menampilkan sebuah database dalam MySQL
 
@@ -87,7 +89,7 @@ DROP DATABASE [xi_rpl_1];
 ```
 
 ### Hasil :
-![Drop database](2.4.jpg)
+![Drop database](Aset/2.4.jpg)
 
 ### Analisis
 - `DROP DATABASE` Merupakan perintah query untuk menghapus database
