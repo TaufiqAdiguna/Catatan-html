@@ -104,18 +104,6 @@
             }
           },
           {
-            "id": "a4a5100e0283d0d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MATERI CSS/CSS/CATATAN CSS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2f2c0446e29056f9",
             "type": "leaf",
             "state": {
@@ -176,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -252,7 +240,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "MATERI CSS/CSS/CATATAN CSS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -269,7 +256,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "MATERI CSS/CSS/CATATAN CSS.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -281,7 +267,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "MATERI CSS/CSS/CATATAN CSS.md"
+            "file": "project/README.md"
           }
         }
       },
@@ -307,54 +293,54 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "a4a5100e0283d0d6",
+  "active": "de258462c45a502d",
   "lastOpenFiles": [
+    "project/tambah_ketua_kelas.php",
+    "project/tambah_kelas.php",
+    "project/styles.css",
+    "project/style.css",
+    "project/session.php",
+    "project/rekap_absensi.php",
+    "project/orang_tua.php",
+    "project/logout.php",
+    "project/login.php",
+    "project/ketua_kelas.php",
+    "project/index.php",
+    "project/README.MD.md",
+    "project/1.jpeg",
+    "MATERI CSS/Bootstrap/Bootstrap Framework.md",
+    "MATERI CSS/Boostrap/Bootstrap Framework.md",
+    "EKSPLORASI CSS/CSS GRID.md",
+    "EKSPLORASI/CSS GRID.md",
+    "EKSPLORASI/Aset/9.png",
+    "EKSPLORASI/Aset/8.png",
+    "EKSPLORASI/Aset/7.png",
+    "EKSPLORASI/Aset/6.png",
+    "EKSPLORASI/Aset/5.png",
+    "EKSPLORASI/Aset/4.png",
+    "EKSPLORASI/Aset/3.png",
+    "EKSPLORASI/Aset/26.png",
+    "EKSPLORASI/Aset/25.png",
+    "Bootstrap/Bootstrap Framework.md",
+    "MATERI CSS/CSS/CATATAN CSS.md",
     "Basis data/3) SELECT LANJUTKAN.md",
     "Basis data/1) Pengenalan basis data.md",
     "PRAKTIKUM 5/Catatan.md",
     "HTML/1) penjelasan obsidian.md",
-    "MATERI CSS/Bootstrap/assets/bf-1.jpg",
-    "MATERI CSS/Bootstrap/Bootstrap Framework.md",
-    "MATERI CSS/Bootstrap/assets/btc-67.png",
-    "MATERI CSS/Bootstrap/assets/btc-21.png",
-    "MATERI CSS/Bootstrap/assets/btc-66.png",
-    "MATERI CSS/Bootstrap/assets/btc-.png",
-    "MATERI CSS/Bootstrap/assets/btc-84.png",
-    "MATERI CSS/Bootstrap/assets/btc-11.png",
-    "MATERI CSS/Bootstrap/assets/btc-25.png",
-    "MATERI CSS/Bootstrap/assets/btc-89.png",
-    "MATERI CSS/Bootstrap/assets/btc-45.png",
     "Materi tambahan/Github/Github & Git.md",
     "MATERI PHP/MATERI PHP-DASAR/PHP.md",
     "Catatan.md",
     "MATERI PHP/PHP-MySQL/Catatan.md",
     "TUTORIAL OBSIDIAN.md",
-    "MATERI PHP",
-    "Aset_1",
     "MATERI CSS/Responsive/CSS Responsive.md",
     "Basis data/4) ALTER.md",
     "Basis data/2) instalasi & query awal database.md",
     "Basis data/5) GROUP BY & HAVING.md",
     "PRAKTIKUM 5 lanjutan/Catatan.md",
     "Aset-praktikum/tabel.md",
-    "Aset-praktikum",
-    "MATERI CSS/CSS/CATATAN CSS.md",
-    "PRAKTIKUM 5/Aset",
-    "PRAKTIKUM 5",
     "HTML/CATATAN HTML.md",
-    "MATERI PHP/MATERI PHP-DASAR/Aset",
-    "Nn",
-    "MATERI PHP/MATERI PHP-DASAR",
-    "EKSPLORASI CSS/CSS GRID.md",
-    "Materi tambahan",
     "Aset/internal.jpg.md",
-    "MATERI CSS/Responsive/CSS Responsive.pdf",
     "Materi tambahan/Semantic HTML/SEMANTIC HTML.md",
-    "CSS Grid Properties/CONTAINER.md",
-    "Materi tambahan/Semantic HTML/SEMANTIC HTML.md",
-    "Materi tambahan/Css Responsive/CSS Responsive.md",
-    "Materi tambahan/Css Responsive/css responsive rev.md",
-    "css responsive rev.md/css responsive rev.md",
     "Pemrograman web dan perangkat bergerak/Untitled.canvas"
   ]
 }

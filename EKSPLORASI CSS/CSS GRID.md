@@ -55,7 +55,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 </html>
 ```
 #### Hasil Program
-![hasil](EKSPLORASI%20CSS/Aset/1.png)
+![hasil](Aset/1.png)
 
 ---
 ### grid-template-row
@@ -91,7 +91,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 </html>
 ```
 #### Hasil Program
-![hasil](EKSPLORASI%20CSS/Aset/2.png)
+![hasil](Aset/2.png)
 
 ---
 ### grid-auto-colums
@@ -128,7 +128,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 </html>
 ```
 #### Hasil Program
-![hasil](EKSPLORASI%20CSS/Aset/3.png)
+![hasil](Aset/3.png)
 
 ---
 ### grid-auto-rows
@@ -165,7 +165,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 </html>
 ```
 #### Hasil Program
-![hasil](EKSPLORASI%20CSS/Aset/4.png)
+![hasil](Aset/4.png)
 
 ---
 ### grid-auto-flow
@@ -205,7 +205,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil](EKSPLORASI%20CSS/Aset/5.png)
+![hasil](Aset/5.png)
 
 ---
 ### grid-template-areas
@@ -269,7 +269,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 </html>
 ```
 #### Hasil Program
-![hasil](EKSPLORASI%20CSS/Aset/6.png)
+![hasil](Aset/6.png)
 
 ---
 ### grid-template
@@ -311,7 +311,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil](EKSPLORASI%20CSS/Aset/7.png)
+![hasil](Aset/7.png)
 
 ---
 ### grid-column-gap
@@ -349,7 +349,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-!![hasil](EKSPLORASI%20CSS/Aset/8.png)
+![hasil](Aset/8.png)
 
 ---
 ### grid-row-gap
@@ -388,7 +388,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 </html>
 ```
 #### Hasil Program
-![hasil](EKSPLORASI%20CSS/Aset/9.png)
+![hasil](Aset/9.png)
 
 ---
 ### justify-items
@@ -427,7 +427,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil](EKSPLORASI%20CSS/Aset/10.png)
+![hasil](Aset/10.png)
 
 ---
 ### align-items
@@ -466,7 +466,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil](EKSPLORASI%20CSS/Aset/11.png)
+![hasil](Aset/11.png)
 
 ---
 ### place-items
@@ -504,7 +504,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil](EKSPLORASI%20CSS/Aset/12.png)
+![hasil](Aset/12.png)
 
 ---
 ### justify-content
@@ -542,7 +542,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil program justyfy content ](EKSPLORASI%20CSS/Aset/13.png)
+![hasil program justyfy content ](Aset/13.png)
 
 ---
 ### align-content
@@ -583,7 +583,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil program align content ](EKSPLORASI%20CSS/Aset/14.png)
+![hasil program align content ](Aset/14.png)
 
 ---
 ### place-content
@@ -624,7 +624,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil program place content ](EKSPLORASI%20CSS/Aset/15.png)
+![hasil program place content ](Aset/15.png)
 
 
 ---
@@ -634,9 +634,6 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 #### Penjelasan
 Property `grid-column-start` dalam CSS digunakan untuk menentukan awal dari suatu grid item di dalam grid container pada sumbu horizontal. Properti ini mengatur posisi awal grid item berdasarkan garis grid di sepanjang sumbu horizontal, dimulai dari garis pertama (1) hingga garis terakhir (tergantung dari jumlah kolom yang telah didefinisikan). Anda bisa menggunakan nilai numerik atau nama dari garis grid sebagai nilai dari properti ini. Misalnya, jika Anda ingin sebuah item grid dimulai dari garis kedua, Anda dapat menetapkan nilai `grid-column-start: 2;`
 #### kode program
-
-
-
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -689,7 +686,7 @@ Property `grid-column-start` dalam CSS digunakan untuk menentukan awal dari suat
 ```
 
 #### Hasil Program
-![hasil](EKSPLORASI%20CSS/Aset/16.png)
+![hasil](Aset/16.png)
 
 ---
 ### Grid-column-end
@@ -1082,7 +1079,6 @@ Dengan menggunakan grid-area, kita dapat menentukan nama area yang akan diduduki
 
 #### Hasil Program
 ![hasil](Aset/22.png)
-
 
 ---
 ### Justify-self
