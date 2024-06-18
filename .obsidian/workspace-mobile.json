@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATERI PHP/MATERI PHP-DASAR/PHP.md",
+                "file": "PRAKTIKUM 5/Catatan.md",
                 "mode": "source",
                 "source": false
               }
@@ -240,6 +240,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "PRAKTIKUM 5/Catatan.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -256,6 +257,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "PRAKTIKUM 5/Catatan.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -267,7 +269,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "project/README.md"
+            "file": "PRAKTIKUM 5/Catatan.md"
           }
         }
       },
@@ -293,8 +295,11 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "de258462c45a502d",
+  "active": "dbd798bef4bb04e5",
   "lastOpenFiles": [
+    "Basis data/6) RELASI TABLE.md",
+    "Basis data/6) RELASI TABLE.pdf",
+    "MATERI PHP/MATERI PHP-DASAR/PHP.md",
     "project/tambah_ketua_kelas.php",
     "project/tambah_kelas.php",
     "project/styles.css",
@@ -304,8 +309,6 @@
     "project/orang_tua.php",
     "project/logout.php",
     "project/login.php",
-    "project/ketua_kelas.php",
-    "project/index.php",
     "project/README.MD.md",
     "project/1.jpeg",
     "MATERI CSS/Bootstrap/Bootstrap Framework.md",
@@ -328,7 +331,6 @@
     "PRAKTIKUM 5/Catatan.md",
     "HTML/1) penjelasan obsidian.md",
     "Materi tambahan/Github/Github & Git.md",
-    "MATERI PHP/MATERI PHP-DASAR/PHP.md",
     "Catatan.md",
     "MATERI PHP/PHP-MySQL/Catatan.md",
     "TUTORIAL OBSIDIAN.md",
