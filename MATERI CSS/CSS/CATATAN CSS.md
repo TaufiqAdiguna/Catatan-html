@@ -1,6 +1,5 @@
 # Anatomi CSS
 ![anatomi css](Aset-CSS/1.1.jpg)
-
 ## Selector
 Selector CSS di gunakan untuk memilih elemen HTML yang akan diberi gaya.Dengan menggunakan selector, Anda dapat menargetkan satu atau lebih elemen HTML untuk menerapkan properti CSS.
 

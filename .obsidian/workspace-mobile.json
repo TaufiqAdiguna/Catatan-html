@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PRAKTIKUM 5/Catatan.md",
+                "file": "MATERI CSS/CSS/CATATAN CSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -252,7 +252,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "PRAKTIKUM 5/Catatan.md",
+            "file": "MATERI CSS/CSS/CATATAN CSS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -269,7 +269,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "PRAKTIKUM 5/Catatan.md",
+            "file": "MATERI CSS/CSS/CATATAN CSS.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -281,7 +281,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "PRAKTIKUM 5/Catatan.md"
+            "file": "MATERI CSS/CSS/CATATAN CSS.md"
           }
         }
       },
@@ -309,28 +309,31 @@
   },
   "active": "a4a5100e0283d0d6",
   "lastOpenFiles": [
+    "Basis data/3) SELECT LANJUTKAN.md",
+    "Basis data/1) Pengenalan basis data.md",
+    "PRAKTIKUM 5/Catatan.md",
+    "HTML/1) penjelasan obsidian.md",
+    "MATERI CSS/Bootstrap/assets/bf-1.jpg",
+    "MATERI CSS/Bootstrap/Bootstrap Framework.md",
+    "MATERI CSS/Bootstrap/assets/btc-67.png",
+    "MATERI CSS/Bootstrap/assets/btc-21.png",
+    "MATERI CSS/Bootstrap/assets/btc-66.png",
+    "MATERI CSS/Bootstrap/assets/btc-.png",
+    "MATERI CSS/Bootstrap/assets/btc-84.png",
+    "MATERI CSS/Bootstrap/assets/btc-11.png",
+    "MATERI CSS/Bootstrap/assets/btc-25.png",
+    "MATERI CSS/Bootstrap/assets/btc-89.png",
+    "MATERI CSS/Bootstrap/assets/btc-45.png",
+    "Materi tambahan/Github/Github & Git.md",
     "MATERI PHP/MATERI PHP-DASAR/PHP.md",
     "Catatan.md",
     "MATERI PHP/PHP-MySQL/Catatan.md",
     "TUTORIAL OBSIDIAN.md",
     "MATERI PHP",
-    "Aset_1/9.png",
-    "Aset_1/8.png",
-    "Aset_1/7.png",
-    "Aset_1/6.png",
-    "Aset_1/5.png",
-    "Aset_1/4.png",
-    "Aset_1/3.png",
-    "Aset_1/2.png",
-    "Aset_1/13.png",
-    "Aset_1/12.png",
     "Aset_1",
-    "PRAKTIKUM 5/Catatan.md",
     "MATERI CSS/Responsive/CSS Responsive.md",
-    "MATERI CSS/Bootstrap/Bootstrap Framework.md",
     "Basis data/4) ALTER.md",
     "Basis data/2) instalasi & query awal database.md",
-    "Basis data/3) SELECT LANJUTKAN.md",
     "Basis data/5) GROUP BY & HAVING.md",
     "PRAKTIKUM 5 lanjutan/Catatan.md",
     "Aset-praktikum/tabel.md",
@@ -347,10 +350,8 @@
     "Aset/internal.jpg.md",
     "MATERI CSS/Responsive/CSS Responsive.pdf",
     "Materi tambahan/Semantic HTML/SEMANTIC HTML.md",
-    "Materi tambahan/Github/Github & Git.md",
     "CSS Grid Properties/CONTAINER.md",
     "Materi tambahan/Semantic HTML/SEMANTIC HTML.md",
-    "Materi tambahan/Github/Github & Git.md",
     "Materi tambahan/Css Responsive/CSS Responsive.md",
     "Materi tambahan/Css Responsive/css responsive rev.md",
     "css responsive rev.md/css responsive rev.md",

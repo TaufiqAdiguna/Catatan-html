@@ -1,5 +1,5 @@
 
-# Tampilkan jumlah data mobil dan kelompokkan berdasarkan warna nya sesuai dengan tabel mobil kalian
+# 1. Tampilkan jumlah data mobil dan kelompokkan berdasarkan warna nya sesuai dengan tabel mobil kalian
 ## Struktur Query 
 ```mysql
 SELECT [nama_kolom],
@@ -26,7 +26,7 @@ FROM mobil GROUP BY warna;
 Query ini sangat berguna untuk menganalisis distribusi jumlah mobil berdasarkan warna dalam tabel `mobil`. Dengan menggunakan `GROUP BY warna`, 
 
 ---
-# Berdasarkan query ini tampilkan yang lebih besar dari 3 atau sama dengan 3 pemilik mobil nya
+# 2. Berdasarkan query ini tampilkan yang lebih besar dari 3 atau sama dengan 3 pemilik mobil nya
 ## Struktur Query 
 ```mysql
 SELECT [nama_kolom],
@@ -53,7 +53,7 @@ HAVING COUNT(id_mobil) >= 3;
 Query ini berguna untuk menganalisis data kepemilikan mobil dengan mengidentifikasi pemilik yang memiliki jumlah mobil yang signifikan (tiga atau lebih).
 
 ---
-# Tampilkan semua pemilik dengan jumlah mobilnya yang memiliki atau sama dengan 3 mobil
+# 3. Tampilkan semua pemilik dengan jumlah mobilnya yang memiliki atau sama dengan 3 mobil
 ## Struktur Query 
 ```mysql
 SELECT [nama_kolom],
@@ -78,7 +78,7 @@ FROM mobil GROUP BY pemilik;
 Query ini sangat berguna untuk melakukan agregasi data berdasarkan pemilik dan menghitung jumlah entitas (mobil) yang dimiliki oleh setiap entitas (pemilik).
 
 ---
-# Berdasarkan query yang ada pada praktikum 5 bagian 7 tampilkan data pada table mobil dengan mengelompokan berdasarkan pemiliknya.hitung menggunakan sum total pendapatan pemilik berdasarkan harga rental
+# 4. Berdasarkan query yang ada pada praktikum 5 bagian 7 tampilkan data pada table mobil dengan mengelompokan berdasarkan pemiliknya.hitung menggunakan sum total pendapatan pemilik berdasarkan harga rental
 
 ## Struktur Query 
 ```mysql
@@ -103,7 +103,7 @@ FROM mobil GROUP BY pemilik;
 Query ini sangat berguna untuk melakukan agregasi data berdasarkan pemilik dan menghitung total pendapatan dari harga rental mobil yang diperoleh oleh setiap pemilik.
 
 ---
-# Berdasarkan praktikum 5 query no 8 tampilkan jumlah pemasukan pemilik berdasarkan harga rental kelompokkan berdasarkan pemiliknya dan seleksi yang total pemasukannya atau harga rentalnya mencapai lebih besar atau sama dengan 300k
+# 5. Berdasarkan praktikum 5 query no 8 tampilkan jumlah pemasukan pemilik berdasarkan harga rental kelompokkan berdasarkan pemiliknya dan seleksi yang total pemasukannya atau harga rentalnya mencapai lebih besar atau sama dengan 300k
 
 ## Struktur Query 
 ```mysql
@@ -130,7 +130,7 @@ HAVING SUM(harga_rental) >= 300000;
 Query ini sangat berguna untuk melakukan agregasi data berdasarkan pemilik dan menghitung total pendapatan dari harga rental mobil yang diperoleh oleh setiap pemilik, kemudian menyaring hanya pemilik yang memiliki pendapatan minimal 300,000.
 
 ---
-# Berdasarkan praktikum 6 no 12 tampilkan rata rata pemasukan pemilik mobil kelompokkan berdasarkan pemiliknya
+# 6. Berdasarkan praktikum 6 no 12 tampilkan rata rata pemasukan pemilik mobil kelompokkan berdasarkan pemiliknya
 
 ## Struktur Query 
 ```mysql
@@ -155,7 +155,7 @@ FROM mobil GROUP BY pemilik;
 Query ini sangat berguna untuk melakukan agregasi data berdasarkan pemilik dan menghitung rata-rata harga rental mobil yang diperoleh oleh setiap pemilik. 
 
 ---
-# Berdasarkan praktikum 5 no 16 tampilkan pemasukan  terbesar dan pemasukan terkecil kelompokkan berdasarkan pemiliknya dan seleksi data pemilik yg tampil atau memiliki jumlah mobil lebih besar dari 1
+# 7. Berdasarkan praktikum 5 no 16 tampilkan pemasukan  terbesar dan pemasukan terkecil kelompokkan berdasarkan pemiliknya dan seleksi data pemilik yg tampil atau memiliki jumlah mobil lebih besar dari 1
 
 ## Struktur Query 
 ```mysql

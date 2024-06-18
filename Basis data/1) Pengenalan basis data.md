@@ -1,5 +1,5 @@
 
-# definisi basis data
+# Definisi basis data
 ## definisi basis
 **Basis** diartikan sebagai tempat dimana data-data berkumpul. Contoh Basis adalah lemari arsip menjadi tempat dimana arsip data/dokumen dan objek data lainnya secara fisik disimpan. Contoh lain dari Basis adalah gudang menjadi tempat dimana sekumpulan barang secara fisik disimpan
 

@@ -1,4 +1,4 @@
-# ==Instalasi MySQL==
+# Instalasi MySQL
 ## menggunakan termux
 
 1. Buka termux
@@ -15,7 +15,7 @@
 https://youtu.be/ez3nx3xH-y4?si=T4saycipqfBcqL1c
 
 ---
-# ==Penggunaan awal MySQL==
+# Penggunaan awal MySQL
 ## Query/struktur 
 
 ```MySQL
@@ -24,7 +24,6 @@ MySQL -u root
 
 ## Hasil
 ![MySQL -u root](2.1.jpg)
-
 ## Analisis 
 ==MySQL== adalah perintah untuk mengakses Shell MySQL, yaitu antarmuka command line untuk berinteraksi dengan server MySQL
 
@@ -35,7 +34,7 @@ MySQL -u root
 
 
 ---
-# ==Database==
+# Database
 ## CREATE DATABASE 
 ### Struktur :
 ``` MySQL
@@ -47,7 +46,6 @@ CREATE DATABASE Taufiq;
 ```
 ### Hasil 
 ![Create database](2.2.jpg)
-
 ### Analisis :
 - `CREATE DATABASE` adalah sebuah query yang memerintahkan untuk membuat database.
 - `taufiq` adalah nama dari suatu database yang kita buat
@@ -121,7 +119,7 @@ USE xi_rpl_1;
 Jika ingin masuk atau gunakan database, maka kita gunakan `USE` sebagai query 
 
 ---
-# ==Tipe Data==
+# Tipe Data
 ## ANGKA
 
 -  ==INT:== Untuk menyimpan nilai bilangan bulat (integer). Misalnya, INT dapat digunakan untuk menyimpan angka seperti 1, 100, -10, dan sebagainya.
@@ -175,9 +173,9 @@ Dalam contoh tersebut, ==**nama**== menggunakan tipe data ==**char**== dengan pa
 
 - ==DATE== :  Menyimpan nilai tanggal dengan format YYYY-MM-DD.
 
-- ==TIME==: Menyimpan nilai waktu dengan format HH:MM:SS.
+- ==TIME== : Menyimpan nilai waktu dengan format HH:MM:SS.
 
-- ==DATETIME: ==Menggabungkan nilai tanggal dan waktu dengan format YYYY-MM-DD HH:MM:SS
+- ==DATETIME== : Menggabungkan nilai tanggal dan waktu dengan format YYYY-MM-DD HH:MM:SS
 
 - ==TIMESTAMP: ==Sama seperti DATETIME, tetapi dengan kelebihan diatur secara otomatis saat data dimasukkan atau diubah.
 ### Contoh

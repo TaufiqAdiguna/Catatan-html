@@ -41,14 +41,14 @@ select COUNT(NIP) AS jumlahpegawai
 ![Praktikum](Aset/2.jpg)
 
 ## Analisis 
- - Select = untuk memilih kolom mana saja yang ingin dipilih untuk dihitung.
- - COUNT(NIP) = untuk menghitung jumlah barisan data  yang mempunyai data dari kolom yang dipilih.Nip adalah nama kolom yang dipilih untuk dihitung.
- - AS = untuk mengubah nama dari suatu kolom sementara.
- - JumlahPegawai = nama sementara yang dipilih untuk kolom COUNT(NIP)
- - FROM Pegawai = dari tabel mana datanya akan digunakan.Pegawai adalah nama tabel yang dipilih untuk digunakan.
- - WHERE = merupakan kondisi yang harus dipenuhi agar datanya dapat dihitung dengan query COUNT(NIP).
- - (Nocab = 'C102')= adalah kondisi dari where yang harus dipenuhi, jadi hanya barisan data yang memiliki 'C102' di kolom "Nocab" yang bisa dihitung.
- - Hasilnya = di 9 barisan data yang ada pada tabel pegawai, kita ingin menghitung jumlah barisan data yang memiliki nilai 'C102' pada kolom "Nocab"nya dengan menggunakan COUNT. Jadi yang muncul adalah 3 barisan data. Kita juga ingin mengubah nama dari kolom hasil perintah COUNT secara sementara dengan perintah AS namanya adalah JumlahPegawai.
+ - `Select` = untuk memilih kolom mana saja yang ingin dipilih untuk dihitung.
+ - `COUNT(NIP)` = untuk menghitung jumlah barisan data  yang mempunyai data dari kolom yang dipilih.Nip adalah nama kolom yang dipilih untuk dihitung.
+ - `AS` = untuk mengubah nama dari suatu kolom sementara.
+ - `JumlahPegawai` = nama sementara yang dipilih untuk kolom `COUNT(NIP)`
+ - `FROM Pegawai` = dari tabel mana datanya akan digunakan.Pegawai adalah nama tabel yang dipilih untuk digunakan.
+ - `WHERE` = merupakan kondisi yang harus dipenuhi agar datanya dapat dihitung dengan query `COUNT(NIP)`.
+ - `(Nocab = 'C102')`= adalah kondisi dari where yang harus dipenuhi, jadi hanya barisan data yang memiliki '`C102`' di kolom "`Nocab`" yang bisa dihitung.
+ - Hasilnya = di 9 barisan data yang ada pada tabel pegawai, kita ingin menghitung jumlah barisan data yang memiliki nilai '`C102`' pada kolom "`Nocab`"nya dengan menggunakan `COUNT`. Jadi yang muncul adalah 3 barisan data. Kita juga ingin mengubah nama dari kolom hasil perintah `COUNT` secara sementara dengan perintah `AS` namanya adalah JumlahPegawai.
 
 ---
 # 3
@@ -63,52 +63,51 @@ SELECT Nocab, COUNT(NIP) AS Jumlah_pegawai
 ![Praktikum](Aset/3.jpg)
 
 ## Analisis 
-- SELECT = untuk memilih kolom mana saja yang ingin dihitung atau ditampilkan.
-- Nocab = merupakan nama kolom yang ingin ditampilkan.
-- COUNT(NIP) = untuk menghitung jumlah barisan data yang mempunyai isi data dari kolom yang dipilih.Nip adalah nama kolom yang ingin dipilih untuk dihitung.
-- AS = untuk mengubah nama dari suatu kolom untuk sementara.
-- Jumlah Pegawai = merupakan nama sementara dari kolom hasil COUNT(NIP).
-- From Pegawai = dari tabel mana yang data kodomnya ingin digunakan. Pegawai adalah nama tabel yang dipilih untuk digunakan.
-- GROUP BY = untuk mengelompokkan data berdasarkan nilai data yang telah ditentuka Pada kolom yang dipilih.
-- Nocab = nama kolom Yang dipilih untuk datanya dikelompokkan.
-- Hasilnya = Berdasarkan 9 barisan data, masing-masing nilai dalam kolom Nocab dikelompokkan berdasarkan nilainya sendiri. Jadi Nocab clol bersama Nocab yang nilai nya sama Yaitu clol. Jadi Nocab Yang memiliki C101 ada 2, C102 ada 3, C103 ada 2, C104 ada 2. Total semuanya 9, sesuai densan Jumlah barisan data Yand ada. Adapun nama dari kolom hasil Yaitu Jumlah-Pegawai dari Perintah AS.
+- `SELECT` = untuk memilih kolom mana saja yang ingin dihitung atau ditampilkan.
+- `Nocab` = merupakan nama kolom yang ingin ditampilkan.
+- `COUNT(NIP)` = untuk menghitung jumlah barisan data yang mempunyai isi data dari kolom yang dipilih.Nip adalah nama kolom yang ingin dipilih untuk dihitung.
+- `AS` = untuk mengubah nama dari suatu kolom untuk sementara.
+- `Jumlah Pegawai` = merupakan nama sementara dari kolom hasil `COUNT(NIP)`.
+- `From Pegawai` = dari tabel mana yang data kodomnya ingin digunakan. Pegawai adalah nama tabel yang dipilih untuk digunakan.
+- `GROUP BY` = untuk mengelompokkan data berdasarkan nilai data yang telah ditentuka Pada kolom yang dipilih.
+- `Nocab` = nama kolom Yang dipilih untuk datanya dikelompokkan.
+- Hasilnya = Berdasarkan 9 barisan data, masing-masing nilai dalam kolom Nocab dikelompokkan berdasarkan nilainya sendiri. Jadi Nocab clol bersama Nocab yang nilai nya sama Yaitu clol. Jadi `Nocab` Yang memiliki `C101` ada 2, `C102` ada 3, `C103` ada 2, `C104` ada 2. Total semuanya 9, sesuai densan Jumlah barisan data Yand ada. Adapun nama dari kolom hasil Yaitu `Jumlah-Pegawai` dari Perintah `AS`.
 
 ---
 # 4
 ## Contoh query 
 ```mysql
 SELECT Nocab, COUNT(NIP) AS Jumlah_pegawai
-    -> from pegawai
-    -> GROUP BY NoCab HAVING COUNT(NIP) >= 3;
+     from pegawai
+     GROUP BY NoCab HAVING COUNT(NIP) >= 3;
 ```
 
 ## Hasil
 ![Praktikum](Aset/4.jpg)
 
 ## Analisis 
-- SELECT = untuk memilih kolom mana saja yang ingin dihitung atau ditampilkan.
-- Nocab = merupakan nama kolom yang ingin ditampilkan.
-- COUNT (NIP) = untuk menghitung Jumlah barisan data yang mempunyai isi data dari kolom Yang dipilih. NIP adalah nama kolom Yang dipilih untuk dihitung.
-- AS = untuk mengubah nama dari suatu kolom untuk sementara.
-- Jumlah_Pegawai = nama sementara dati kolom hasil COUNT (NIP).
-- From Pegawai = untuk memilih dari tabel mana Yand duta kolomnya ingin digunakan. Pegawai adalah nama tabel Xang dipilih untuk digunakan.
-- GROUP BY = untuk menjelompokkan data berdasarkan nilai data Yang telah ditentukan Pada kolom Yang dipilih.
-- Nocab nama kolom Yang dipilih untuk dikelompokkan datanya.
-- HAVING = untuk menentukan kondisi (Yand hans dipenuti) oleh suatu kelompok data agar bisa ditampilkun.
-- (COUNT (NIP) >= 3) = merupakan kondisi Yand harus dipenuhi oleh suatu kelompor data. Jadi hanya kelompok data Yang hasil hitungannya lebih atau Sama dengan 3.
-- Hasilnya seperti sebelumnya, ada 9 barisan data dibagi sesuai Nocab nya masing- -masing. Namun Yand ingin ditampilkan adalah hasil hitungan yang lebih dari atau sama dengan 3. Yaitu Nocab C102 Yang ada 3. Yand Jain c101 ada 2, c103 ada 2, C104 ada 2.
+- `SELECT` = untuk memilih kolom mana saja yang ingin dihitung atau ditampilkan.
+- `Nocab` = merupakan nama kolom yang ingin ditampilkan.
+- `COUNT(NIP)` = untuk menghitung Jumlah barisan data yang mempunyai isi data dari kolom Yang dipilih. NIP adalah nama kolom Yang dipilih untuk dihitung.
+- `AS` = untuk mengubah nama dari suatu kolom untuk sementara.
+- `Jumlah_Pegawai` = nama sementara dati kolom hasil `COUNT(NIP)`.
+- `FROM Pegawai` = untuk memilih dari tabel mana Yand duta kolomnya ingin digunakan. Pegawai adalah nama tabel yang dipilih untuk digunakan.
+- `GROUP BY` = untuk menjelompokkan data berdasarkan nilai data Yang telah ditentukan Pada kolom Yang dipilih.
+- `Nocab` nama kolom Yang dipilih untuk dikelompokkan datanya.
+- `HAVING` = untuk menentukan kondisi (Yand hans dipenuti) oleh suatu kelompok data agar bisa ditampilkun.
+- `(COUNT (NIP) >= 3)` = merupakan kondisi Yand harus dipenuhi oleh suatu kelompor data. Jadi hanya kelompok data Yang hasil hitungannya lebih atau Sama dengan 3.
+- Hasilnya seperti sebelumnya, ada 9 barisan data dibagi sesuai Nocab nya masing- -masing. Namun Yand ingin ditampilkan adalah hasil hitungan yang lebih dari atau sama dengan 3. Yaitu Nocab `C102` Yang ada 3. Yand Jain `C101` ada 2, `C103` ada 2, `C104` ada 2.
 
 ---
 # 5
 ## Query
 ```sql
 Select SUM(Gaji) AS Total_Gaji
-  ->FROM pegawai;
+  FROM pegawai;
 ```
 
 ## Hasil
 ![hasil](Aset/gbr1.png)
-
 ## Analisis
 - SELECT = Untuk memilih kolom mana saja yang dipilih untuk dijumlahkan. 
 - SUM(Gaji) = Untuk menghitung jumlah data (khusus angka) pada kolom yang harus dipilh. Gaji merupakan nama kolom yang dipilih untuk dihitung jumlah isi datanya. 
@@ -122,8 +121,8 @@ Select SUM(Gaji) AS Total_Gaji
 ## Query
 ```sql
 Select SUM(Gaji) AS Gaji_Manager
-  ->FROM pegawai
-  ->WHERE Jabatan = 'Manager';
+  FROM pegawai
+  WHERE Jabatan = 'Manager';
 ```
 
 ## Hasil

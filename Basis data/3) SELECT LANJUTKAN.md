@@ -1,8 +1,6 @@
 
----
 # OPERATOR LOGIKA DAN PEMBANDING 
 
----
 ## AND
 
 ### Struktur Query
@@ -14,9 +12,9 @@ WHERE [Kondisi 1] AND [Kondisi 2];
 ### Contoh
 ```MySQL
 SELECT * FROM mobil
-WHERE warna = "Merah" AND Pemilik ="Taufiq";
+WHERE warna = "Merah" AND Pemilik = "Taufiq";
 ```
-``
+
 ### Hasil
 ![And](Aset/3.1.jpg)
 
@@ -187,7 +185,6 @@ mengambil semua data dari tabel "mobil" kecuali  harga rental tidak sama dengan 
 ---
 ## TANTANGAN
 
----
 ### Struktur
 ```MySQL 
 SELECT [nama_kolom] FROM [nama_tabel]
@@ -210,6 +207,33 @@ WHERE id_mobil = 1;
 
 ### Kesimpulan
 perintah SQL tersebut adalah mengambil/menampilkan pemilik mobil dengan ID 1 dari tabel "mobil".
+
+---
+## TANTANGAN LOGIN 
+### Struktur 
+```mysql
+SELECT [nama_kolom] FROM [nama_tabel]
+WHERE [nama_kolom] = [nilai];
+```
+
+### Contoh 
+```mysql 
+SELECT nama FROM akun 
+WHERE id = 1;
+```
+
+### Hasil
+![hasil](Aset/3.43.png)
+
+### Analisis
+- `SELECT` : digunakan untuk mengambil sebuah data pada tabel
+- `nama` : nama dari kolom yang akan kita tampilkan
+- `FROM akun` :  merupakan nama tabel yang ingin kita ambil datanya
+- `WHERE` :  digunakan untuk menyaring data yang ada pada tabel
+- `id = 1;` merupakan baris yang akan kita tampilkan yang memiliki id bernilai 1
+
+### Kesimpulan
+perintah SQL tersebut adalah mengambil/menampilkan nama yang memiliki  ID 1 dari tabel `akun`.
 
 ---
 # IN
@@ -706,7 +730,6 @@ SELECT CONCAT(kolom1,kolom2) FROM [nama_tabel];
 ```
 ### Contoh
 ```MySQL
-
 SELECT CONCAT(pemilik,warna) FROM mobil;
 ```
 ### Hasil

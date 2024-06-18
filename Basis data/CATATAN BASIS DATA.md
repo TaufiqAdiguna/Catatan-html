@@ -51,13 +51,13 @@ Struktur atau hirarki database mengacu pada cara data disusun dan diorganisir di
 
 ==Data karyawan makmur jaya==
 
-| Id    | Nama  | Posisi           | Usia  |
-| ----- | ----- | ---------------- | ----- |
-| 10010 | Robin | Direktur         | 45    |
-| 10011 | Tari  | Bendahara        | 38    |
-| 10012 | Wawan | Satpam           | 29    |
-| 10013 | Aswar | Cleaning service | 25    |
-| 10014 | Ira   | Hrd              | 40    |
+| Id    | Nama  | Posisi           | Usia |
+| ----- | ----- | ---------------- | ---- |
+| 10010 | Robin | Direktur         | 45   |
+| 10011 | Tari  | Bendahara        | 38   |
+| 10012 | Wawan | Satpam           | 29   |
+| 10013 | Aswar | Cleaning service | 25   |
+| 10014 | Ira   | Hrd              | 40   |
  
 ==Penjelasan tabel ==
 - id : Kunci primer yang mengidentifikasi secara unik setiap karyawan.
