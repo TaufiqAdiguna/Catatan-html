@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis data/2) INSTALASI & QUERY AWAL DATABASE.md",
+                "file": "Basis data/CATATAN BASIS DATA.md",
                 "mode": "source",
                 "source": false
               }
@@ -240,7 +240,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis data/2) INSTALASI & QUERY AWAL DATABASE.md",
+            "file": "Basis data/CATATAN BASIS DATA.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis data/2) INSTALASI & QUERY AWAL DATABASE.md",
+            "file": "Basis data/CATATAN BASIS DATA.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -269,7 +269,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Basis data/2) INSTALASI & QUERY AWAL DATABASE.md"
+            "file": "Basis data/CATATAN BASIS DATA.md"
           }
         }
       },
@@ -297,6 +297,7 @@
   },
   "active": "dbd798bef4bb04e5",
   "lastOpenFiles": [
+    "Basis data/2) INSTALASI & QUERY AWAL DATABASE.md",
     "Basis data/3) SELECT LANJUTKAN.md",
     "PRAKTIKUM 5/Catatan.md",
     "Basis data/6) RELASI TABLE.md",
@@ -342,7 +343,6 @@
     "Aset-praktikum/tabel.md",
     "HTML/CATATAN HTML.md",
     "Aset/internal.jpg.md",
-    "Materi tambahan/Semantic HTML/SEMANTIC HTML.md",
     "Pemrograman web dan perangkat bergerak/Untitled.canvas"
   ]
 }
