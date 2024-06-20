@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis data/CATATAN BASIS DATA.md",
+                "file": "MATERI CSS/CSS/CATATAN CSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -240,7 +240,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis data/CATATAN BASIS DATA.md",
+            "file": "MATERI CSS/CSS/CATATAN CSS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis data/CATATAN BASIS DATA.md",
+            "file": "MATERI CSS/CSS/CATATAN CSS.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -269,7 +269,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Basis data/CATATAN BASIS DATA.md"
+            "file": "MATERI CSS/CSS/CATATAN CSS.md"
           }
         }
       },
@@ -297,6 +297,9 @@
   },
   "active": "dbd798bef4bb04e5",
   "lastOpenFiles": [
+    "TUTORIAL OBSIDIAN.md",
+    "Basis data/4) ALTER.md",
+    "Basis data/CATATAN BASIS DATA.md",
     "Basis data/2) INSTALASI & QUERY AWAL DATABASE.md",
     "Basis data/3) SELECT LANJUTKAN.md",
     "PRAKTIKUM 5/Catatan.md",
@@ -334,15 +337,12 @@
     "Materi tambahan/Github/Github & Git.md",
     "Catatan.md",
     "MATERI PHP/PHP-MySQL/Catatan.md",
-    "TUTORIAL OBSIDIAN.md",
     "MATERI CSS/Responsive/CSS Responsive.md",
-    "Basis data/4) ALTER.md",
     "Basis data/2) instalasi & query awal database.md",
     "Basis data/5) GROUP BY & HAVING.md",
     "PRAKTIKUM 5 lanjutan/Catatan.md",
     "Aset-praktikum/tabel.md",
     "HTML/CATATAN HTML.md",
-    "Aset/internal.jpg.md",
     "Pemrograman web dan perangkat bergerak/Untitled.canvas"
   ]
 }
